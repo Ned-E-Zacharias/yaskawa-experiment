@@ -1,0 +1,6 @@
+TASK IOTask
+(TYPE := CYCLIC,
+INTERVAL := T#16ms,
+PRIORITY := 0,
+WATCHDOG := 16
+);

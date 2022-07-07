@@ -1,0 +1,23 @@
+(*
+T: FUNCTION_BLOCK AxisControl
+FW: NO
+CI#: 38
+QSL: 31
+QVE: 31
+QVPC: 31
+QPar: 13
+QFBI: 8
+*)
+AlarmClear	@IV 13	@TYP:1	VAR_INPUT
+Axis	@IV 1	@TYP:1038	VAR_IN_OUT
+AxisAlarm	@IV 3	@TYP:1	VAR_OUTPUT
+ControlAlarmID	@IV 7	@TYP:8	VAR_OUTPUT
+DriveAlarmID	@IV 6	@TYP:7	VAR_OUTPUT
+DriveWarning	@IV 4	@TYP:1	VAR_OUTPUT
+DriveWarningID	@IV 5	@TYP:7	VAR_OUTPUT
+Enable	@IV 10	@TYP:1	VAR_INPUT
+EnableNegative	@IV 12	@TYP:1	VAR_INPUT
+EnablePositive	@IV 11	@TYP:1	VAR_INPUT
+Error	@IV 8	@TYP:1	VAR_OUTPUT
+ErrorID	@IV 9	@TYP:7	VAR_OUTPUT
+Status	@IV 2	@TYP:1	VAR_OUTPUT

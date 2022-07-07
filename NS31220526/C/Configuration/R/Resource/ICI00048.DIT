@@ -1,0 +1,994 @@
+(*
+T: PROGRAM UnwindControl
+FW: NO
+CI#: 48
+QSL: 164
+QVE: 164
+QVPC: 164
+QPar: 0
+QFBI: 42
+*)
+@V 1 6 0
+AxisControl_TopUW	1	VAR	@FB:38
+		     
+
+;
+
+@V 1 7 0
+AxisControl_BottomUW	2	VAR	@FB:38
+		     
+
+;
+
+@V 1 12 0
+AXIS12	3	VAR_EXTERNAL	@TYP:1038
+@RV 1558		     
+
+;
+
+@V 1 13 0
+AXIS13	4	VAR_EXTERNAL	@TYP:1038
+@RV 1611		     
+
+;
+
+@V 1 14 0
+SD212654_Enable	5	VAR_EXTERNAL	@TYP:1
+@RV 1571		     
+
+;
+
+@V 1 15 0
+Reset_Drives_PB	6	VAR_EXTERNAL	@TYP:1
+@RV 12		     
+
+;
+
+@V 1 16 0
+SD212704_Enable	7	VAR_EXTERNAL	@TYP:1
+@RV 1621		     
+
+;
+
+@V 1 17 0
+SD212654_Enabled	8	VAR_EXTERNAL	@TYP:1
+@RV 1572		     
+
+;
+
+@V 1 18 0
+SD212654_Alarm	9	VAR_EXTERNAL	@TYP:1
+@RV 1564		     
+
+;
+
+@V 1 19 0
+SD212654_Warning	10	VAR_EXTERNAL	@TYP:1
+@RV 1586		     
+
+;
+
+@V 1 20 0
+SD212654_WarningID	11	VAR_EXTERNAL	@TYP:7
+@RV 1587		     
+
+;
+
+@V 1 21 0
+SD212654_DriveAlarmID	12	VAR_EXTERNAL	@TYP:7
+@RV 1570		     
+
+;
+
+@V 1 22 0
+SD212654_CntrlAlarmID	13	VAR_EXTERNAL	@TYP:8
+@RV 1567		     
+
+;
+
+@V 1 27 0
+UNWIND_MAX_ACC	14	VAR	@TYP:11
+		     
+@TYP:11# 4.00000000000000000E+000
+;
+
+@V 1 28 0
+UNWIND_MAX_VEL	15	VAR	@TYP:10
+		     
+@TYP:10# 2.00000000E+000
+;
+
+@V 1 29 0
+UNWIND_MAX_DEC	16	VAR	@TYP:11
+		     
+@TYP:11# 4.00000000000000000E+000
+;
+
+@V 1 34 0
+SD212654_Error	17	VAR_EXTERNAL	@TYP:1
+@RV 1573		     
+
+;
+
+@V 1 35 0
+SD212704_Enabled	18	VAR_EXTERNAL	@TYP:1
+@RV 1622		     
+
+;
+
+@V 1 36 0
+SD212704_Alarm	19	VAR_EXTERNAL	@TYP:1
+@RV 1614		     
+
+;
+
+@V 1 37 0
+SD212704_Warning	20	VAR_EXTERNAL	@TYP:1
+@RV 1635		     
+
+;
+
+@V 1 38 0
+SD212704_WarningID	21	VAR_EXTERNAL	@TYP:7
+@RV 1636		     
+
+;
+
+@V 1 39 0
+SD212704_DriveAlarmID	22	VAR_EXTERNAL	@TYP:7
+@RV 1620		     
+
+;
+
+@V 1 40 0
+SD212704_CntrlAlarmID	23	VAR_EXTERNAL	@TYP:8
+@RV 1617		     
+
+;
+
+@V 1 41 0
+SD212704_Error	24	VAR_EXTERNAL	@TYP:1
+@RV 1623		     
+
+;
+
+@V 1 42 0
+SD212704_ErrorID	25	VAR_EXTERNAL	@TYP:7
+@RV 1624		     
+
+;
+
+@V 1 43 0
+SD212654_ErrorID	26	VAR_EXTERNAL	@TYP:7
+@RV 1574		     
+
+;
+
+@V 1 48 0
+Unwind_PID_Parameters	27	VAR RETAIN	@TYP:1076
+		     
+@TYP:1076#	{@NUM:0:=@TYP:10# 5.00000000E-001,@NUM:1:=@TYP:10# 0.00000000E+000,@NUM:2:=@TYP:10# 0.00000000E+000}
+;
+
+@V 1 53 0
+BotRollDameterValid	28	VAR	@TYP:1
+		     
+
+;
+
+@V 1 54 0
+TopRollDameterValid	29	VAR	@TYP:1
+		     
+
+;
+
+@V 1 55 0
+ROLL_CALC_VEL	30	VAR	@TYP:11
+		     
+@TYP:11# 5.00000000000000030E-002
+;
+
+@V 1 56 0
+WinderPID_Top	31	VAR	@FB:51
+		     
+
+;
+
+@V 1 57 0
+MC_MoveVelocity_Top	32	VAR	@FB:31
+		     
+
+;
+
+@V 1 58 0
+Enable_FB_Template_1	33	VAR	@FB:54
+		     
+
+;
+
+@V 1 59 0
+Enable_WinderPID_Top	34	VAR	@FB:54
+		     
+
+;
+
+@V 1 60 0
+CALC_DANCER_POS_HIGH	35	VAR	@TYP:10
+		     
+@TYP:10# 3.00000000E+000
+;
+
+@V 1 61 0
+CALC_DANCER_POS_LOW	36	VAR	@TYP:10
+		     
+@TYP:10# 7.00000000E+000
+;
+
+@V 1 62 0
+WinderPID_Bottom	37	VAR	@FB:51
+		     
+
+;
+
+@V 1 63 0
+MC_MoveVelocity_Bottom	38	VAR	@FB:31
+		     
+
+;
+
+@V 1 64 0
+Enable_FB_Template_2	39	VAR	@FB:54
+		     
+
+;
+
+@V 1 65 0
+Enable_FB_Bottom	40	VAR	@FB:54
+		     
+
+;
+
+@V 1 66 0
+Enable_WinderPID_Bottom	41	VAR	@FB:54
+		     
+
+;
+
+@V 1 67 0
+Flasher	42	VAR	@TYP:1
+		     
+
+;
+
+@V 1 68 0
+DANCER_MAX_POS	43	VAR	@TYP:10
+		     
+@TYP:10# 7.50000000E+000
+;
+
+@V 1 69 0
+DANCER_SET_POS	44	VAR	@TYP:10
+		     
+@TYP:10# 7.50000000E+000
+;
+
+@V 1 70 0
+DANCER_MIN_POS	45	VAR	@TYP:10
+		     
+@TYP:10# 1.50000000E+000
+;
+
+@V 1 71 0
+MC_ReadActualVelocity_Top	46	VAR	@FB:55
+		     
+
+;
+
+@V 1 72 0
+TopUnwindStep	47	VAR	@TYP:3
+		     
+
+;
+
+@V 1 73 0
+BottomUnwindStep	48	VAR	@TYP:3
+		     
+
+;
+
+@V 1 74 0
+MC_ReadActualVelocity_Bot	49	VAR	@FB:55
+		     
+
+;
+
+@V 1 79 0
+gBottomDancerPos	50	VAR_EXTERNAL	@TYP:10
+@RV 815		     
+
+;
+
+@V 1 80 0
+gTopDancerPos	51	VAR_EXTERNAL	@TYP:10
+@RV 816		     
+
+;
+
+@V 1 85 0
+MC_MoveVelocity_TopRaiseDancer	52	VAR	@FB:31
+		     
+
+;
+
+@V 1 86 0
+R_TRIG_EnableTop	53	VAR	@FB:35
+		     
+
+;
+
+@V 1 91 0
+PX215009	54	VAR_EXTERNAL	@TYP:1
+@RV 1640		     
+
+;
+
+@V 1 92 0
+PX215005	55	VAR_EXTERNAL	@TYP:1
+@RV 1639		     
+
+;
+
+@V 1 97 0
+R_TRIG_EnableBottom	56	VAR	@FB:35
+		     
+
+;
+
+@V 1 102 0
+PX215016	57	VAR_EXTERNAL	@TYP:1
+@RV 1642		     
+
+;
+
+@V 1 103 0
+PX215012	58	VAR_EXTERNAL	@TYP:1
+@RV 1641		     
+
+;
+
+@V 1 104 0
+gLoadRollMode	59	VAR_EXTERNAL	@TYP:1
+@RV 371		     
+
+;
+
+@V 1 109 0
+R_TRIG_DisableTop	60	VAR	@FB:35
+		     
+
+;
+
+@V 1 110 0
+R_TRIG_DisableBottom	61	VAR	@FB:35
+		     
+
+;
+
+@V 1 111 0
+R_TRIG_LoadMode	62	VAR	@FB:35
+		     
+
+;
+
+@V 1 112 0
+MC_Stop_TopHigh	63	VAR	@FB:24
+		     
+
+;
+
+@V 1 113 0
+MC_MoveVelocity_TopLowerDancer	64	VAR	@FB:31
+		     
+
+;
+
+@V 1 114 0
+MC_Stop_TopLow	65	VAR	@FB:24
+		     
+
+;
+
+@V 1 115 0
+BottomRollDameterValid	66	VAR	@TYP:1
+		     
+
+;
+
+@V 1 116 0
+MC_MoveVelocity_BtmRaiseDanc_1	67	VAR	@FB:31
+		     
+
+;
+
+@V 1 117 0
+MC_MoveVelocity_BtmLowerDanc_1	68	VAR	@FB:31
+		     
+
+;
+
+@V 1 118 0
+MC_Stop_BottomLow_1	69	VAR	@FB:24
+		     
+
+;
+
+@V 1 119 0
+MC_Stop_BotHigh	70	VAR	@FB:24
+		     
+
+;
+
+@V 1 124 0
+gFilmIndexing	71	VAR_EXTERNAL	@TYP:1
+@RV 599		     
+
+;
+
+@V 1 125 0
+gTopUnwindActVel	72	VAR_EXTERNAL	@TYP:11
+@RV 600		     
+
+;
+
+@V 1 126 0
+gBottomUnwindActVel	73	VAR_EXTERNAL	@TYP:11
+@RV 601		     
+
+;
+
+@V 1 127 0
+gSealNipActualPosition	74	VAR_EXTERNAL	@TYP:10
+@RV 813		     
+
+;
+
+@V 1 128 0
+gTopRollDiameter	75	VAR_EXTERNAL	@TYP:10
+@RV 752		     
+
+;
+
+@V 1 129 0
+gBotRollDiameter	76	VAR_EXTERNAL	@TYP:10
+@RV 751		     
+
+;
+
+@V 1 134 0
+MC_ReadActualPosition_Top	77	VAR	@FB:32
+		     
+
+;
+
+@V 1 135 0
+MC_ReadActualPosition_Bottom	78	VAR	@FB:32
+		     
+
+;
+
+@V 1 140 0
+gTopUnwindActPos	79	VAR_EXTERNAL	@TYP:11
+@RV 603		     
+
+;
+
+@V 1 145 0
+R_TRIG_FilmStartTop	80	VAR	@FB:35
+		     
+
+;
+
+@V 1 146 0
+R_TRIG_FilmStopTop	81	VAR	@FB:35
+		     
+
+;
+
+@V 1 147 0
+MovingAverage_1	82	VAR	@FB:53
+		     
+
+;
+
+@V 1 148 0
+MovingAverage_2	83	VAR	@FB:53
+		     
+
+;
+
+@V 1 153 0
+gSealNipActualVelocity	84	VAR_EXTERNAL	@TYP:10
+@RV 814		     
+
+;
+
+@V 1 158 0
+R_TRIG_TopEnableLatch	85	VAR	@FB:35
+		     
+
+;
+
+@V 1 163 0
+TopUnwindEnable	86	VAR_EXTERNAL	@TYP:1
+@RV 604		     
+
+;
+
+@V 1 168 0
+BotUnwindEnable	87	VAR	@TYP:1
+		     
+
+;
+
+@V 1 169 0
+gBotUnwindActPos	88	VAR	@TYP:11
+		     
+
+;
+
+@V 1 170 0
+R_TRIG_FilmStopBottom_1	89	VAR	@FB:35
+		     
+
+;
+
+@V 1 171 0
+R_TRIG_FilmStartBottom_1	90	VAR	@FB:35
+		     
+
+;
+
+@V 1 176 0
+Start_PB	91	VAR_EXTERNAL	@TYP:1
+@RV 13		     
+
+;
+
+@V 1 177 0
+CPx110_Status	92	VAR_EXTERNAL	@TYP:19
+@RV 18		     
+
+;
+
+@V 1 178 0
+Lower_Roll_Low_Alarm	93	VAR_EXTERNAL	@TYP:1
+@RV 65		     
+
+;
+
+@V 1 179 0
+Lower_Roll_LOW_Warn	94	VAR_EXTERNAL	@TYP:1
+@RV 58		     
+
+;
+
+@V 1 180 0
+Upper_Roll_LOW_Warn	95	VAR_EXTERNAL	@TYP:1
+@RV 59		     
+
+;
+
+@V 1 185 0
+R_TRIG_BotEnableLatch	96	VAR	@FB:35
+		     
+
+;
+
+@V 1 190 0
+Upper_Roll_Low_Alarm	97	VAR_EXTERNAL	@TYP:1
+@RV 70		     
+
+;
+
+@V 1 191 0
+WW_Low_Roll_Dia_SP	98	VAR_EXTERNAL	@TYP:10
+@RV 1233		     
+
+;
+
+@V 1 196 0
+MC_MoveVelocity_Test_Top	99	VAR	@FB:31
+		     
+
+;
+
+@V 1 197 0
+TestVelocity	100	VAR	@TYP:11
+		     
+
+;
+
+@V 1 198 0
+TestAcceleration	101	VAR	@TYP:11
+		     
+
+;
+
+@V 1 199 0
+TestDeceleration	102	VAR	@TYP:11
+		     
+
+;
+
+@V 1 200 0
+TestDirection	103	VAR	@TYP:3
+		     
+
+;
+
+@V 1 201 0
+MC_Stop_1_Test_Top	104	VAR	@FB:24
+		     
+
+;
+
+@V 1 202 0
+R_TRIG_1	105	VAR	@FB:35
+		     
+
+;
+
+@V 1 203 0
+F_TRIG_1	106	VAR	@FB:23
+		     
+
+;
+
+@V 1 204 0
+TestJog	107	VAR	@TYP:1
+		     
+
+;
+
+@V 1 205 0
+V000	108	VAR	@TYP:7
+		     
+
+;
+
+@V 1 206 0
+V001	109	VAR	@TYP:7
+		     
+
+;
+
+@V 1 207 0
+MC_ReadActualPosition_1	110	VAR	@FB:32
+		     
+
+;
+
+@V 1 208 0
+V002	111	VAR	@TYP:11
+		     
+
+;
+
+@V 1 209 0
+C047	112	VAR	@TYP:1
+		     
+
+;
+
+@V 1 210 0
+MC_Power_1	113	VAR	@FB:25
+		     
+
+;
+
+@V 1 211 0
+C048	114	VAR	@TYP:1
+		     
+
+;
+
+@V 1 212 0
+TestMode	115	VAR	@TYP:1
+		     
+
+;
+
+@V 1 213 0
+TestStop	116	VAR	@TYP:1
+		     
+
+;
+
+@V 1 214 0
+C051	117	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 219 0
+gDancerPositionTop	118	VAR_EXTERNAL	@TYP:10
+@RV 1271		     
+
+;
+
+@V 1 220 0
+gDancerPositionBottom	119	VAR_EXTERNAL	@TYP:10
+@RV 1272		     
+
+;
+
+@V 1 221 0
+gCutNipPosition_mb	120	VAR_EXTERNAL	@TYP:10
+@RV 1273		     
+
+;
+
+@V 1 226 0
+V003	121	VAR	@TYP:7
+		     
+
+;
+
+@V 1 231 0
+gFilmInMotion_mb	122	VAR_EXTERNAL	@TYP:10
+@RV 1274		     
+
+;
+
+@V 1 236 0
+V004	123	VAR	@TYP:10
+		     
+
+;
+
+@V 1 237 0
+V005	124	VAR	@TYP:10
+		     
+
+;
+
+@V 1 242 0
+WW_Low_Roll_Alarm_Dia_SP	125	VAR_EXTERNAL	@TYP:10
+@RV 1256		     
+
+;
+
+@V 1 243 0
+Mode_Loader	126	VAR_EXTERNAL	@TYP:1
+@RV 112		     
+
+;
+
+@V 1 244 0
+AX12_SVON	127	VAR_EXTERNAL	@TYP:1
+@RV 1552		     
+
+;
+
+@V 1 245 0
+AX13_SVON	128	VAR_EXTERNAL	@TYP:1
+@RV 1605		     
+
+;
+
+@V 1 250 0
+gBotRollDiameterBuffer	129	VAR	@TYP:10
+		     
+
+;
+
+@V 1 251 0
+gBotRollDiameterDiag	130	VAR	@TYP:10
+		     
+
+;
+
+@V 1 252 0
+gBotRollDiameterTest	131	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 257 0
+gRollDiameterDiag	132	VAR RETAIN	@TYP:10
+		     
+@TYP:10# 5.00000000E+000
+;
+
+@V 1 262 0
+gTopRollDiameterBuffer	133	VAR	@TYP:10
+		     
+
+;
+
+@V 1 263 0
+gRollDiameterTest	134	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 264 0
+C065	135	VAR	@TYP:1
+		     
+
+;
+
+@V 1 265 0
+V006	136	VAR	@TYP:10
+		     
+
+;
+
+@V 1 266 0
+V007	137	VAR	@TYP:10
+		     
+
+;
+
+@V 1 267 0
+V008	138	VAR	@TYP:10
+		     
+
+;
+
+@V 1 268 0
+V009	139	VAR	@TYP:11
+		     
+
+;
+
+@V 2 495 0
+UnwindControl@@495	140	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@496	141	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@500	142	VAR	@TYP:1
+		     
+
+;
+
+@V 2 516 0
+UnwindControl@@516	143	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@517	144	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@521	145	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@955	146	VAR	@TYP:1
+		     
+
+;
+
+@V 2 529 0
+UnwindControl@@529	147	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@LD0	148	VAR	@TYP:1
+		     
+
+;
+
+@V 2 571 0
+UnwindControl@00023	149	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@960	150	VAR	@TYP:1
+		     
+
+;
+
+@V 2 725 0
+UnwindControl@@725	151	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@703	152	VAR	@TYP:1
+		     
+
+;
+
+@V 2 687 0
+UnwindControl@@687	153	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@938	154	VAR	@TYP:1
+		     
+
+;
+
+@V 2 617 0
+UnwindControl@@617	155	VAR	@TYP:1
+		     
+
+;
+
+@V 2 653 0
+UnwindControl@0003F	156	VAR	@TYP:10
+		     
+
+;
+
+@V 2 631 0
+UnwindControl@00037	157	VAR	@TYP:10
+		     
+
+;
+
+@V 2 645 0
+UnwindControl@0003B	158	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@944	159	VAR	@TYP:1
+		     
+
+;
+
+@V 2 715 0
+UnwindControl@@715	160	VAR	@TYP:1
+		     
+
+;
+
+
+UnwindControl@@707	161	VAR	@TYP:1
+		     
+
+;
+
+@V 2 692 0
+UnwindControl@@692	162	VAR	@TYP:1
+		     
+
+;
+
+@V 2 437 0
+UnwindControl@@437	163	VAR	@TYP:1
+		     
+
+;
+
+@V 2 450 0
+UnwindControl@@450	164	VAR	@TYP:1
+		     
+
+;
+

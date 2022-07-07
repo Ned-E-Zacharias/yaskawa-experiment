@@ -1,0 +1,664 @@
+(*
+T: PROGRAM HolePunch1
+FW: NO
+CI#: 63
+QSL: 109
+QVE: 109
+QVPC: 109
+QPar: 0
+QFBI: 24
+*)
+@V 1 6 0
+R_TRIG_1	1	VAR	@FB:35
+		     
+
+;
+
+@V 1 7 0
+AxisControl_SD212554	2	VAR	@FB:38
+		     
+
+;
+
+@V 1 8 0
+AxisControl_SD212604	3	VAR	@FB:38
+		     
+
+;
+
+@V 1 13 0
+AXIS10	4	VAR_EXTERNAL	@TYP:1038
+@RV 1486		     
+
+;
+
+@V 1 14 0
+SD212554_Enabled	5	VAR_EXTERNAL	@TYP:1
+@RV 1494		     
+
+;
+
+@V 1 15 0
+SD212554_Warning	6	VAR_EXTERNAL	@TYP:1
+@RV 1500		     
+
+;
+
+@V 1 16 0
+SD212554_WarningID	7	VAR_EXTERNAL	@TYP:7
+@RV 1501		     
+
+;
+
+@V 1 17 0
+SD212554_Alarm	8	VAR_EXTERNAL	@TYP:1
+@RV 1489		     
+
+;
+
+@V 1 18 0
+SD212554_DriveAlarmID	9	VAR_EXTERNAL	@TYP:7
+@RV 1492		     
+
+;
+
+@V 1 19 0
+SD212554_CntrlAlarmID	10	VAR_EXTERNAL	@TYP:8
+@RV 1490		     
+
+;
+
+@V 1 20 0
+SD212554_Error	11	VAR_EXTERNAL	@TYP:1
+@RV 1495		     
+
+;
+
+@V 1 21 0
+SD212554_ErrorID	12	VAR_EXTERNAL	@TYP:7
+@RV 1496		     
+
+;
+
+@V 1 22 0
+AXIS11	13	VAR_EXTERNAL	@TYP:1038
+@RV 1522		     
+
+;
+
+@V 1 23 0
+SD212604_Enabled	14	VAR_EXTERNAL	@TYP:1
+@RV 1530		     
+
+;
+
+@V 1 24 0
+SD212604_Warning	15	VAR_EXTERNAL	@TYP:1
+@RV 1536		     
+
+;
+
+@V 1 25 0
+SD212604_WarningID	16	VAR_EXTERNAL	@TYP:7
+@RV 1537		     
+
+;
+
+@V 1 26 0
+SD212604_Alarm	17	VAR_EXTERNAL	@TYP:1
+@RV 1525		     
+
+;
+
+@V 1 27 0
+SD212604_DriveAlarmID	18	VAR_EXTERNAL	@TYP:7
+@RV 1528		     
+
+;
+
+@V 1 28 0
+SD212604_CntrlAlarmID	19	VAR_EXTERNAL	@TYP:8
+@RV 1526		     
+
+;
+
+@V 1 29 0
+SD212604_Error	20	VAR_EXTERNAL	@TYP:1
+@RV 1531		     
+
+;
+
+@V 1 30 0
+SD212604_ErrorID	21	VAR_EXTERNAL	@TYP:7
+@RV 1532		     
+
+;
+
+@V 1 35 0
+SD212554_ReadPos	22	VAR	@FB:32
+		     
+
+;
+
+@V 1 36 0
+SD212604_ReadPos	23	VAR	@FB:32
+		     
+
+;
+
+@V 1 41 0
+SD212554_PosValid	24	VAR_EXTERNAL	@TYP:1
+@RV 1498		     
+
+;
+
+@V 1 42 0
+SD212554_ActPos	25	VAR_EXTERNAL	@TYP:11
+@RV 1488		     
+
+;
+
+@V 1 43 0
+SD212604_PosValid	26	VAR_EXTERNAL	@TYP:1
+@RV 1534		     
+
+;
+
+@V 1 44 0
+SD212604_ActPos	27	VAR_EXTERNAL	@TYP:11
+@RV 1524		     
+
+;
+
+@V 1 49 0
+HP_Relocate	28	VAR	@TYP:1
+		     
+
+;
+
+@V 1 54 0
+SD212554_VelSP	29	VAR_EXTERNAL	@TYP:11
+@RV 1499		     
+
+;
+
+@V 1 55 0
+SD212554_Accel	30	VAR_EXTERNAL	@TYP:11
+@RV 1487		     
+
+;
+
+@V 1 56 0
+SD212554_Decel	31	VAR_EXTERNAL	@TYP:11
+@RV 1491		     
+
+;
+
+@V 1 61 0
+HP_X_Busy	32	VAR	@TYP:1
+		     
+
+;
+
+@V 1 62 0
+HP_Move_X	33	VAR	@FB:30
+		     
+
+;
+
+@V 1 63 0
+HP_X_Done	34	VAR	@TYP:1
+		     
+
+;
+
+@V 1 64 0
+HP_X_Active	35	VAR	@TYP:1
+		     
+
+;
+
+@V 1 65 0
+HP_X_Error	36	VAR	@TYP:1
+		     
+
+;
+
+@V 1 70 0
+SD212604_VelSP	37	VAR_EXTERNAL	@TYP:11
+@RV 1535		     
+
+;
+
+@V 1 71 0
+SD212604_Accel	38	VAR_EXTERNAL	@TYP:11
+@RV 1523		     
+
+;
+
+@V 1 72 0
+SD212604_Decel	39	VAR_EXTERNAL	@TYP:11
+@RV 1527		     
+
+;
+
+@V 1 77 0
+HP_Y_Done	40	VAR	@TYP:1
+		     
+
+;
+
+@V 1 78 0
+HP_Y_Busy	41	VAR	@TYP:1
+		     
+
+;
+
+@V 1 79 0
+HP_Y_Active	42	VAR	@TYP:1
+		     
+
+;
+
+@V 1 80 0
+HP_Y_Error	43	VAR	@TYP:1
+		     
+
+;
+
+@V 1 81 0
+HP_Y_ErrorID	44	VAR	@TYP:7
+		     
+
+;
+
+@V 1 82 0
+HP_X_ErrorID	45	VAR	@TYP:7
+		     
+
+;
+
+@V 1 83 0
+HP_Move_Y	46	VAR	@FB:30
+		     
+
+;
+
+@V 1 84 0
+MC_SetPosition_SD212604	47	VAR	@FB:28
+		     
+
+;
+
+@V 1 85 0
+MC_SetPosition_SD212554	48	VAR	@FB:28
+		     
+
+;
+
+@V 1 86 0
+R_TRIG_8	49	VAR	@FB:35
+		     
+
+;
+
+@V 1 91 0
+SD212554_Enable	50	VAR_EXTERNAL	@TYP:1
+@RV 1493		     
+
+;
+
+@V 1 92 0
+SD212604_Enable	51	VAR_EXTERNAL	@TYP:1
+@RV 1529		     
+
+;
+
+@V 1 93 0
+SD212554_SetPos	52	VAR_EXTERNAL	@TYP:11
+@RV 368		     
+
+;
+
+@V 1 94 0
+SD212604_SetPos	53	VAR_EXTERNAL	@TYP:11
+@RV 367		     
+
+;
+
+@V 1 95 0
+Set_HP_1_X_0	54	VAR_EXTERNAL	@TYP:1
+@RV 287		     
+
+;
+
+@V 1 96 0
+Set_HP_1_Y_0	55	VAR_EXTERNAL	@TYP:1
+@RV 286		     
+
+;
+
+@V 1 101 0
+HP1_X_Bump_Dist	56	VAR	@TYP:11
+		     
+
+;
+
+@V 1 102 0
+HP1_Y_Bump_Dist	57	VAR	@TYP:11
+		     
+
+;
+
+@V 1 107 0
+Reset_Drives_PB	58	VAR_EXTERNAL	@TYP:1
+@RV 12		     
+
+;
+
+@V 1 108 0
+HP1_Y_Inc_PB	59	VAR_EXTERNAL	@TYP:1
+@RV 213		     
+
+;
+
+@V 1 109 0
+HP1_Y_Dec_PB	60	VAR_EXTERNAL	@TYP:1
+@RV 212		     
+
+;
+
+@V 1 110 0
+HP1_X_Inc_PB	61	VAR_EXTERNAL	@TYP:1
+@RV 209		     
+
+;
+
+@V 1 111 0
+HP1_X_Dec_PB	62	VAR_EXTERNAL	@TYP:1
+@RV 208		     
+
+;
+
+@V 1 112 0
+Mode_Auto	63	VAR_EXTERNAL	@TYP:1
+@RV 9		     
+
+;
+
+@V 1 113 0
+HP1_X_Bump_Value_SP	64	VAR_EXTERNAL	@TYP:11
+@RV 291		     
+
+;
+
+@V 1 114 0
+HP1_Y_Bump_Value_SP	65	VAR_EXTERNAL	@TYP:11
+@RV 290		     
+
+;
+
+@V 1 115 0
+HP1_X_SP_bumped	66	VAR_EXTERNAL	@TYP:11
+@RV 387		     
+
+;
+
+@V 1 116 0
+HP1_Y_SP_Bumped	67	VAR_EXTERNAL	@TYP:11
+@RV 386		     
+
+;
+
+@V 1 117 0
+HP2_X_Dec_PB	68	VAR_EXTERNAL	@TYP:1
+@RV 391		     
+
+;
+
+@V 1 118 0
+HP2_X_Bump_Value_SP	69	VAR_EXTERNAL	@TYP:11
+@RV 392		     
+
+;
+
+@V 1 119 0
+HP2_X_Inc_PB	70	VAR_EXTERNAL	@TYP:1
+@RV 393		     
+
+;
+
+@V 1 120 0
+HP2_Y_Dec_PB	71	VAR_EXTERNAL	@TYP:1
+@RV 302		     
+
+;
+
+@V 1 121 0
+HP2_Y_Bump_Value_SP	72	VAR_EXTERNAL	@TYP:11
+@RV 303		     
+
+;
+
+@V 1 122 0
+HP2_Y_Inc_PB	73	VAR_EXTERNAL	@TYP:1
+@RV 304		     
+
+;
+
+@V 1 123 0
+HP2_Y_Bump_Dist	74	VAR_EXTERNAL	@TYP:11
+@RV 37		     
+
+;
+
+@V 1 124 0
+HP2_X_Bump_Dist	75	VAR_EXTERNAL	@TYP:11
+@RV 36		     
+
+;
+
+@V 1 125 0
+HP2_X_SP_EIP	76	VAR_EXTERNAL	@TYP:11
+@RV 636		     
+
+;
+
+@V 1 126 0
+HP2_Y_SP_EIP	77	VAR_EXTERNAL	@TYP:11
+@RV 629		     
+
+;
+
+@V 1 131 0
+HP2_Y_Inc_TRIG	78	VAR	@FB:35
+		     
+
+;
+
+@V 1 132 0
+HP1_Y_Inc_TRIG	79	VAR	@FB:35
+		     
+
+;
+
+@V 1 133 0
+HP1_Y_Dec_TRIG	80	VAR	@FB:35
+		     
+
+;
+
+@V 1 134 0
+HP1_X_Inc_TRIG	81	VAR	@FB:35
+		     
+
+;
+
+@V 1 135 0
+HP1_X_Dec_TRIG	82	VAR	@FB:35
+		     
+
+;
+
+@V 1 136 0
+HP2_Y_Dec_TRIG	83	VAR	@FB:35
+		     
+
+;
+
+@V 1 137 0
+HP2_X_Dec_TRIG	84	VAR	@FB:35
+		     
+
+;
+
+@V 1 138 0
+HP2_X_Inc_TRIG	85	VAR	@FB:35
+		     
+
+;
+
+@V 1 143 0
+HP1_X_Man_SP	86	VAR_EXTERNAL	@TYP:11
+@RV 394		     
+
+;
+
+@V 1 144 0
+HP1_Y_Man_SP	87	VAR_EXTERNAL	@TYP:11
+@RV 396		     
+
+;
+
+@V 1 145 0
+HP2_X_Man_SP	88	VAR_EXTERNAL	@TYP:11
+@RV 397		     
+
+;
+
+@V 1 146 0
+HP2_Y_Man_SP	89	VAR_EXTERNAL	@TYP:11
+@RV 398		     
+
+;
+
+@V 1 147 0
+Hole_1_Req	90	VAR_EXTERNAL	@TYP:1
+@RV 234		     
+
+;
+
+@V 1 148 0
+Hole_2_Req	91	VAR_EXTERNAL	@TYP:1
+@RV 235		     
+
+;
+
+@V 1 153 0
+MC_Stop_SD212604	92	VAR	@FB:24
+		     
+
+;
+
+@V 1 154 0
+F_TRIG_SD212604_Enable	93	VAR	@FB:23
+		     
+
+;
+
+@V 1 155 0
+MC_Stop_SD212554	94	VAR	@FB:24
+		     
+
+;
+
+@V 1 156 0
+F_TRIG_SD212554_Enable	95	VAR	@FB:23
+		     
+
+;
+
+@V 1 157 0
+Blink_Bump_Repeat	96	VAR	@FB:34
+		     
+
+;
+
+@V 1 158 0
+TON_Bump_Repeat_Delay	97	VAR	@FB:21
+		     
+
+;
+
+@V 1 163 0
+Bump_Repeat_Time	98	VAR_EXTERNAL	@TYP:12
+@RV 53		     
+
+;
+
+@V 1 164 0
+Bump_Repeat_Delay	99	VAR_EXTERNAL	@TYP:12
+@RV 54		     
+
+;
+
+@V 1 169 0
+Repeat_Bump_Delay	100	VAR	@TYP:1
+		     
+
+;
+
+@V 1 170 0
+Bump_Inc	101	VAR	@TYP:1
+		     
+
+;
+
+@V 1 175 0
+HP2_X_SP_mb	102	VAR_EXTERNAL	@TYP:10
+@RV 1022		     
+
+;
+
+@V 1 176 0
+HP2_Y_SP_mb	103	VAR_EXTERNAL	@TYP:10
+@RV 1026		     
+
+;
+
+@V 1 181 0
+V000	104	VAR	@TYP:7
+		     
+
+;
+
+
+HolePunch1@LD0	105	VAR	@TYP:1
+		     
+
+;
+
+
+HolePunch1@@487	106	VAR	@TYP:1
+		     
+
+;
+
+
+HolePunch1@@491	107	VAR	@TYP:1
+		     
+
+;
+
+
+HolePunch1@@505	108	VAR	@TYP:1
+		     
+
+;
+
+
+HolePunch1@@514	109	VAR	@TYP:1
+		     
+
+;
+

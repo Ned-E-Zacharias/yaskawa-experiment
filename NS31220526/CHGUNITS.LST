@@ -1,0 +1,22 @@
+(*
+NPOU: 19
+*)
+PG	Roller
+PG	Initialize
+PG	Modbus
+PG	StatusControl
+PG	EthernetIP
+FB	P_Blink
+FB	P_ValvePlacer
+FU	diameterCalc
+FU	withinRange
+FB	DiameterCalcInit
+FB	WinderPID
+PG	UnwindControl
+PG	HolePunching
+PG	HolePunch1
+PG	ValvePlacer1
+PG	TackSeal1
+PG	dummy03
+PG	ReadMe
+PG	IOTask

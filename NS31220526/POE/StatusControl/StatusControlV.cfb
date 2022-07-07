@@ -1,0 +1,9 @@
+TON_1	TON
+Drives_Enable_TRIG	R_TRIG
+Loader_Stop_PB_TRIG	R_TRIG
+Mode_Auto_TRIG	R_TRIG
+Reset_Drive_PB_TRIG	R_TRIG
+Start_PB_TRIG	R_TRIG
+Recipe_Change_TRIG	R_TRIG
+Loader_SetHome_PB_TRIG	R_TRIG
+Not_Healty_TRIG	R_TRIG

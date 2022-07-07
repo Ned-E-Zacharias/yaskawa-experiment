@@ -1,0 +1,562 @@
+(*
+T: PROGRAM HolePunching
+FW: NO
+CI#: 33
+QSL: 92
+QVE: 92
+QVPC: 92
+QPar: 0
+QFBI: 19
+*)
+@V 1 6 0
+SOL_Hole_Punch_1	1	VAR_EXTERNAL	@TYP:1
+@RV 828		     
+
+;
+
+@V 1 11 0
+TP_1	2	VAR	@FB:19
+		     
+
+;
+
+@V 1 16 0
+PunchDwell	3	VAR_EXTERNAL	@TYP:12
+@RV 298		     
+
+;
+
+@V 1 21 0
+TP_2	4	VAR	@FB:19
+		     
+
+;
+
+@V 1 26 0
+SOL_Hole_Punch_2	5	VAR_EXTERNAL	@TYP:1
+@RV 829		     
+
+;
+
+@V 1 27 0
+CP2210_Film_Index_Stop	6	VAR_EXTERNAL	@TYP:19
+@RV 612		     
+
+;
+
+@V 1 32 0
+VacTime	7	VAR	@TYP:12
+		     
+@TYP:12# 1S0
+;
+
+@V 1 37 0
+SOL_HolePunch_1_Vac	8	VAR_EXTERNAL	@TYP:1
+@RV 832		     
+
+;
+
+@V 1 38 0
+SOL_HolePunch_2_Vac	9	VAR_EXTERNAL	@TYP:1
+@RV 833		     
+
+;
+
+@V 1 43 0
+Blink_When_Loader_Mode	10	VAR	@FB:34
+		     
+
+;
+
+@V 1 48 0
+Loader_Mode_Blink	11	VAR_EXTERNAL	@TYP:1
+@RV 406		     
+
+;
+
+@V 1 49 0
+HP2_Hole_Punch_PB	12	VAR_EXTERNAL	@TYP:1
+@RV 205		     
+
+;
+
+@V 1 50 0
+HP1_Hole_Punch_PB	13	VAR_EXTERNAL	@TYP:1
+@RV 173		     
+
+;
+
+@V 1 51 0
+Hole_2_Req	14	VAR_EXTERNAL	@TYP:1
+@RV 235		     
+
+;
+
+@V 1 52 0
+Hole_1_Req	15	VAR_EXTERNAL	@TYP:1
+@RV 234		     
+
+;
+
+@V 1 53 0
+Start_PB	16	VAR_EXTERNAL	@TYP:1
+@RV 13		     
+
+;
+
+@V 1 58 0
+Lost_Main_SMC_Count	17	VAR	@FB:15
+		     
+
+;
+
+@V 1 63 0
+Lost_Main_SMC_Cnt	18	VAR_EXTERNAL	@TYP:3
+@RV 413		     
+
+;
+
+@V 1 68 0
+Found_Main_SMC_CNTR	19	VAR	@FB:15
+		     
+
+;
+
+@V 1 73 0
+Found_Main_SMC_Cnt	20	VAR_EXTERNAL	@TYP:3
+@RV 414		     
+
+;
+
+@V 1 74 0
+Main_SMC_Ready	21	VAR_EXTERNAL	@TYP:1
+@RV 399		     
+
+;
+
+@V 1 75 0
+V020	22	VAR_EXTERNAL	@TYP:1
+@RV 415		     
+
+;
+
+@V 1 76 0
+Cut_Data_Status_Ready	23	VAR_EXTERNAL	@TYP:1
+@RV 416		     
+
+;
+
+@V 1 81 0
+Lost_Cut_Data_Cnt	24	VAR	@TYP:3
+		     
+
+;
+
+@V 1 82 0
+Found_Cut_Data_Cnt	25	VAR	@TYP:3
+		     
+
+;
+
+@V 1 87 0
+Seal_Data_Ready	26	VAR_EXTERNAL	@TYP:1
+@RV 417		     
+
+;
+
+@V 1 92 0
+Lost_Seal_Data_Cnt	27	VAR	@TYP:3
+		     
+
+;
+
+@V 1 93 0
+Found_Seal_Data_Cnt	28	VAR	@TYP:3
+		     
+
+;
+
+@V 1 94 0
+Lost_Seal_Data_Cntr	29	VAR	@FB:15
+		     
+
+;
+
+@V 1 95 0
+Lost_Cut_Data_Cntr	30	VAR	@FB:15
+		     
+
+;
+
+@V 1 96 0
+Found_Cut_Data_Cntr	31	VAR	@FB:15
+		     
+
+;
+
+@V 1 97 0
+Found_Seal_Data_Cntr	32	VAR	@FB:15
+		     
+
+;
+
+@V 1 102 0
+Banner_Enet_Status_Ready	33	VAR_EXTERNAL	@TYP:1
+@RV 418		     
+
+;
+
+@V 1 107 0
+Lost_Banner_Enet_Ready_CNTR	34	VAR	@FB:15
+		     
+
+;
+
+@V 1 108 0
+Lost_Banner_Enet_Ready_Cnt	35	VAR	@TYP:3
+		     
+
+;
+
+@V 1 109 0
+Found_Banner_Enet_Ready_Cntr	36	VAR	@FB:15
+		     
+
+;
+
+@V 1 110 0
+Found_Banner_Enet_Ready_Cnt	37	VAR	@TYP:3
+		     
+
+;
+
+@V 1 115 0
+MO1_DO_04_Red_Light	38	VAR_EXTERNAL	@TYP:1
+@RV 339		     
+
+;
+
+@V 1 116 0
+CPx110_Status	39	VAR_EXTERNAL	@TYP:19
+@RV 18		     
+
+;
+
+@V 1 117 0
+CPx210_Status	40	VAR_EXTERNAL	@TYP:19
+@RV 1660		     
+
+;
+
+@V 1 118 0
+Low_Roll_Warn_Blink	41	VAR_EXTERNAL	@TYP:1
+@RV 821		     
+
+;
+
+@V 1 119 0
+Roll_LOW_Alarm_Ack	42	VAR_EXTERNAL	@TYP:1
+@RV 105		     
+
+;
+
+@V 1 124 0
+Blink_When_Low_Roll_Warn	43	VAR	@FB:34
+		     
+
+;
+
+@V 1 125 0
+TON_1	44	VAR	@FB:21
+		     
+
+;
+
+@V 1 130 0
+V028	45	VAR_EXTERNAL	@TYP:12
+@RV 822		     
+
+;
+
+@V 1 131 0
+Upper_Roll_LOW_Alarm	46	VAR_EXTERNAL	@TYP:1
+@RV 70		     
+
+;
+
+@V 1 132 0
+Lower_Roll_LOW_Alarm	47	VAR_EXTERNAL	@TYP:1
+@RV 65		     
+
+;
+
+@V 1 133 0
+Upper_Roll_Low_Warn	48	VAR_EXTERNAL	@TYP:1
+@RV 59		     
+
+;
+
+@V 1 134 0
+Lower_Roll_Low_Warn	49	VAR_EXTERNAL	@TYP:1
+@RV 58		     
+
+;
+
+@V 1 135 0
+Labeler_Signal_1	50	VAR_EXTERNAL	@TYP:1
+@RV 842		     
+
+;
+
+@V 1 136 0
+Labeler_Signal_2	51	VAR_EXTERNAL	@TYP:1
+@RV 843		     
+
+;
+
+@V 1 141 0
+TP_Hole_Vacuum_Pulse	52	VAR	@FB:19
+		     
+
+;
+
+@V 1 146 0
+MO1_DO_08_Low_Roll_Alarm	53	VAR_EXTERNAL	@TYP:1
+@RV 343		     
+
+;
+
+@V 1 147 0
+MO1_DO_06_Amber_Light	54	VAR_EXTERNAL	@TYP:1
+@RV 341		     
+
+;
+
+@V 1 148 0
+Right_HP2	55	VAR_EXTERNAL	@TYP:1
+@RV 838		     
+
+;
+
+@V 1 149 0
+Left_HP2	56	VAR_EXTERNAL	@TYP:1
+@RV 837		     
+
+;
+
+@V 1 150 0
+Left_4UP_HP_Enable	57	VAR_EXTERNAL	@TYP:1
+@RV 844		     
+
+;
+
+@V 1 155 0
+TP_3	58	VAR	@FB:19
+		     
+
+;
+
+@V 1 156 0
+TP_4	59	VAR	@FB:19
+		     
+
+;
+
+@V 1 157 0
+TP_Hole_Vacuum_Pulse_4UP	60	VAR	@FB:19
+		     
+
+;
+
+@V 1 162 0
+Left_4UP_HP_Manual	61	VAR_EXTERNAL	@TYP:1
+@RV 845		     
+
+;
+
+@V 1 163 0
+Right_4UP_HP_Enable	62	VAR_EXTERNAL	@TYP:1
+@RV 846		     
+
+;
+
+@V 1 164 0
+Right_4UP_HP_Manual	63	VAR_EXTERNAL	@TYP:1
+@RV 847		     
+
+;
+
+@V 1 165 0
+Left_Vac2	64	VAR_EXTERNAL	@TYP:1
+@RV 835		     
+
+;
+
+@V 1 166 0
+Right_Vac2	65	VAR_EXTERNAL	@TYP:1
+@RV 836		     
+
+;
+
+@V 1 171 0
+LowRollAlarm	66	VAR	@TYP:1
+		     
+
+;
+
+@V 1 176 0
+LowRollAlarm_mb	67	VAR_EXTERNAL	@TYP:10
+@RV 1027		     
+
+;
+
+@V 1 181 0
+disable	68	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 186 0
+gFilm_Index_Stop_mb	69	VAR_EXTERNAL	@TYP:10
+@RV 1275		     
+
+;
+
+@V 1 187 0
+Film_Index_Stop	70	VAR_EXTERNAL	@TYP:1
+@RV 885		     
+
+;
+
+@V 1 188 0
+Red_LED_mb	71	VAR_EXTERNAL	@TYP:10
+@RV 1276		     
+
+;
+
+@V 1 193 0
+Red_Led_BOOL	72	VAR	@TYP:1
+		     
+
+;
+
+@V 1 194 0
+red_light_Buffer1	73	VAR	@TYP:1
+		     
+
+;
+
+@V 1 195 0
+red_Light_Buffer2	74	VAR	@TYP:1
+		     
+
+;
+
+@V 1 200 0
+gCP1_Status_Bits_mb	75	VAR_EXTERNAL	@TYP:19
+@RV 1007		     
+
+;
+
+@V 1 205 0
+C062	76	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 210 0
+gCP2_status_Bits_mb	77	VAR_EXTERNAL	@TYP:19
+@RV 1255		     
+
+;
+
+@V 1 215 0
+C065	78	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 216 0
+C067	79	VAR	@TYP:1
+		     
+
+;
+
+@V 1 217 0
+C068	80	VAR	@TYP:1
+		     
+
+;
+
+@V 1 218 0
+SOL_Hole_Punch_2_buffer	81	VAR	@TYP:1
+		     
+
+;
+
+@V 1 219 0
+C072	82	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 224 0
+SOL_UpperEncoderRetract	83	VAR_EXTERNAL	@TYP:1
+@RV 830		     
+
+;
+
+@V 1 229 0
+C071	84	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 234 0
+SOL_LowerEncoderRetract	85	VAR_EXTERNAL	@TYP:1
+@RV 831		     
+
+;
+
+@V 1 239 0
+C073	86	VAR	@TYP:1
+		     
+
+;
+
+@V 1 244 0
+WW_Hole_4UP_2_Req	87	VAR_EXTERNAL	@TYP:10
+@RV 1067		     
+
+;
+
+@V 1 249 0
+Hole_4UP_2_Req	88	VAR	@TYP:1
+		     
+
+;
+
+@V 1 250 0
+TON_2	89	VAR	@FB:21
+		     
+
+;
+
+@V 1 251 0
+TON_3	90	VAR	@FB:21
+		     
+
+;
+
+@V 1 256 0
+punch_Delay	91	VAR RETAIN	@TYP:12
+		     
+@TYP:12# 0S500000000
+;
+
+@V 1 261 0
+C076	92	VAR_EXTERNAL	@TYP:1
+@RV 886		     
+
+;
+

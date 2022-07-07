@@ -1,0 +1,6 @@
+TASK Control
+(TYPE := CYCLIC,
+INTERVAL := T#32ms,
+PRIORITY := 3,
+WATCHDOG := 32
+);

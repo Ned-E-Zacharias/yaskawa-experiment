@@ -1,0 +1,57 @@
+(*
+T: FUNCTION_BLOCK MC_ReadAxisError
+FW: YES	NO_VARIANT MC_ReadAxisError SKIP_NOTHING	SFB_INIT_RELEASE
+CI#: 47
+QSL: 0
+QVE: 8
+QPar: 8
+QFBI: 0
+*)
+
+Axis	1	VAR_IN_OUT	@TYP:24
+		     
+
+;
+
+
+Enable	2	VAR_INPUT	@TYP:1
+		     
+
+;
+
+
+Valid	3	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+Busy	4	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+Error	5	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+
+ErrorID	6	VAR_OUTPUT	@TYP:7
+		     
+
+;
+
+
+AxisErrorID	7	VAR_OUTPUT	@TYP:7
+		     
+
+;
+
+
+ErrorClass	8	VAR_OUTPUT	@TYP:7
+		     
+
+;
+

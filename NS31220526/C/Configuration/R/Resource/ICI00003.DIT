@@ -1,0 +1,148 @@
+(*
+T: PROGRAM EthernetIP
+FW: NO
+CI#: 3
+QSL: 23
+QVE: 23
+QVPC: 23
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+gStatusWord_1	1	VAR_EXTERNAL	@TYP:19
+@RV 756		     
+
+;
+
+@V 1 7 0
+gStatusWord_2	2	VAR_EXTERNAL	@TYP:19
+@RV 755		     
+
+;
+
+@V 1 8 0
+gStatusWord_3	3	VAR_EXTERNAL	@TYP:19
+@RV 754		     
+
+;
+
+@V 1 9 0
+gStatusWord_4	4	VAR_EXTERNAL	@TYP:19
+@RV 753		     
+
+;
+
+@V 1 10 0
+gLoadRollMode	5	VAR_EXTERNAL	@TYP:1
+@RV 371		     
+
+;
+
+@V 1 11 0
+gControlWord_1	6	VAR_EXTERNAL	@TYP:19
+@RV 820		     
+
+;
+
+@V 1 12 0
+gFilmIndexing	7	VAR_EXTERNAL	@TYP:1
+@RV 599		     
+
+;
+
+@V 1 13 0
+gLowRollAlarm	8	VAR_EXTERNAL	@TYP:1
+@RV 605		     
+
+;
+
+@V 1 14 0
+CPx110_StatusToCP3	9	VAR_EXTERNAL	@TYP:19
+@RV 1684		     
+
+;
+
+@V 1 15 0
+CPx110_Status	10	VAR_EXTERNAL	@TYP:19
+@RV 18		     
+
+;
+
+@V 1 20 0
+stat2	11	VAR	@TYP:1
+		     
+
+;
+
+@V 1 21 0
+stat1	12	VAR	@TYP:1
+		     
+
+;
+
+@V 1 22 0
+stat3	13	VAR	@TYP:1
+		     
+
+;
+
+@V 1 23 0
+stat4	14	VAR	@TYP:1
+		     
+
+;
+
+@V 1 24 0
+stat0	15	VAR	@TYP:1
+		     
+
+;
+
+@V 1 25 0
+stat5	16	VAR	@TYP:1
+		     
+
+;
+
+@V 1 26 0
+stat6	17	VAR	@TYP:1
+		     
+
+;
+
+@V 1 27 0
+stat7	18	VAR	@TYP:1
+		     
+
+;
+
+@V 1 28 0
+stat8	19	VAR	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+stat9	20	VAR	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+stat10	21	VAR	@TYP:1
+		     
+
+;
+
+@V 1 31 0
+stat11	22	VAR	@TYP:1
+		     
+
+;
+
+@V 1 32 0
+stat12	23	VAR	@TYP:1
+		     
+
+;
+

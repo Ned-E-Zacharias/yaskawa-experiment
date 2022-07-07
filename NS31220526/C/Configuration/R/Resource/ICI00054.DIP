@@ -1,0 +1,14 @@
+(*
+T: FUNCTION_BLOCK Enable_FB_Template
+FW: NO
+CI#: 54
+QSL: 21
+QVE: 21
+QVPC: 21
+QPar: 4
+QFBI: 6
+*)
+Enable	@IV 4	@TYP:1	VAR_INPUT
+Error	@IV 2	@TYP:1	VAR_OUTPUT
+ErrorID	@IV 3	@TYP:7	VAR_OUTPUT
+Valid	@IV 1	@TYP:1	VAR_OUTPUT

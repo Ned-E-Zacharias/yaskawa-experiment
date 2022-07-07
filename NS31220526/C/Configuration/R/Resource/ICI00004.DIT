@@ -1,0 +1,2554 @@
+(*
+T: PROGRAM Modbus
+FW: NO
+CI#: 4
+QSL: 424
+QVE: 424
+QVPC: 424
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+Use_TS_Two	1	VAR_EXTERNAL	@TYP:1
+@RV 273		     
+
+;
+
+@V 1 7 0
+WW_Use_TS_Two	2	VAR_EXTERNAL	@TYP:10
+@RV 912		     
+
+;
+
+@V 1 8 0
+VP1_Y_Bump_Value_SP	3	VAR_EXTERNAL	@TYP:11
+@RV 299		     
+
+;
+
+@V 1 9 0
+VP1_X_Bump_Value_SP	4	VAR_EXTERNAL	@TYP:11
+@RV 300		     
+
+;
+
+@V 1 10 0
+VP1_O_Bump_Value_SP	5	VAR_EXTERNAL	@TYP:11
+@RV 301		     
+
+;
+
+@V 1 11 0
+Upper_IMP_On_Roll	6	VAR_EXTERNAL	@TYP:4
+@RV 376		     
+
+;
+
+@V 1 12 0
+TS1_Y_Bump_Value_SP	7	VAR_EXTERNAL	@TYP:11
+@RV 288		     
+
+;
+
+@V 1 13 0
+TS1_X_Bump_Value_SP	8	VAR_EXTERNAL	@TYP:11
+@RV 289		     
+
+;
+
+@V 1 14 0
+Lower_IMP_On_Roll	9	VAR_EXTERNAL	@TYP:4
+@RV 377		     
+
+;
+
+@V 1 15 0
+HP1_Y_Bump_Value_SP	10	VAR_EXTERNAL	@TYP:11
+@RV 290		     
+
+;
+
+@V 1 16 0
+HP1_X_Bump_Value_SP	11	VAR_EXTERNAL	@TYP:11
+@RV 291		     
+
+;
+
+@V 1 17 0
+Web_JogSpd_SP	12	VAR_EXTERNAL	@TYP:11
+@RV 6		     
+
+;
+
+@V 1 18 0
+VP2_Y_Min	13	VAR_EXTERNAL	@TYP:11
+@RV 193		     
+
+;
+
+@V 1 19 0
+VP2_Y_MAX	14	VAR_EXTERNAL	@TYP:11
+@RV 192		     
+
+;
+
+@V 1 20 0
+VP2_X_Min	15	VAR_EXTERNAL	@TYP:11
+@RV 191		     
+
+;
+
+@V 1 21 0
+VP2_X_Max	16	VAR_EXTERNAL	@TYP:11
+@RV 190		     
+
+;
+
+@V 1 22 0
+VP2_O_MIN	17	VAR_EXTERNAL	@TYP:11
+@RV 188		     
+
+;
+
+@V 1 23 0
+VP2_O_MAX	18	VAR_EXTERNAL	@TYP:11
+@RV 189		     
+
+;
+
+@V 1 24 0
+VP1_Y_Min	19	VAR_EXTERNAL	@TYP:11
+@RV 204		     
+
+;
+
+@V 1 25 0
+VP1_Y_Max	20	VAR_EXTERNAL	@TYP:11
+@RV 203		     
+
+;
+
+@V 1 26 0
+VP1_X_Min	21	VAR_EXTERNAL	@TYP:11
+@RV 200		     
+
+;
+
+@V 1 27 0
+VP1_X_Max	22	VAR_EXTERNAL	@TYP:11
+@RV 199		     
+
+;
+
+@V 1 28 0
+VP1_O_Min	23	VAR_EXTERNAL	@TYP:11
+@RV 196		     
+
+;
+
+@V 1 29 0
+VP1_O_Max	24	VAR_EXTERNAL	@TYP:11
+@RV 195		     
+
+;
+
+@V 1 30 0
+VP_HP_Differential	25	VAR_EXTERNAL	@TYP:11
+@RV 183		     
+
+;
+
+@V 1 31 0
+Valve_2_VP_Y_Offset	26	VAR_EXTERNAL	@TYP:11
+@RV 227		     
+
+;
+
+@V 1 32 0
+Valve_2_VP_X_Offset	27	VAR_EXTERNAL	@TYP:11
+@RV 255		     
+
+;
+
+@V 1 33 0
+Valve_2_VP_O_Offset	28	VAR_EXTERNAL	@TYP:11
+@RV 207		     
+
+;
+
+@V 1 34 0
+Valve_2_TS_Y_Offset	29	VAR_EXTERNAL	@TYP:11
+@RV 228		     
+
+;
+
+@V 1 35 0
+Valve_2_TS_X_Offset	30	VAR_EXTERNAL	@TYP:11
+@RV 225		     
+
+;
+
+@V 1 36 0
+Valve_2_HP_Y_Offset	31	VAR_EXTERNAL	@TYP:11
+@RV 229		     
+
+;
+
+@V 1 37 0
+Valve_2_HP_X_Offset	32	VAR_EXTERNAL	@TYP:11
+@RV 226		     
+
+;
+
+@V 1 38 0
+Valve_1_VP_Y_Offset	33	VAR_EXTERNAL	@TYP:11
+@RV 172		     
+
+;
+
+@V 1 39 0
+Valve_1_VP_X_Offset	34	VAR_EXTERNAL	@TYP:11
+@RV 171		     
+
+;
+
+@V 1 40 0
+Valve_1_VP_O_Offset	35	VAR_EXTERNAL	@TYP:11
+@RV 206		     
+
+;
+
+@V 1 41 0
+Valve_1_TS_Y_Offset	36	VAR_EXTERNAL	@TYP:11
+@RV 167		     
+
+;
+
+@V 1 42 0
+Valve_1_TS_X_Offset	37	VAR_EXTERNAL	@TYP:11
+@RV 166		     
+
+;
+
+@V 1 43 0
+Valve_1_HP_Y_Offset	38	VAR_EXTERNAL	@TYP:11
+@RV 175		     
+
+;
+
+@V 1 44 0
+Valve_1_HP_X_Offset	39	VAR_EXTERNAL	@TYP:11
+@RV 174		     
+
+;
+
+@V 1 45 0
+TS2_Y_Min	40	VAR_EXTERNAL	@TYP:11
+@RV 187		     
+
+;
+
+@V 1 46 0
+TS2_Y_MAX	41	VAR_EXTERNAL	@TYP:11
+@RV 186		     
+
+;
+
+@V 1 47 0
+TS2_X_Min	42	VAR_EXTERNAL	@TYP:11
+@RV 185		     
+
+;
+
+@V 1 48 0
+TS2_X_Max	43	VAR_EXTERNAL	@TYP:11
+@RV 184		     
+
+;
+
+@V 1 49 0
+TS1_Y_Min	44	VAR_EXTERNAL	@TYP:11
+@RV 224		     
+
+;
+
+@V 1 50 0
+TS1_Y_Max	45	VAR_EXTERNAL	@TYP:11
+@RV 223		     
+
+;
+
+@V 1 51 0
+TS1_X_Min	46	VAR_EXTERNAL	@TYP:11
+@RV 220		     
+
+;
+
+@V 1 52 0
+TS1_X_MAX	47	VAR_EXTERNAL	@TYP:11
+@RV 219		     
+
+;
+
+@V 1 53 0
+Roller_X_Offset_9	48	VAR_EXTERNAL	@TYP:11
+@RV 242		     
+
+;
+
+@V 1 54 0
+Roller_X_Offset_8	49	VAR_EXTERNAL	@TYP:11
+@RV 243		     
+
+;
+
+@V 1 55 0
+Roller_X_Offset_7	50	VAR_EXTERNAL	@TYP:11
+@RV 244		     
+
+;
+
+@V 1 56 0
+Roller_X_Offset_6	51	VAR_EXTERNAL	@TYP:11
+@RV 245		     
+
+;
+
+@V 1 57 0
+Roller_X_Offset_5	52	VAR_EXTERNAL	@TYP:11
+@RV 246		     
+
+;
+
+@V 1 58 0
+Roller_X_Offset_4	53	VAR_EXTERNAL	@TYP:11
+@RV 247		     
+
+;
+
+@V 1 59 0
+Roller_X_Offset_3	54	VAR_EXTERNAL	@TYP:11
+@RV 248		     
+
+;
+
+@V 1 60 0
+Roller_X_Offset_2	55	VAR_EXTERNAL	@TYP:11
+@RV 269		     
+
+;
+
+@V 1 61 0
+Roller_X_Offset_14	56	VAR_EXTERNAL	@TYP:11
+@RV 249		     
+
+;
+
+@V 1 62 0
+Roller_X_Offset_13	57	VAR_EXTERNAL	@TYP:11
+@RV 250		     
+
+;
+
+@V 1 63 0
+Roller_X_Offset_12	58	VAR_EXTERNAL	@TYP:11
+@RV 251		     
+
+;
+
+@V 1 64 0
+Roller_X_Offset_11	59	VAR_EXTERNAL	@TYP:11
+@RV 252		     
+
+;
+
+@V 1 65 0
+Roller_X_Offset_10	60	VAR_EXTERNAL	@TYP:11
+@RV 253		     
+
+;
+
+@V 1 66 0
+Roller_X_Location	61	VAR_EXTERNAL	@TYP:4
+@RV 239		     
+
+;
+
+@V 1 67 0
+Repeat_SP	62	VAR_EXTERNAL	@TYP:11
+@RV 3		     
+
+;
+
+@V 1 68 0
+Reg_Eye_X_Offset_9	63	VAR_EXTERNAL	@TYP:11
+@RV 263		     
+
+;
+
+@V 1 69 0
+Reg_Eye_X_Offset_8	64	VAR_EXTERNAL	@TYP:11
+@RV 262		     
+
+;
+
+@V 1 70 0
+Reg_Eye_X_Offset_7	65	VAR_EXTERNAL	@TYP:11
+@RV 261		     
+
+;
+
+@V 1 71 0
+Reg_Eye_X_Offset_6	66	VAR_EXTERNAL	@TYP:11
+@RV 260		     
+
+;
+
+@V 1 72 0
+Reg_Eye_X_Offset_5	67	VAR_EXTERNAL	@TYP:11
+@RV 259		     
+
+;
+
+@V 1 73 0
+Reg_Eye_X_Offset_4	68	VAR_EXTERNAL	@TYP:11
+@RV 258		     
+
+;
+
+@V 1 74 0
+Reg_Eye_X_Offset_3	69	VAR_EXTERNAL	@TYP:11
+@RV 257		     
+
+;
+
+@V 1 75 0
+Reg_Eye_X_Offset_2	70	VAR_EXTERNAL	@TYP:11
+@RV 256		     
+
+;
+
+@V 1 76 0
+Reg_Eye_X_Offset_14	71	VAR_EXTERNAL	@TYP:11
+@RV 268		     
+
+;
+
+@V 1 77 0
+Reg_Eye_X_Offset_13	72	VAR_EXTERNAL	@TYP:11
+@RV 267		     
+
+;
+
+@V 1 78 0
+Reg_Eye_X_Offset_12	73	VAR_EXTERNAL	@TYP:11
+@RV 266		     
+
+;
+
+@V 1 79 0
+Reg_Eye_X_Offset_11	74	VAR_EXTERNAL	@TYP:11
+@RV 265		     
+
+;
+
+@V 1 80 0
+Reg_Eye_X_Offset_10	75	VAR_EXTERNAL	@TYP:11
+@RV 264		     
+
+;
+
+@V 1 81 0
+Reg_Eye_X_Location	76	VAR_EXTERNAL	@TYP:4
+@RV 238		     
+
+;
+
+@V 1 82 0
+Low_Roll_Warn_SP	77	VAR_EXTERNAL	@TYP:4
+@RV 57		     
+
+;
+
+@V 1 83 0
+Low_Roll_Alarm_SP	78	VAR_EXTERNAL	@TYP:4
+@RV 56		     
+
+;
+
+@V 1 84 0
+Loader_HPos2_SP	79	VAR_EXTERNAL	@TYP:11
+@RV 111		     
+
+;
+
+@V 1 85 0
+Loader_HPos1_SP	80	VAR_EXTERNAL	@TYP:11
+@RV 110		     
+
+;
+
+@V 1 86 0
+Loader_Below_Upper_SP	81	VAR_EXTERNAL	@TYP:11
+@RV 125		     
+
+;
+
+@V 1 87 0
+Loader_Below_Lower_SP	82	VAR_EXTERNAL	@TYP:11
+@RV 114		     
+
+;
+
+@V 1 88 0
+Loader_Below_Center_SP	83	VAR_EXTERNAL	@TYP:11
+@RV 122		     
+
+;
+
+@V 1 89 0
+Loader_Above_Upper_SP	84	VAR_EXTERNAL	@TYP:11
+@RV 124		     
+
+;
+
+@V 1 90 0
+Loader_Above_Lower_SP	85	VAR_EXTERNAL	@TYP:11
+@RV 113		     
+
+;
+
+@V 1 91 0
+Loader_Above_Center_SP	86	VAR_EXTERNAL	@TYP:11
+@RV 121		     
+
+;
+
+@V 1 92 0
+HP1_Y_MIN	87	VAR_EXTERNAL	@TYP:11
+@RV 215		     
+
+;
+
+@V 1 93 0
+HP1_Y_MAX	88	VAR_EXTERNAL	@TYP:11
+@RV 214		     
+
+;
+
+@V 1 94 0
+HP1_X_MIN	89	VAR_EXTERNAL	@TYP:11
+@RV 211		     
+
+;
+
+@V 1 95 0
+HP1_X_MAX	90	VAR_EXTERNAL	@TYP:11
+@RV 210		     
+
+;
+
+@V 1 96 0
+Hole_4_Y_Offset	91	VAR_EXTERNAL	@TYP:11
+@RV 233		     
+
+;
+
+@V 1 97 0
+Hole_4_X_Offset	92	VAR_EXTERNAL	@TYP:11
+@RV 232		     
+
+;
+
+@V 1 98 0
+Hole_3_Y_Offset	93	VAR_EXTERNAL	@TYP:11
+@RV 231		     
+
+;
+
+@V 1 99 0
+Hole_3_X_Offset	94	VAR_EXTERNAL	@TYP:11
+@RV 230		     
+
+;
+
+@V 1 100 0
+COS_to_VP_Datum	95	VAR_EXTERNAL	@TYP:11
+@RV 254		     
+
+;
+
+@V 1 101 0
+SD212604_SetPos	96	VAR_EXTERNAL	@TYP:11
+@RV 367		     
+
+;
+
+@V 1 102 0
+SD212554_SetPos	97	VAR_EXTERNAL	@TYP:11
+@RV 368		     
+
+;
+
+@V 1 103 0
+SD212504_SetPos	98	VAR_EXTERNAL	@TYP:11
+@RV 370		     
+
+;
+
+@V 1 104 0
+SD212454_SetPos	99	VAR_EXTERNAL	@TYP:11
+@RV 366		     
+
+;
+
+@V 1 105 0
+SD212404_SetPos	100	VAR_EXTERNAL	@TYP:11
+@RV 1427		     
+
+;
+
+@V 1 106 0
+SD212354_SetPos	101	VAR_EXTERNAL	@TYP:11
+@RV 1417		     
+
+;
+
+@V 1 107 0
+SD212304_SetPos	102	VAR_EXTERNAL	@TYP:11
+@RV 1416		     
+
+;
+
+@V 1 108 0
+WW_Web_JogSpd_SP	103	VAR_EXTERNAL	@TYP:10
+@RV 1192		     
+
+;
+
+@V 1 109 0
+WW_VP2_Y_MIN	104	VAR_EXTERNAL	@TYP:10
+@RV 1191		     
+
+;
+
+@V 1 110 0
+WW_VP2_Y_MAX	105	VAR_EXTERNAL	@TYP:10
+@RV 1190		     
+
+;
+
+@V 1 111 0
+WW_VP2_X_MIN	106	VAR_EXTERNAL	@TYP:10
+@RV 1189		     
+
+;
+
+@V 1 112 0
+WW_VP2_X_MAX	107	VAR_EXTERNAL	@TYP:10
+@RV 1188		     
+
+;
+
+@V 1 113 0
+WW_VP2_O_MIN	108	VAR_EXTERNAL	@TYP:10
+@RV 1187		     
+
+;
+
+@V 1 114 0
+WW_VP2_O_MAX	109	VAR_EXTERNAL	@TYP:10
+@RV 1186		     
+
+;
+
+@V 1 115 0
+WW_VP1_Y_SP_Out	110	VAR_EXTERNAL	@TYP:10
+@RV 969		     
+
+;
+
+@V 1 116 0
+WW_VP1_Y_MIN	111	VAR_EXTERNAL	@TYP:10
+@RV 1184		     
+
+;
+
+@V 1 117 0
+WW_VP1_Y_MAX	112	VAR_EXTERNAL	@TYP:10
+@RV 1183		     
+
+;
+
+@V 1 118 0
+WW_VP1_X_SP_Out	113	VAR_EXTERNAL	@TYP:10
+@RV 968		     
+
+;
+
+@V 1 119 0
+WW_VP1_X_MIN	114	VAR_EXTERNAL	@TYP:10
+@RV 1181		     
+
+;
+
+@V 1 120 0
+WW_VP1_X_MAX	115	VAR_EXTERNAL	@TYP:10
+@RV 1180		     
+
+;
+
+@V 1 121 0
+WW_VP1_O_SP_Out	116	VAR_EXTERNAL	@TYP:10
+@RV 967		     
+
+;
+
+@V 1 122 0
+WW_VP1_O_MIN	117	VAR_EXTERNAL	@TYP:10
+@RV 1178		     
+
+;
+
+@V 1 123 0
+WW_VP1_O_MAX	118	VAR_EXTERNAL	@TYP:10
+@RV 1177		     
+
+;
+
+@V 1 124 0
+WW_VP_HP_Differential	119	VAR_EXTERNAL	@TYP:10
+@RV 1176		     
+
+;
+
+@V 1 125 0
+WW_Valve_2_VP_Y_Offset	120	VAR_EXTERNAL	@TYP:10
+@RV 1175		     
+
+;
+
+@V 1 126 0
+WW_Valve_2_VP_X_Offset	121	VAR_EXTERNAL	@TYP:10
+@RV 1174		     
+
+;
+
+@V 1 127 0
+WW_Valve_2_VP_O_Offset	122	VAR_EXTERNAL	@TYP:10
+@RV 1173		     
+
+;
+
+@V 1 128 0
+WW_Valve_2_TS_Y_Offset	123	VAR_EXTERNAL	@TYP:10
+@RV 1172		     
+
+;
+
+@V 1 129 0
+WW_Valve_2_TS_X_Offset	124	VAR_EXTERNAL	@TYP:10
+@RV 1171		     
+
+;
+
+@V 1 130 0
+WW_Valve_2_HP_Y_Offset	125	VAR_EXTERNAL	@TYP:10
+@RV 1170		     
+
+;
+
+@V 1 131 0
+WW_Valve_2_HP_X_Offset	126	VAR_EXTERNAL	@TYP:10
+@RV 1169		     
+
+;
+
+@V 1 132 0
+WW_Valve_1_VP_Y_Offset	127	VAR_EXTERNAL	@TYP:10
+@RV 1168		     
+
+;
+
+@V 1 133 0
+WW_Valve_1_VP_X_Offset	128	VAR_EXTERNAL	@TYP:10
+@RV 1167		     
+
+;
+
+@V 1 134 0
+WW_Valve_1_VP_O_Offset	129	VAR_EXTERNAL	@TYP:10
+@RV 1166		     
+
+;
+
+@V 1 135 0
+WW_Valve_1_TS_Y_Offset	130	VAR_EXTERNAL	@TYP:10
+@RV 1165		     
+
+;
+
+@V 1 136 0
+WW_Valve_1_TS_X_Offset	131	VAR_EXTERNAL	@TYP:10
+@RV 1164		     
+
+;
+
+@V 1 137 0
+WW_Valve_1_HP_Y_Offset	132	VAR_EXTERNAL	@TYP:10
+@RV 1163		     
+
+;
+
+@V 1 138 0
+WW_Valve_1_HP_X_Offset	133	VAR_EXTERNAL	@TYP:10
+@RV 1162		     
+
+;
+
+@V 1 139 0
+WW_TS2_Y_MIN	134	VAR_EXTERNAL	@TYP:10
+@RV 1160		     
+
+;
+
+@V 1 140 0
+WW_TS2_Y_MAX	135	VAR_EXTERNAL	@TYP:10
+@RV 1159		     
+
+;
+
+@V 1 141 0
+WW_TS2_X_MIN	136	VAR_EXTERNAL	@TYP:10
+@RV 1158		     
+
+;
+
+@V 1 142 0
+WW_TS2_X_MAX	137	VAR_EXTERNAL	@TYP:10
+@RV 1157		     
+
+;
+
+@V 1 143 0
+WW_TS1_Y_SP_Out	138	VAR_EXTERNAL	@TYP:10
+@RV 966		     
+
+;
+
+@V 1 144 0
+WW_TS1_Y_MIN	139	VAR_EXTERNAL	@TYP:10
+@RV 1155		     
+
+;
+
+@V 1 145 0
+WW_TS1_Y_MAX	140	VAR_EXTERNAL	@TYP:10
+@RV 1154		     
+
+;
+
+@V 1 146 0
+WW_TS1_X_SP_Out	141	VAR_EXTERNAL	@TYP:10
+@RV 965		     
+
+;
+
+@V 1 147 0
+WW_TS1_X_MIN	142	VAR_EXTERNAL	@TYP:10
+@RV 1152		     
+
+;
+
+@V 1 148 0
+WW_TS1_X_MAX	143	VAR_EXTERNAL	@TYP:10
+@RV 1151		     
+
+;
+
+@V 1 149 0
+WW_Roller_X_Offset_9	144	VAR_EXTERNAL	@TYP:10
+@RV 1150		     
+
+;
+
+@V 1 150 0
+WW_Roller_X_Offset_8	145	VAR_EXTERNAL	@TYP:10
+@RV 1149		     
+
+;
+
+@V 1 151 0
+WW_Roller_X_Offset_7	146	VAR_EXTERNAL	@TYP:10
+@RV 1148		     
+
+;
+
+@V 1 152 0
+WW_Roller_X_Offset_6	147	VAR_EXTERNAL	@TYP:10
+@RV 1147		     
+
+;
+
+@V 1 153 0
+WW_Roller_X_Offset_5	148	VAR_EXTERNAL	@TYP:10
+@RV 1146		     
+
+;
+
+@V 1 154 0
+WW_Roller_X_Offset_4	149	VAR_EXTERNAL	@TYP:10
+@RV 1145		     
+
+;
+
+@V 1 155 0
+WW_Roller_X_Offset_3	150	VAR_EXTERNAL	@TYP:10
+@RV 1144		     
+
+;
+
+@V 1 156 0
+WW_Roller_X_Offset_2	151	VAR_EXTERNAL	@TYP:10
+@RV 1143		     
+
+;
+
+@V 1 157 0
+WW_Roller_X_Offset_14	152	VAR_EXTERNAL	@TYP:10
+@RV 1142		     
+
+;
+
+@V 1 158 0
+WW_Roller_X_Offset_13	153	VAR_EXTERNAL	@TYP:10
+@RV 1141		     
+
+;
+
+@V 1 159 0
+WW_Roller_X_Offset_12	154	VAR_EXTERNAL	@TYP:10
+@RV 1140		     
+
+;
+
+@V 1 160 0
+WW_Roller_X_Offset_11	155	VAR_EXTERNAL	@TYP:10
+@RV 1139		     
+
+;
+
+@V 1 161 0
+WW_Roller_X_Offset_10	156	VAR_EXTERNAL	@TYP:10
+@RV 1138		     
+
+;
+
+@V 1 162 0
+WW_Reg_Eye_X_Offset_9	157	VAR_EXTERNAL	@TYP:10
+@RV 1135		     
+
+;
+
+@V 1 163 0
+WW_Reg_Eye_X_Offset_8	158	VAR_EXTERNAL	@TYP:10
+@RV 1134		     
+
+;
+
+@V 1 164 0
+WW_Reg_Eye_X_Offset_7	159	VAR_EXTERNAL	@TYP:10
+@RV 1133		     
+
+;
+
+@V 1 165 0
+WW_Reg_Eye_X_Offset_6	160	VAR_EXTERNAL	@TYP:10
+@RV 1132		     
+
+;
+
+@V 1 166 0
+WW_Reg_Eye_X_Offset_5	161	VAR_EXTERNAL	@TYP:10
+@RV 1131		     
+
+;
+
+@V 1 167 0
+WW_Reg_Eye_X_Offset_4	162	VAR_EXTERNAL	@TYP:10
+@RV 1130		     
+
+;
+
+@V 1 168 0
+WW_Reg_Eye_X_Offset_3	163	VAR_EXTERNAL	@TYP:10
+@RV 1129		     
+
+;
+
+@V 1 169 0
+WW_Reg_Eye_X_Offset_2	164	VAR_EXTERNAL	@TYP:10
+@RV 1128		     
+
+;
+
+@V 1 170 0
+WW_Reg_Eye_X_Offset_14	165	VAR_EXTERNAL	@TYP:10
+@RV 1127		     
+
+;
+
+@V 1 171 0
+WW_Reg_Eye_X_Offset_13	166	VAR_EXTERNAL	@TYP:10
+@RV 1126		     
+
+;
+
+@V 1 172 0
+WW_Reg_Eye_X_Offset_12	167	VAR_EXTERNAL	@TYP:10
+@RV 1125		     
+
+;
+
+@V 1 173 0
+WW_Reg_Eye_X_Offset_11	168	VAR_EXTERNAL	@TYP:10
+@RV 1124		     
+
+;
+
+@V 1 174 0
+WW_Reg_Eye_X_Offset_10	169	VAR_EXTERNAL	@TYP:10
+@RV 1123		     
+
+;
+
+@V 1 175 0
+WW_Low_Roll_Warn_SP	170	VAR_EXTERNAL	@TYP:4
+@RV 1121		     
+
+;
+
+@V 1 176 0
+WW_Low_Roll_Alarm_SP	171	VAR_EXTERNAL	@TYP:4
+@RV 1120		     
+
+;
+
+@V 1 177 0
+WW_Loader_HPos1_SP	172	VAR_EXTERNAL	@TYP:10
+@RV 1118		     
+
+;
+
+@V 1 178 0
+WW_Loader_Below_Upper_SP	173	VAR_EXTERNAL	@TYP:10
+@RV 1117		     
+
+;
+
+@V 1 179 0
+WW_Loader_Below_Lower_SP	174	VAR_EXTERNAL	@TYP:10
+@RV 1116		     
+
+;
+
+@V 1 180 0
+WW_Loader_Below_Center_SP	175	VAR_EXTERNAL	@TYP:10
+@RV 1115		     
+
+;
+
+@V 1 181 0
+WW_Loader_Above_Upper_SP	176	VAR_EXTERNAL	@TYP:10
+@RV 1114		     
+
+;
+
+@V 1 182 0
+WW_Loader_Above_Lower_SP	177	VAR_EXTERNAL	@TYP:10
+@RV 1113		     
+
+;
+
+@V 1 183 0
+WW_Loader_Above_Center_SP	178	VAR_EXTERNAL	@TYP:10
+@RV 1112		     
+
+;
+
+@V 1 184 0
+WW_HP1_Y_SP_Out	179	VAR_EXTERNAL	@TYP:10
+@RV 964		     
+
+;
+
+@V 1 185 0
+WW_HP1_Y_MIN	180	VAR_EXTERNAL	@TYP:10
+@RV 1110		     
+
+;
+
+@V 1 186 0
+WW_HP1_Y_MAX	181	VAR_EXTERNAL	@TYP:10
+@RV 1109		     
+
+;
+
+@V 1 187 0
+WW_HP1_X_SP_Out	182	VAR_EXTERNAL	@TYP:10
+@RV 963		     
+
+;
+
+@V 1 188 0
+WW_HP1_X_MIN	183	VAR_EXTERNAL	@TYP:10
+@RV 1107		     
+
+;
+
+@V 1 189 0
+WW_HP1_X_MAX	184	VAR_EXTERNAL	@TYP:10
+@RV 1106		     
+
+;
+
+@V 1 190 0
+WW_Hole_4_Y_Offset	185	VAR_EXTERNAL	@TYP:10
+@RV 1105		     
+
+;
+
+@V 1 191 0
+WW_Hole_4_X_Offset	186	VAR_EXTERNAL	@TYP:10
+@RV 1104		     
+
+;
+
+@V 1 192 0
+WW_Hole_3_Y_Offset	187	VAR_EXTERNAL	@TYP:10
+@RV 1103		     
+
+;
+
+@V 1 193 0
+WW_Hole_3_X_Offset	188	VAR_EXTERNAL	@TYP:10
+@RV 1102		     
+
+;
+
+@V 1 194 0
+WW_COS_to_VP_Datum	189	VAR_EXTERNAL	@TYP:10
+@RV 1100		     
+
+;
+
+@V 1 195 0
+WW_SD212604_SetPos	190	VAR_EXTERNAL	@TYP:10
+@RV 1099		     
+
+;
+
+@V 1 196 0
+WW_SD212554_SetPos	191	VAR_EXTERNAL	@TYP:10
+@RV 1098		     
+
+;
+
+@V 1 197 0
+WW_SD212504_SetPos	192	VAR_EXTERNAL	@TYP:10
+@RV 1097		     
+
+;
+
+@V 1 198 0
+WW_SD212454_SetPos	193	VAR_EXTERNAL	@TYP:10
+@RV 1096		     
+
+;
+
+@V 1 199 0
+WW_SD212404_SetPos	194	VAR_EXTERNAL	@TYP:10
+@RV 1095		     
+
+;
+
+@V 1 200 0
+WW_SD212354_SetPos	195	VAR_EXTERNAL	@TYP:10
+@RV 1094		     
+
+;
+
+@V 1 201 0
+WW_SD212304_SetPos	196	VAR_EXTERNAL	@TYP:10
+@RV 1093		     
+
+;
+
+@V 1 202 0
+VP1_Y_Alarm	197	VAR_EXTERNAL	@TYP:1
+@RV 180		     
+
+;
+
+@V 1 203 0
+VP1_X_Alarm	198	VAR_EXTERNAL	@TYP:1
+@RV 182		     
+
+;
+
+@V 1 204 0
+VP1_O_Alarm	199	VAR_EXTERNAL	@TYP:1
+@RV 178		     
+
+;
+
+@V 1 205 0
+VP_Locating_Error	200	VAR_EXTERNAL	@TYP:1
+@RV 297		     
+
+;
+
+@V 1 206 0
+Upr_Unwind_Alarm	201	VAR_EXTERNAL	@TYP:1
+@RV 61		     
+
+;
+
+@V 1 207 0
+Upper_Roll_LOW_Warn	202	VAR_EXTERNAL	@TYP:1
+@RV 59		     
+
+;
+
+@V 1 208 0
+Unload_Upper_Enabled	203	VAR_EXTERNAL	@TYP:1
+@RV 381		     
+
+;
+
+@V 1 209 0
+Unload_Lower_Enabled	204	VAR_EXTERNAL	@TYP:1
+@RV 380		     
+
+;
+
+@V 1 210 0
+TS_Locating_Error	205	VAR_EXTERNAL	@TYP:1
+@RV 294		     
+
+;
+
+@V 1 211 0
+Reset_Alarm	206	VAR_EXTERNAL	@TYP:1
+@RV 7		     
+
+;
+
+@V 1 212 0
+Lwr_Unwind_Alarm	207	VAR_EXTERNAL	@TYP:1
+@RV 60		     
+
+;
+
+@V 1 213 0
+Lower_Roll_LOW_Warn	208	VAR_EXTERNAL	@TYP:1
+@RV 58		     
+
+;
+
+@V 1 214 0
+Loader_Unwind_Ctr	209	VAR_EXTERNAL	@TYP:1
+@RV 379		     
+
+;
+
+@V 1 215 0
+Loader_Rolls_Engaged	210	VAR_EXTERNAL	@TYP:1
+@RV 378		     
+
+;
+
+@V 1 216 0
+Loader_Right_Vert_Alarm	211	VAR_EXTERNAL	@TYP:1
+@RV 120		     
+
+;
+
+@V 1 217 0
+Loader_Right_Horiz_Alarm	212	VAR_EXTERNAL	@TYP:1
+@RV 118		     
+
+;
+
+@V 1 218 0
+Loader_Left_Vert_Alarm	213	VAR_EXTERNAL	@TYP:1
+@RV 119		     
+
+;
+
+@V 1 219 0
+Loader_Left_Horiz_Alarm	214	VAR_EXTERNAL	@TYP:1
+@RV 117		     
+
+;
+
+@V 1 220 0
+Load_Upper_Enabled	215	VAR_EXTERNAL	@TYP:1
+@RV 383		     
+
+;
+
+@V 1 221 0
+Load_Lower_Enabled	216	VAR_EXTERNAL	@TYP:1
+@RV 382		     
+
+;
+
+@V 1 222 0
+HP1_Y_Alarm	217	VAR_EXTERNAL	@TYP:1
+@RV 176		     
+
+;
+
+@V 1 223 0
+HP1_X_Alarm	218	VAR_EXTERNAL	@TYP:1
+@RV 177		     
+
+;
+
+@V 1 224 0
+WW_CP1_Drives_Enabled	219	VAR_EXTERNAL	@TYP:10
+@RV 895		     
+
+;
+
+@V 1 225 0
+WW_SD212704_Enabled	220	VAR_EXTERNAL	@TYP:10
+@RV 894		     
+
+;
+
+@V 1 226 0
+WW_SD212654_Enabled	221	VAR_EXTERNAL	@TYP:10
+@RV 893		     
+
+;
+
+@V 1 227 0
+WW_PLCmode_Run	222	VAR_EXTERNAL	@TYP:10
+@RV 892		     
+
+;
+
+@V 1 228 0
+WW_Cycle_Ready_Output	223	VAR_EXTERNAL	@TYP:10
+@RV 922		     
+
+;
+
+@V 1 229 0
+WW_VP1_Y_Alarm	224	VAR_EXTERNAL	@TYP:10
+@RV 921		     
+
+;
+
+@V 1 230 0
+WW_VP1_X_Alarm	225	VAR_EXTERNAL	@TYP:10
+@RV 920		     
+
+;
+
+@V 1 231 0
+WW_VP1_O_Alarm	226	VAR_EXTERNAL	@TYP:10
+@RV 919		     
+
+;
+
+@V 1 232 0
+WW_VP_Locating_Error	227	VAR_EXTERNAL	@TYP:10
+@RV 918		     
+
+;
+
+@V 1 233 0
+WW_Upr_Unwind_Alarm	228	VAR_EXTERNAL	@TYP:10
+@RV 917		     
+
+;
+
+@V 1 234 0
+WW_Upper_Roll_LOW_Warn	229	VAR_EXTERNAL	@TYP:10
+@RV 916		     
+
+;
+
+@V 1 235 0
+WW_Unload_Upper_Enabled	230	VAR_EXTERNAL	@TYP:10
+@RV 914		     
+
+;
+
+@V 1 236 0
+WW_Unload_Lower_Enabled	231	VAR_EXTERNAL	@TYP:10
+@RV 913		     
+
+;
+
+@V 1 237 0
+WW_TS_Locating_Error	232	VAR_EXTERNAL	@TYP:10
+@RV 911		     
+
+;
+
+@V 1 238 0
+WW_Reset_Alarm	233	VAR_EXTERNAL	@TYP:10
+@RV 910		     
+
+;
+
+@V 1 239 0
+WW_Lwr_Unwind_Alarm	234	VAR_EXTERNAL	@TYP:10
+@RV 909		     
+
+;
+
+@V 1 240 0
+WW_Lower_Roll_LOW_Warn	235	VAR_EXTERNAL	@TYP:10
+@RV 908		     
+
+;
+
+@V 1 241 0
+WW_Loader_Unwind_Ctr	236	VAR_EXTERNAL	@TYP:10
+@RV 906		     
+
+;
+
+@V 1 242 0
+WW_Loader_Rolls_Engaged	237	VAR_EXTERNAL	@TYP:10
+@RV 905		     
+
+;
+
+@V 1 243 0
+WW_Loader_Right_Vert_Alarm	238	VAR_EXTERNAL	@TYP:10
+@RV 904		     
+
+;
+
+@V 1 244 0
+WW_Loader_Right_Horiz_Alarm	239	VAR_EXTERNAL	@TYP:10
+@RV 903		     
+
+;
+
+@V 1 245 0
+WW_Loader_Left_Vert_Alarm	240	VAR_EXTERNAL	@TYP:10
+@RV 902		     
+
+;
+
+@V 1 246 0
+WW_Loader_Left_Horiz_Alarm	241	VAR_EXTERNAL	@TYP:10
+@RV 901		     
+
+;
+
+@V 1 247 0
+WW_Load_Upper_Enabled	242	VAR_EXTERNAL	@TYP:10
+@RV 900		     
+
+;
+
+@V 1 248 0
+WW_Load_Lower_Enabled	243	VAR_EXTERNAL	@TYP:10
+@RV 899		     
+
+;
+
+@V 1 249 0
+WW_HP1_Y_Alarm	244	VAR_EXTERNAL	@TYP:10
+@RV 898		     
+
+;
+
+@V 1 250 0
+WW_HP1_X_Alarm	245	VAR_EXTERNAL	@TYP:10
+@RV 897		     
+
+;
+
+@V 1 251 0
+CP1_Drives_Enabled	246	VAR_EXTERNAL	@TYP:1
+@RV 17		     
+
+;
+
+@V 1 252 0
+SD212704_Enabled	247	VAR_EXTERNAL	@TYP:1
+@RV 1622		     
+
+;
+
+@V 1 253 0
+SD212654_Enabled	248	VAR_EXTERNAL	@TYP:1
+@RV 1572		     
+
+;
+
+@V 1 254 0
+PLCmode_Run	249	VAR_EXTERNAL	@TYP:1
+@RV 314		     
+
+;
+
+@V 1 255 0
+Cycle_Ready_Output	250	VAR_EXTERNAL	@TYP:1
+@RV 351		     
+
+;
+
+@V 1 256 0
+Upper_Remaining_Imp	251	VAR_EXTERNAL	@TYP:4
+@RV 69		     
+
+;
+
+@V 1 257 0
+Upper_IMP_From_Inches	252	VAR_EXTERNAL	@TYP:4
+@RV 401		     
+
+;
+
+@V 1 258 0
+Lower_Remaining_Imp	253	VAR_EXTERNAL	@TYP:4
+@RV 64		     
+
+;
+
+@V 1 259 0
+Lower_IMP_From_Inches	254	VAR_EXTERNAL	@TYP:4
+@RV 402		     
+
+;
+
+@V 1 260 0
+PLC_Sys_Tick_CNT	255	VAR_EXTERNAL	@TYP:4
+@RV 321		     
+
+;
+
+@V 1 261 0
+WW_PLC_Sys_Tick_CNT	256	VAR_EXTERNAL	@TYP:4
+@RV 931		     
+
+;
+
+@V 1 262 0
+WW_Lower_IMP_From_Inches	257	VAR_EXTERNAL	@TYP:4
+@RV 933		     
+
+;
+
+@V 1 263 0
+WW_Lower_Remaining_Imp	258	VAR_EXTERNAL	@TYP:4
+@RV 935		     
+
+;
+
+@V 1 264 0
+WW_Upper_IMP_From_Inches	259	VAR_EXTERNAL	@TYP:4
+@RV 937		     
+
+;
+
+@V 1 265 0
+WW_Upper_Remaining_Imp	260	VAR_EXTERNAL	@TYP:4
+@RV 939		     
+
+;
+
+@V 1 266 0
+WW_CP2110Status	261	VAR_EXTERNAL	@TYP:4
+@RV 932		     
+
+;
+
+@V 1 267 0
+WW_Alarm_W2	262	VAR_EXTERNAL	@TYP:4
+@RV 923		     
+
+;
+
+@V 1 268 0
+WW_Alarm_W1	263	VAR_EXTERNAL	@TYP:4
+@RV 940		     
+
+;
+
+@V 1 269 0
+Alarm_W1	264	VAR_EXTERNAL	@TYP:19
+@RV 15		     
+
+;
+
+@V 1 270 0
+Alarm_W2	265	VAR_EXTERNAL	@TYP:19
+@RV 16		     
+
+;
+
+@V 1 271 0
+CP2110Status	266	VAR_EXTERNAL	@TYP:19
+@RV 384		     
+
+;
+
+@V 1 272 0
+Upper_Length	267	VAR_EXTERNAL	@TYP:11
+@RV 68		     
+
+;
+
+@V 1 273 0
+Lower_Length	268	VAR_EXTERNAL	@TYP:11
+@RV 63		     
+
+;
+
+@V 1 274 0
+WW_HP1_X_Bump_Value	269	VAR_EXTERNAL	@TYP:10
+@RV 924		     
+
+;
+
+@V 1 275 0
+WW_HP1_Y_Bump_Value	270	VAR_EXTERNAL	@TYP:10
+@RV 925		     
+
+;
+
+@V 1 276 0
+WW_TS1_X_Bump_Value	271	VAR_EXTERNAL	@TYP:10
+@RV 926		     
+
+;
+
+@V 1 277 0
+WW_TS1_Y_Bump_Value	272	VAR_EXTERNAL	@TYP:10
+@RV 927		     
+
+;
+
+@V 1 278 0
+WW_VP1_O_Bump_Value	273	VAR_EXTERNAL	@TYP:10
+@RV 928		     
+
+;
+
+@V 1 279 0
+WW_VP1_X_Bump_Value	274	VAR_EXTERNAL	@TYP:10
+@RV 929		     
+
+;
+
+@V 1 280 0
+WW_VP1_Y_Bump_Value	275	VAR_EXTERNAL	@TYP:10
+@RV 930		     
+
+;
+
+@V 1 281 0
+WW_Lower_Length	276	VAR_EXTERNAL	@TYP:10
+@RV 934		     
+
+;
+
+@V 1 282 0
+WW_Upper_Length	277	VAR_EXTERNAL	@TYP:10
+@RV 938		     
+
+;
+
+@V 1 284 0
+WW_Repeat_SP	278	VAR_EXTERNAL	@TYP:10
+@RV 1136		     
+
+;
+
+@V 1 285 0
+WW_Loader_HPos2_SP	279	VAR_EXTERNAL	@TYP:10
+@RV 1119		     
+
+;
+
+@V 1 286 0
+WW_Reg_Eye_X_Location	280	VAR_EXTERNAL	@TYP:4
+@RV 1122		     
+
+;
+
+@V 1 287 0
+WW_Roller_X_Location	281	VAR_EXTERNAL	@TYP:4
+@RV 1137		     
+
+;
+
+@V 1 288 0
+WW_Upper_IMP_On_Roll	282	VAR_EXTERNAL	@TYP:4
+@RV 1089		     
+
+;
+
+@V 1 289 0
+WW_Lower_IMP_On_Roll	283	VAR_EXTERNAL	@TYP:4
+@RV 1086		     
+
+;
+
+@V 1 290 0
+Drives_Enable_Clear	284	VAR_EXTERNAL	@TYP:1
+@RV 385		     
+
+;
+
+@V 1 291 0
+WW_Drives_Enable_Clear	285	VAR_EXTERNAL	@TYP:10
+@RV 952		     
+
+;
+
+@V 1 292 0
+Recipe_Change_Clear	286	VAR_EXTERNAL	@TYP:1
+@RV 23		     
+
+;
+
+@V 1 293 0
+WW_Recipe_Change_Clear	287	VAR_EXTERNAL	@TYP:10
+@RV 970		     
+
+;
+
+@V 1 294 0
+WW_HP2_Y_MIN	288	VAR_EXTERNAL	@TYP:10
+@RV 1185		     
+
+;
+
+@V 1 295 0
+WW_HP2_Y_MAX	289	VAR_EXTERNAL	@TYP:10
+@RV 1182		     
+
+;
+
+@V 1 296 0
+WW_HP2_X_MIN	290	VAR_EXTERNAL	@TYP:10
+@RV 1179		     
+
+;
+
+@V 1 297 0
+WW_HP2_X_MAX	291	VAR_EXTERNAL	@TYP:10
+@RV 1156		     
+
+;
+
+@V 1 298 0
+HP2_X_Max	292	VAR_EXTERNAL	@TYP:11
+@RV 296		     
+
+;
+
+@V 1 299 0
+HP2_Y_Min	293	VAR_EXTERNAL	@TYP:11
+@RV 295		     
+
+;
+
+@V 1 300 0
+HP2_Y_Max	294	VAR_EXTERNAL	@TYP:11
+@RV 26		     
+
+;
+
+@V 1 301 0
+HP2_X_Min	295	VAR_EXTERNAL	@TYP:11
+@RV 293		     
+
+;
+
+@V 1 302 0
+Recipe_Change_PB	296	VAR_EXTERNAL	@TYP:1
+@RV 27		     
+
+;
+
+@V 1 303 0
+Loader_SetHome_PB_Clear	297	VAR_EXTERNAL	@TYP:1
+@RV 28		     
+
+;
+
+@V 1 304 0
+WW_Loader_SetHome_PB_Clear	298	VAR_EXTERNAL	@TYP:10
+@RV 956		     
+
+;
+
+@V 1 305 0
+VP1_O_SP_Bumped	299	VAR_EXTERNAL	@TYP:11
+@RV 390		     
+
+;
+
+@V 1 306 0
+Reset_Drive_PB_Clear	300	VAR_EXTERNAL	@TYP:1
+@RV 24		     
+
+;
+
+@V 1 307 0
+WW_Reset_Drive_PB_Clear	301	VAR_EXTERNAL	@TYP:10
+@RV 959		     
+
+;
+
+@V 1 308 0
+Loader_Mode_Req_by_Yask	302	VAR_EXTERNAL	@TYP:1
+@RV 31		     
+
+;
+
+@V 1 309 0
+Loader_Stop_PB_Clear	303	VAR_EXTERNAL	@TYP:1
+@RV 156		     
+
+;
+
+@V 1 310 0
+Mode_Auto_Clear	304	VAR_EXTERNAL	@TYP:1
+@RV 1561		     
+
+;
+
+@V 1 311 0
+Start_PB_Clear	305	VAR_EXTERNAL	@TYP:1
+@RV 22		     
+
+;
+
+@V 1 312 0
+WW_Start_PB_Clear	306	VAR_EXTERNAL	@TYP:10
+@RV 960		     
+
+;
+
+@V 1 313 0
+WW_Mode_Auto_Clear	307	VAR_EXTERNAL	@TYP:10
+@RV 958		     
+
+;
+
+@V 1 314 0
+WW_Loader_Stop_PB_Clear	308	VAR_EXTERNAL	@TYP:10
+@RV 957		     
+
+;
+
+@V 1 315 0
+WW_Loader_Mode_Req_by_Yask	309	VAR_EXTERNAL	@TYP:10
+@RV 955		     
+
+;
+
+@V 1 316 0
+WW_HP1_Y_Pos_Override_SP	310	VAR_EXTERNAL	@TYP:10
+@RV 1153		     
+
+;
+
+@V 1 317 0
+HP1_X_Pos_Override_SP	311	VAR_EXTERNAL	@TYP:11
+@RV 32		     
+
+;
+
+@V 1 318 0
+HP1_Y_Pos_Override_SP	312	VAR_EXTERNAL	@TYP:11
+@RV 33		     
+
+;
+
+@V 1 319 0
+WW_HP1_X_Pos_Override_SP	313	VAR_EXTERNAL	@TYP:10
+@RV 1111		     
+
+;
+
+@V 1 320 0
+HP2_Y_Bump_Value_SP	314	VAR_EXTERNAL	@TYP:11
+@RV 303		     
+
+;
+
+@V 1 321 0
+HP2_X_Bump_Value_SP	315	VAR_EXTERNAL	@TYP:11
+@RV 392		     
+
+;
+
+@V 1 322 0
+VP2_Y_Bump_Value_SP	316	VAR_EXTERNAL	@TYP:11
+@RV 49		     
+
+;
+
+@V 1 323 0
+VP2_X_Bump_Value_SP	317	VAR_EXTERNAL	@TYP:11
+@RV 50		     
+
+;
+
+@V 1 324 0
+VP2_O_Bump_Value_SP	318	VAR_EXTERNAL	@TYP:11
+@RV 48		     
+
+;
+
+@V 1 325 0
+TS2_Y_Bump_Value_SP	319	VAR_EXTERNAL	@TYP:11
+@RV 306		     
+
+;
+
+@V 1 326 0
+TS2_X_Bump_Value_SP	320	VAR_EXTERNAL	@TYP:11
+@RV 305		     
+
+;
+
+@V 1 327 0
+WW_VP2_Y_Bump_Value	321	VAR_EXTERNAL	@TYP:10
+@RV 977		     
+
+;
+
+@V 1 328 0
+WW_VP2_X_Bump_Value	322	VAR_EXTERNAL	@TYP:10
+@RV 976		     
+
+;
+
+@V 1 329 0
+WW_VP2_O_Bump_Value	323	VAR_EXTERNAL	@TYP:10
+@RV 975		     
+
+;
+
+@V 1 330 0
+WW_TS2_Y_Bump_Value	324	VAR_EXTERNAL	@TYP:10
+@RV 974		     
+
+;
+
+@V 1 331 0
+WW_TS2_X_Bump_Value	325	VAR_EXTERNAL	@TYP:10
+@RV 973		     
+
+;
+
+@V 1 332 0
+WW_HP2_Y_Bump_Value	326	VAR_EXTERNAL	@TYP:10
+@RV 972		     
+
+;
+
+@V 1 333 0
+WW_HP2_X_Bump_Value	327	VAR_EXTERNAL	@TYP:10
+@RV 971		     
+
+;
+
+@V 1 334 0
+WW_HP2_Y_Man_SP	328	VAR_EXTERNAL	@TYP:10
+@RV 1229		     
+
+;
+
+@V 1 335 0
+WW_HP2_X_Man_SP	329	VAR_EXTERNAL	@TYP:10
+@RV 1228		     
+
+;
+
+@V 1 336 0
+WW_TS2_Y_Man_SP	330	VAR_EXTERNAL	@TYP:10
+@RV 1227		     
+
+;
+
+@V 1 337 0
+WW_TS2_X_Man_SP	331	VAR_EXTERNAL	@TYP:10
+@RV 1226		     
+
+;
+
+@V 1 338 0
+WW_VP2_O_Man_SP	332	VAR_EXTERNAL	@TYP:10
+@RV 1225		     
+
+;
+
+@V 1 339 0
+WW_VP2_Y_Man_SP	333	VAR_EXTERNAL	@TYP:10
+@RV 1224		     
+
+;
+
+@V 1 340 0
+WW_VP2_X_Man_SP	334	VAR_EXTERNAL	@TYP:10
+@RV 1223		     
+
+;
+
+@V 1 341 0
+WW_HP1_Y_Man_SP	335	VAR_EXTERNAL	@TYP:10
+@RV 1222		     
+
+;
+
+@V 1 342 0
+WW_HP1_X_Man_SP	336	VAR_EXTERNAL	@TYP:10
+@RV 1221		     
+
+;
+
+@V 1 343 0
+WW_TS1_Y_Man_SP	337	VAR_EXTERNAL	@TYP:10
+@RV 1220		     
+
+;
+
+@V 1 344 0
+WW_TS1_X_Man_SP	338	VAR_EXTERNAL	@TYP:10
+@RV 1219		     
+
+;
+
+@V 1 345 0
+WW_VP1_O_Man_SP	339	VAR_EXTERNAL	@TYP:10
+@RV 1218		     
+
+;
+
+@V 1 346 0
+WW_VP1_Y_Man_SP	340	VAR_EXTERNAL	@TYP:10
+@RV 1217		     
+
+;
+
+@V 1 347 0
+WW_VP1_X_Man_SP	341	VAR_EXTERNAL	@TYP:10
+@RV 1216		     
+
+;
+
+@V 1 348 0
+VP1_X_Man_SP	342	VAR_EXTERNAL	@TYP:11
+@RV 308		     
+
+;
+
+@V 1 349 0
+VP1_Y_Man_SP	343	VAR_EXTERNAL	@TYP:11
+@RV 307		     
+
+;
+
+@V 1 350 0
+VP1_O_Man_SP	344	VAR_EXTERNAL	@TYP:11
+@RV 312		     
+
+;
+
+@V 1 351 0
+TS1_X_Man_SP	345	VAR_EXTERNAL	@TYP:11
+@RV 624		     
+
+;
+
+@V 1 352 0
+TS1_Y_Man_SP	346	VAR_EXTERNAL	@TYP:11
+@RV 625		     
+
+;
+
+@V 1 353 0
+HP1_X_Man_SP	347	VAR_EXTERNAL	@TYP:11
+@RV 394		     
+
+;
+
+@V 1 354 0
+HP1_Y_Man_SP	348	VAR_EXTERNAL	@TYP:11
+@RV 396		     
+
+;
+
+@V 1 355 0
+VP2_X_Man_SP	349	VAR_EXTERNAL	@TYP:11
+@RV 309		     
+
+;
+
+@V 1 356 0
+VP2_Y_Man_SP	350	VAR_EXTERNAL	@TYP:11
+@RV 310		     
+
+;
+
+@V 1 357 0
+VP2_O_Man_SP	351	VAR_EXTERNAL	@TYP:11
+@RV 311		     
+
+;
+
+@V 1 358 0
+TS2_X_Man_SP	352	VAR_EXTERNAL	@TYP:11
+@RV 623		     
+
+;
+
+@V 1 359 0
+TS2_Y_Man_SP	353	VAR_EXTERNAL	@TYP:11
+@RV 622		     
+
+;
+
+@V 1 360 0
+HP2_X_Man_SP	354	VAR_EXTERNAL	@TYP:11
+@RV 397		     
+
+;
+
+@V 1 361 0
+HP2_Y_Man_SP	355	VAR_EXTERNAL	@TYP:11
+@RV 398		     
+
+;
+
+@V 1 362 0
+Banner_Virtual_Status	356	VAR_EXTERNAL	@TYP:19
+@RV 848		     
+
+;
+
+@V 1 363 0
+WW_Light_Curtain_Active	357	VAR_EXTERNAL	@TYP:10
+@RV 986		     
+
+;
+
+@V 1 364 0
+WW_Cut_Gate_active	358	VAR_EXTERNAL	@TYP:10
+@RV 985		     
+
+;
+
+@V 1 365 0
+WW_Seal_Gate_active	359	VAR_EXTERNAL	@TYP:10
+@RV 984		     
+
+;
+
+@V 1 366 0
+WW_P_P_Estop_active	360	VAR_EXTERNAL	@TYP:10
+@RV 983		     
+
+;
+
+@V 1 367 0
+WW_Cut_Estop_active	361	VAR_EXTERNAL	@TYP:10
+@RV 982		     
+
+;
+
+@V 1 368 0
+WW_Seal_Estop_active	362	VAR_EXTERNAL	@TYP:10
+@RV 981		     
+
+;
+
+@V 1 369 0
+WW_Unwind_Estop_active	363	VAR_EXTERNAL	@TYP:10
+@RV 980		     
+
+;
+
+@V 1 371 0
+WW_Banner_Enet_Status	364	VAR_EXTERNAL	@TYP:10
+@RV 987		     
+
+;
+
+@V 1 372 0
+VP2_Locating_Error	365	VAR_EXTERNAL	@TYP:1
+@RV 424		     
+
+;
+
+@V 1 373 0
+VP1_Locating_Error	366	VAR_EXTERNAL	@TYP:1
+@RV 423		     
+
+;
+
+@V 1 374 0
+TS2_Locating_Error	367	VAR_EXTERNAL	@TYP:1
+@RV 420		     
+
+;
+
+@V 1 375 0
+TS1_Locating_Error	368	VAR_EXTERNAL	@TYP:1
+@RV 419		     
+
+;
+
+@V 1 376 0
+HP2_Locating_Error	369	VAR_EXTERNAL	@TYP:1
+@RV 422		     
+
+;
+
+@V 1 377 0
+HP1_Locating_Error	370	VAR_EXTERNAL	@TYP:1
+@RV 421		     
+
+;
+
+@V 1 378 0
+WW_HP1_Locating_Error	371	VAR_EXTERNAL	@TYP:10
+@RV 989		     
+
+;
+
+@V 1 379 0
+WW_HP2_Locating_Error	372	VAR_EXTERNAL	@TYP:10
+@RV 992		     
+
+;
+
+@V 1 380 0
+WW_TS1_Locating_Error	373	VAR_EXTERNAL	@TYP:10
+@RV 988		     
+
+;
+
+@V 1 381 0
+WW_TS2_Locating_Error	374	VAR_EXTERNAL	@TYP:10
+@RV 991		     
+
+;
+
+@V 1 382 0
+WW_VP1_Locating_Error	375	VAR_EXTERNAL	@TYP:10
+@RV 990		     
+
+;
+
+@V 1 383 0
+WW_VP2_Locating_Error	376	VAR_EXTERNAL	@TYP:10
+@RV 993		     
+
+;
+
+@V 1 384 0
+WW_Upper_Roll_Diameter	377	VAR_EXTERNAL	@TYP:10
+@RV 994		     
+
+;
+
+@V 1 385 0
+WW_Lower_Roll_Diameter	378	VAR_EXTERNAL	@TYP:10
+@RV 995		     
+
+;
+
+@V 1 386 0
+Upper_Roll_Diameter	379	VAR_EXTERNAL	@TYP:11
+@RV 106		     
+
+;
+
+@V 1 387 0
+Lower_Roll_Diameter	380	VAR_EXTERNAL	@TYP:11
+@RV 107		     
+
+;
+
+@V 1 388 0
+Low_Roll_Dia_SP	381	VAR_EXTERNAL	@TYP:11
+@RV 996		     
+
+;
+
+@V 1 389 0
+Upper_Act_Dia	382	VAR_EXTERNAL	@TYP:11
+@RV 997		     
+
+;
+
+@V 1 390 0
+Lower_Act_Dia	383	VAR_EXTERNAL	@TYP:11
+@RV 998		     
+
+;
+
+@V 1 391 0
+Upper_Act_Dia_Set	384	VAR_EXTERNAL	@TYP:1
+@RV 999		     
+
+;
+
+@V 1 392 0
+Lower_Act_Dia_Set	385	VAR_EXTERNAL	@TYP:1
+@RV 1000		     
+
+;
+
+@V 1 393 0
+WW_Lower_Act_Dia_Set	386	VAR_EXTERNAL	@TYP:10
+@RV 1238		     
+
+;
+
+@V 1 394 0
+WW_Upper_Act_Dia_Set	387	VAR_EXTERNAL	@TYP:10
+@RV 1237		     
+
+;
+
+@V 1 395 0
+WW_Lower_Act_Dia	388	VAR_EXTERNAL	@TYP:10
+@RV 1236		     
+
+;
+
+@V 1 396 0
+WW_Upper_Act_Dia	389	VAR_EXTERNAL	@TYP:10
+@RV 1235		     
+
+;
+
+@V 1 397 0
+WW_Low_Roll_Speed_SP	390	VAR_EXTERNAL	@TYP:10
+@RV 1234		     
+
+;
+
+@V 1 398 0
+WW_Low_Roll_Dia_SP	391	VAR_EXTERNAL	@TYP:10
+@RV 1233		     
+
+;
+
+@V 1 399 0
+CPx110_Override_Speed_to_CP3	392	VAR_EXTERNAL	@TYP:10
+@RV 867		     
+
+;
+
+@V 1 400 0
+CPx110_Override_Speed_to_CP2	393	VAR_EXTERNAL	@TYP:10
+@RV 642		     
+
+;
+
+@V 1 405 0
+VP1_X_Man_SP_Temp	394	VAR	@TYP:11
+		     
+
+;
+
+@V 1 406 0
+VP1_Y_Man_SP_Temp	395	VAR	@TYP:11
+		     
+
+;
+
+@V 1 407 0
+VP1_O_Man_SP_Temp	396	VAR	@TYP:11
+		     
+
+;
+
+@V 1 408 0
+TS1_X_Man_SP_Temp	397	VAR	@TYP:11
+		     
+
+;
+
+@V 1 409 0
+TS1_Y_Man_SP_Temp	398	VAR	@TYP:11
+		     
+
+;
+
+@V 1 410 0
+HP1_X_Man_SP_Temp	399	VAR	@TYP:11
+		     
+
+;
+
+@V 1 411 0
+HP1_Y_Man_SP_Temp	400	VAR	@TYP:11
+		     
+
+;
+
+@V 1 412 0
+VP2_X_Man_SP_Temp	401	VAR	@TYP:11
+		     
+
+;
+
+@V 1 413 0
+VP2_Y_Man_SP_Temp	402	VAR	@TYP:11
+		     
+
+;
+
+@V 1 414 0
+VP2_O_Man_SP_Temp	403	VAR	@TYP:11
+		     
+
+;
+
+@V 1 415 0
+TS2_X_Man_SP_Temp	404	VAR	@TYP:11
+		     
+
+;
+
+@V 1 416 0
+TS2_Y_Man_SP_Temp	405	VAR	@TYP:11
+		     
+
+;
+
+@V 1 417 0
+HP2_X_Man_SP_Temp	406	VAR	@TYP:11
+		     
+
+;
+
+@V 1 418 0
+HP2_Y_Man_SP_Temp	407	VAR	@TYP:11
+		     
+
+;
+
+@V 1 423 0
+Low_Roll_Alarm_Dia_SP	408	VAR_EXTERNAL	@TYP:11
+@RV 852		     
+
+;
+
+@V 1 424 0
+SD212554_ActPos	409	VAR_EXTERNAL	@TYP:11
+@RV 1488		     
+
+;
+
+@V 1 425 0
+SD212604_ActPos	410	VAR_EXTERNAL	@TYP:11
+@RV 1524		     
+
+;
+
+@V 1 426 0
+SD212354_ActPos	411	VAR_EXTERNAL	@TYP:11
+@RV 1382		     
+
+;
+
+@V 1 427 0
+SD212454_ActPos	412	VAR_EXTERNAL	@TYP:11
+@RV 1452		     
+
+;
+
+@V 1 428 0
+SD212304_ActPos	413	VAR_EXTERNAL	@TYP:11
+@RV 855		     
+
+;
+
+@V 1 429 0
+SD212404_ActPos	414	VAR_EXTERNAL	@TYP:11
+@RV 854		     
+
+;
+
+@V 1 434 0
+SD212304_SetPos_Temp	415	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 435 0
+SD212354_SetPos_Temp	416	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 436 0
+SD212404_SetPos_Temp	417	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 437 0
+SD212454_SetPos_Temp	418	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 438 0
+SD212554_SetPos_Temp	419	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 439 0
+SD212604_SetPos_Temp	420	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 444 0
+Seal_Plate_ID_OUT	421	VAR_EXTERNAL	@TYP:19
+@RV 872		     
+
+;
+
+@V 1 445 0
+Seal_Plate_ID_IN	422	VAR_EXTERNAL	@TYP:19
+@RV 609		     
+
+;
+
+@V 1 446 0
+CutAutoTunepb	423	VAR_EXTERNAL	@TYP:19
+@RV 871		     
+
+;
+
+@V 1 447 0
+SealAutoTunepb	424	VAR_EXTERNAL	@TYP:19
+@RV 631		     
+
+;
+

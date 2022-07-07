@@ -1,0 +1,124 @@
+(*
+T: FUNCTION_BLOCK WinderPID
+FW: NO
+CI#: 51
+QSL: 19
+QVE: 19
+QVPC: 19
+QPar: 9
+QFBI: 2
+*)
+@V 1 6 0
+D_Part	1	VAR	@TYP:10
+		     
+
+;
+
+@V 1 7 0
+I_Part	2	VAR	@TYP:10
+		     
+
+;
+
+@V 1 8 0
+P_Part	3	VAR	@TYP:10
+		     
+
+;
+
+@V 1 13 0
+Enable	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+UnwindSpeed	5	VAR_OUTPUT	@TYP:11
+		     
+
+;
+
+@V 1 23 0
+FeedForward	6	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 24 0
+MaxOut	7	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 25 0
+PIDParameters	8	VAR_INPUT	@TYP:1076
+		     
+
+;
+
+@V 1 30 0
+CV	9	VAR	@TYP:10
+		     
+
+;
+
+@V 1 35 0
+ResetIntegral	10	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 40 0
+RiemannSum	11	VAR	@TYP:10
+		     
+
+;
+
+@V 1 45 0
+DancerPosAct	12	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 46 0
+DancerPos	13	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 51 0
+ConrolError	14	VAR	@TYP:10
+		     
+
+;
+
+@V 1 56 0
+Direction	15	VAR_OUTPUT	@TYP:1031
+		     
+
+;
+
+@V 1 61 0
+R_TRIG_RstInt	16	VAR	@FB:35
+		     
+
+;
+
+@V 1 62 0
+TON_Update	17	VAR	@FB:21
+		     
+
+;
+
+@V 1 63 0
+LastControlError	18	VAR	@TYP:10
+		     
+
+;
+
+@V 1 64 0
+ControlError	19	VAR	@TYP:10
+		     
+
+;
+

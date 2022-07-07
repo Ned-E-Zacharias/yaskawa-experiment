@@ -1,0 +1,130 @@
+(*
+T: FUNCTION_BLOCK MovingAverage
+FW: NO
+CI#: 53
+QSL: 20
+QVE: 20
+QVPC: 20
+QPar: 9
+QFBI: 2
+*)
+@V 1 6 0
+Valid	1	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+MovingAverage	2	VAR_OUTPUT	@TYP:11
+		     
+
+;
+
+@V 1 8 0
+Error	3	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 9 0
+ErrorID	4	VAR_OUTPUT	@TYP:7
+		     
+
+;
+
+@V 1 14 0
+Enable	5	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 15 0
+NewValue	6	VAR_INPUT	@TYP:11
+		     
+
+;
+
+@V 1 16 0
+SampleSize	7	VAR_INPUT	@TYP:7
+		     
+
+;
+
+@V 1 17 0
+Trigger	8	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+Stream	9	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 23 0
+ActualSampleSize	10	VAR	@TYP:7
+		     
+
+;
+
+@V 1 24 0
+InternalSampleSize	11	VAR	@TYP:7
+		     
+
+;
+
+@V 1 25 0
+Item	12	VAR	@TYP:1029
+		     
+
+;
+
+@V 1 26 0
+New	13	VAR	@TYP:7
+		     
+
+;
+
+@V 1 27 0
+Old	14	VAR	@TYP:7
+		     
+
+;
+
+@V 1 28 0
+R_TRIG_Enable	15	VAR	@FB:35
+		     
+
+;
+
+@V 1 29 0
+R_TRIG_Trigger	16	VAR	@FB:35
+		     
+
+;
+
+@V 1 30 0
+Total	17	VAR	@TYP:11
+		     
+
+;
+
+@V 1 31 0
+x	18	VAR	@TYP:3
+		     
+
+;
+
+@V 1 32 0
+SizeError	19	VAR	@TYP:1
+		     
+
+;
+
+@V 1 33 0
+Active	20	VAR	@TYP:1
+		     
+
+;
+

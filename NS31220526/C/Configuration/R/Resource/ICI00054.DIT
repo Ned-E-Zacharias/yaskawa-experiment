@@ -1,0 +1,136 @@
+(*
+T: FUNCTION_BLOCK Enable_FB_Template
+FW: NO
+CI#: 54
+QSL: 21
+QVE: 21
+QVPC: 21
+QPar: 4
+QFBI: 6
+*)
+@V 1 6 0
+Valid	1	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 7 0
+Error	2	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 8 0
+ErrorID	3	VAR_OUTPUT	@TYP:7
+		     
+
+;
+
+@V 1 13 0
+Enable	4	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 18 0
+Active	5	VAR	@TYP:1
+		     
+
+;
+
+@V 1 19 0
+Enable_OS	6	VAR	@TYP:1
+		     
+
+;
+
+@V 1 20 0
+ErrorA	7	VAR	@TYP:1
+		     
+
+;
+
+@V 1 21 0
+ErrorAErrorID	8	VAR	@TYP:7
+		     
+
+;
+
+@V 1 22 0
+ErrorB	9	VAR	@TYP:1
+		     
+
+;
+
+@V 1 23 0
+ErrorBErrorID	10	VAR	@TYP:7
+		     
+
+;
+
+@V 1 24 0
+ErrorC	11	VAR	@TYP:1
+		     
+
+;
+
+@V 1 25 0
+ErrorCErrorID	12	VAR	@TYP:7
+		     
+
+;
+
+@V 1 26 0
+MyVar1	13	VAR	@TYP:7
+		     
+
+;
+
+@V 1 27 0
+R_TRIG_1	14	VAR	@FB:35
+		     
+
+;
+
+@V 1 28 0
+Run	15	VAR	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+MOVE_UINT_1	16	VAR	@FB:41
+		     
+
+;
+
+@V 1 30 0
+MOVE_UINT_2	17	VAR	@FB:41
+		     
+
+;
+
+@V 1 31 0
+MOVE_UINT_3	18	VAR	@FB:41
+		     
+
+;
+
+@V 1 32 0
+MOVE_UINT_4	19	VAR	@FB:41
+		     
+
+;
+
+@V 1 33 0
+MOVE_UINT_5	20	VAR	@FB:41
+		     
+
+;
+
+
+Code@@8	21	VAR	@TYP:1
+		     
+
+;
+

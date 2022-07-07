@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><group><version>3.1.0.124</version><!-- 
+    Default group settings are inherited by all groups in the system, which
+    can override any property.
+  --><defaultGroup><queueSize>16</queueSize><motionCycle> 1.0 </motionCycle><singleStep> false </singleStep></defaultGroup><!--
+    Predefined groups go here. The format is as in the following
+    example (an unlimited number of groups may be predefined).
+  --><!--
+  <predefinedGroup>
+    <name>x</name>
+    <axis>3</axis>    
+  </predefinedGroup>
+
+  <predefinedGroup>
+    <name>y</name>
+    <queueSize>128</queueSize>
+    <axis>2</axis>
+  </predefinedGroup>
+
+  <predefinedGroup>
+    <name>xy</name>
+    <axis>2</axis>
+    <axis>3</axis>
+    <atTargetChecker>
+      <inPositionChecker>
+        <mode>posSet</mode>
+      </inPositionChecker>
+    </atTargetChecker>
+  </predefinedGroup>
+
+  <predefinedGroup>
+    <name>robot</name>
+    <queueSize>128</queueSize>
+    <axis>2</axis>
+    <axis>3</axis>
+    <motionCycle>4</motionCycle>
+    <kinematicsParam>
+      <robotKinematics>
+        <name>planar</name>
+        <numOfAxis>2</numOfAxis>
+        <axisParam>
+          <linkParam>
+            <aLink>1.0</aLink>
+            <alpha>0.0</alpha>
+            <dLink>1.0</dLink>           
+          </linkParam>
+          <offset>0.0</offset>
+        </axisParam>
+        <axisParam>
+          <linkParam>
+            <aLink>2.0</aLink>
+            <alpha>0.0</alpha>
+            <dLink>2.0</dLink>           
+          </linkParam>
+          <offset>0.0</offset>
+        </axisParam>
+      </robotKinematics>
+    </kinematicsParam>
+    <singleStep>false</singleStep>
+    <softLimitJoint>
+      <type>immediate</type>
+      <softLimits>
+        <pos>
+          <symmetric>100</symmetric>
+        </pos>
+        <vel/>
+        <accel/>
+        <decel/>
+        <torque/>
+      </softLimits>
+      <softLimits>
+        <pos>
+          <symmetric>100</symmetric>
+        </pos>
+        <vel/>
+        <accel/>
+        <decel/>
+        <torque/>
+      </softLimits>
+    </softLimitJoint>
+    <softLimitWorld>
+      <type>predictive</type>
+      <softLimits>
+        <pos>
+          <symmetric>40</symmetric>
+        </pos>
+        <vel/>
+        <accel/>
+        <decel/>
+        <torque/>
+      </softLimits>
+      <softLimits>
+        <pos>
+          <symmetric>40</symmetric>
+        </pos>
+        <vel/>
+        <accel/>
+        <decel/>
+        <torque/>
+      </softLimits>
+    </softLimitWorld>
+    <atTargetChecker>
+      <inPositionChecker>
+        <mode>posSet</mode>
+        <fullStop> false </fullStop>
+        <atTorqueRange>1.0</atTorqueRange>
+      </inPositionChecker>
+    </atTargetChecker>
+  </predefinedGroup>
+  --><maxCascadedMasterSlaveDepth>2</maxCascadedMasterSlaveDepth></group>

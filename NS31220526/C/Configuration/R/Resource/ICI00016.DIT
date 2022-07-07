@@ -1,0 +1,904 @@
+(*
+T: PROGRAM Roller
+FW: NO
+CI#: 16
+QSL: 149
+QVE: 149
+QVPC: 149
+QPar: 0
+QFBI: 22
+*)
+@V 1 6 0
+Jog_Decel	1	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 7 0
+Jog_Accel	2	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 8 0
+Jog_Velocity	3	VAR RETAIN	@TYP:11
+		     
+@TYP:11# 1.00000000000000010E-001
+;
+
+@V 1 13 0
+MC_Power_Right	4	VAR	@FB:25
+		     
+
+;
+
+@V 1 14 0
+MC_Power_Left	5	VAR	@FB:25
+		     
+
+;
+
+@V 1 15 0
+MC_MoveVelocity_1	6	VAR	@FB:31
+		     
+
+;
+
+@V 1 16 0
+C002	7	VAR	@TYP:1
+		     
+
+;
+
+@V 1 17 0
+MC_Stop_1	8	VAR	@FB:24
+		     
+
+;
+
+@V 1 18 0
+MC_ReadActualPosition_Right	9	VAR	@FB:32
+		     
+
+;
+
+@V 1 19 0
+C004	10	VAR	@TYP:1
+		     
+
+;
+
+@V 1 20 0
+F_TRIG_1	11	VAR	@FB:23
+		     
+
+;
+
+@V 1 21 0
+MC_SetPosition_Right	12	VAR	@FB:28
+		     
+
+;
+
+@V 1 22 0
+MC_MoveRelative_Right	13	VAR	@FB:29
+		     
+
+;
+
+@V 1 23 0
+Move_Distance	14	VAR	@TYP:11
+		     
+
+;
+
+@V 1 24 0
+C011	15	VAR	@TYP:1
+		     
+
+;
+
+@V 1 25 0
+MoveDone_Right	16	VAR	@TYP:1
+		     
+
+;
+
+@V 1 26 0
+ExecuteMoveRight	17	VAR	@TYP:1
+		     
+
+;
+
+@V 1 27 0
+Position_Right	18	VAR	@TYP:11
+		     
+
+;
+
+@V 1 28 0
+StatusRight	19	VAR	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+StatusLeft	20	VAR	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+MC_MoveVelocity_Left	21	VAR	@FB:31
+		     
+
+;
+
+@V 1 31 0
+MC_Stop_2	22	VAR	@FB:24
+		     
+
+;
+
+@V 1 32 0
+F_TRIG_2	23	VAR	@FB:23
+		     
+
+;
+
+@V 1 33 0
+MC_ReadActualPosition_Left	24	VAR	@FB:32
+		     
+
+;
+
+@V 1 34 0
+Position_Left	25	VAR	@TYP:11
+		     
+
+;
+
+@V 1 35 0
+MC_SetPosition_left	26	VAR	@FB:28
+		     
+
+;
+
+@V 1 36 0
+MC_GearIn_1	27	VAR	@FB:26
+		     
+
+;
+
+@V 1 37 0
+MC_GearOut_1	28	VAR	@FB:27
+		     
+
+;
+
+@V 1 38 0
+AdjustmentPower	29	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+
+@V 1 39 0
+PowerOnRight	30	VAR	@TYP:1
+		     
+
+;
+
+@V 1 40 0
+PowerOnLeft	31	VAR	@TYP:1
+		     
+
+;
+
+@V 1 41 0
+powerDisableRight	32	VAR	@TYP:1
+		     
+
+;
+
+@V 1 42 0
+PowerDisableLeft	33	VAR	@TYP:1
+		     
+
+;
+
+@V 1 43 0
+AdjustmentPower_OK	34	VAR	@TYP:1
+		     
+
+;
+
+@V 1 44 0
+Synchronize	35	VAR	@TYP:1
+		     
+
+;
+
+@V 1 45 0
+Exe_Sync	36	VAR	@TYP:1
+		     
+
+;
+
+@V 1 46 0
+Exe_Unsync	37	VAR	@TYP:1
+		     
+
+;
+
+@V 1 47 0
+Synchronized	38	VAR	@TYP:1
+		     
+
+;
+
+@V 1 48 0
+C037	39	VAR	@TYP:1
+		     
+
+;
+
+@V 1 49 0
+C036	40	VAR	@TYP:1
+		     
+
+;
+
+@V 1 50 0
+Synchronized_Move	41	VAR	@TYP:1
+		     
+
+;
+
+@V 1 51 0
+L_top_sense	42	VAR	@TYP:1
+		     
+
+;
+
+@V 1 52 0
+L_Mid_sense	43	VAR	@TYP:1
+		     
+
+;
+
+@V 1 53 0
+L_Bott_sense	44	VAR	@TYP:1
+		     
+
+;
+
+@V 1 54 0
+R_Top_sense	45	VAR	@TYP:1
+		     
+
+;
+
+@V 1 55 0
+R_Mid_sense	46	VAR	@TYP:1
+		     
+
+;
+
+@V 1 56 0
+R_Bott_sense	47	VAR	@TYP:1
+		     
+
+;
+
+@V 1 61 0
+MO1_DI_04_Adj_Jog_UP	48	VAR_EXTERNAL	@TYP:1
+@RV 328		     
+
+;
+
+@V 1 62 0
+MO1_DI_05_Adj_Jog_Down	49	VAR_EXTERNAL	@TYP:1
+@RV 329		     
+
+;
+
+@V 1 63 0
+MO1_DI_06_Adj_Jog_Select	50	VAR_EXTERNAL	@TYP:1
+@RV 330		     
+
+;
+
+@V 1 68 0
+Adj_Jog_Up	51	VAR	@TYP:1
+		     
+
+;
+
+@V 1 69 0
+Adj_Jog_Down	52	VAR	@TYP:1
+		     
+
+;
+
+@V 1 70 0
+Adj_Select	53	VAR	@TYP:1
+		     
+
+;
+
+@V 1 71 0
+Adj_PendantEnable	54	VAR	@TYP:1
+		     
+
+;
+
+@V 1 72 0
+Init_Position_Right	55	VAR	@TYP:11
+		     
+@TYP:11# 0.00000000000000000E+000
+;
+
+@V 1 73 0
+Init_Position_Left	56	VAR	@TYP:11
+		     
+
+;
+
+@V 1 74 0
+DirectionRight	57	VAR	@TYP:3
+		     
+
+;
+
+@V 1 75 0
+JogCmdRight	58	VAR	@TYP:1
+		     
+
+;
+
+@V 1 76 0
+TON_1	59	VAR	@FB:21
+		     
+
+;
+
+@V 1 77 0
+DirectionLeft	60	VAR	@TYP:3
+		     
+
+;
+
+@V 1 78 0
+JogCmdLeft	61	VAR	@TYP:1
+		     
+
+;
+
+@V 1 79 0
+TON_2	62	VAR	@FB:21
+		     
+
+;
+
+@V 1 80 0
+EndTravelOK	63	VAR	@TYP:1
+		     
+
+;
+
+@V 1 81 0
+L_Top_Ignore	64	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 82 0
+L_Bott_Ignore	65	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 83 0
+R_Top_Ignore	66	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 84 0
+R_Bott_Ignore	67	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 85 0
+EnableUp	68	VAR	@TYP:1
+		     
+
+;
+
+@V 1 86 0
+EnableDown	69	VAR	@TYP:1
+		     
+
+;
+
+@V 1 87 0
+MC_MoveAbsolute_1	70	VAR	@FB:30
+		     
+
+;
+
+@V 1 88 0
+ExecuteAbsoluteMove	71	VAR	@TYP:1
+		     
+
+;
+
+@V 1 93 0
+TargetPosition	72	VAR RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 98 0
+STOP_ADJ_ROLLER	73	VAR	@TYP:1
+		     
+
+;
+
+@V 1 99 0
+C079	74	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 100 0
+RminusL	75	VAR	@TYP:11
+		     
+
+;
+
+@V 1 105 0
+Adj_Position_Right	76	VAR_EXTERNAL	@TYP:10
+@RV 1011		     
+
+;
+
+@V 1 106 0
+Adj_Position_Left	77	VAR_EXTERNAL	@TYP:10
+@RV 1012		     
+
+;
+
+@V 1 107 0
+Adj_SynchronizedREAL	78	VAR_EXTERNAL	@TYP:10
+@RV 1013		     
+
+;
+
+@V 1 112 0
+Synchronized_NOT	79	VAR	@TYP:1
+		     
+
+;
+
+@V 1 113 0
+EndTravelOK_NOT	80	VAR	@TYP:1
+		     
+
+;
+
+@V 1 118 0
+ADJ_EndTravel_OK	81	VAR_EXTERNAL	@TYP:10
+@RV 1014		     
+
+;
+
+@V 1 123 0
+UNSynchronize	82	VAR	@TYP:1
+		     
+
+;
+
+@V 1 124 0
+TP_1	83	VAR	@FB:19
+		     
+
+;
+
+@V 1 125 0
+Dummy	84	VAR	@TYP:1
+		     
+
+;
+
+@V 1 126 0
+HMI_Synchronize	85	VAR	@TYP:1
+		     
+
+;
+
+@V 1 127 0
+HMI_Move_Absolute	86	VAR	@TYP:1
+		     
+
+;
+
+@V 1 128 0
+Upper_Limit	87	VAR	@TYP:1
+		     
+
+;
+
+@V 1 129 0
+Lower_Limit	88	VAR	@TYP:1
+		     
+
+;
+
+@V 1 130 0
+Adj_UpperLimit	89	VAR	@TYP:10
+		     
+
+;
+
+@V 1 131 0
+Adj_LowerLimit	90	VAR	@TYP:10
+		     
+
+;
+
+@V 1 136 0
+Adj_Disable_protection	91	VAR_EXTERNAL	@TYP:10
+@RV 1264		     
+
+;
+
+@V 1 141 0
+Disable_Protection	92	VAR	@TYP:1
+		     
+
+;
+
+@V 1 142 0
+Protection_Disable	93	VAR	@TYP:1
+		     
+
+;
+
+@V 1 143 0
+V000	94	VAR	@TYP:3
+		     
+
+;
+
+@V 1 144 0
+V001	95	VAR	@TYP:3
+		     
+@TYP:3# 00#0002
+;
+
+@V 1 145 0
+CTU_3	96	VAR	@FB:15
+		     
+
+;
+
+@V 1 146 0
+Reset_CTU_3	97	VAR	@TYP:1
+		     
+
+;
+
+@V 1 147 0
+V002	98	VAR	@TYP:7
+		     
+
+;
+
+@V 1 148 0
+V003	99	VAR	@TYP:7
+		     
+
+;
+
+@V 1 149 0
+V004	100	VAR	@TYP:7
+		     
+
+;
+
+@V 1 150 0
+V005	101	VAR	@TYP:7
+		     
+
+;
+
+@V 1 151 0
+V006	102	VAR	@TYP:7
+		     
+
+;
+
+@V 1 152 0
+V007	103	VAR	@TYP:7
+		     
+
+;
+
+@V 1 153 0
+V008	104	VAR	@TYP:7
+		     
+
+;
+
+@V 1 154 0
+V009	105	VAR	@TYP:7
+		     
+
+;
+
+@V 1 155 0
+V010	106	VAR	@TYP:7
+		     
+
+;
+
+@V 1 156 0
+V011	107	VAR	@TYP:7
+		     
+
+;
+
+@V 1 157 0
+TON_3	108	VAR	@FB:21
+		     
+
+;
+
+@V 1 158 0
+TimedReset	109	VAR	@TYP:1
+		     
+
+;
+
+@V 1 163 0
+Adj_Jog_Fwd_Pendant	110	VAR_EXTERNAL	@TYP:10
+@RV 1265		     
+
+;
+
+@V 1 164 0
+Adj_Jog_Rev_Pendant	111	VAR_EXTERNAL	@TYP:10
+@RV 1266		     
+
+;
+
+@V 1 169 0
+Jog_Fwd_Pendant	112	VAR	@TYP:1
+		     
+
+;
+
+@V 1 170 0
+Jog_Rev_Pendant	113	VAR	@TYP:1
+		     
+
+;
+
+@V 1 171 0
+C099	114	VAR	@TYP:1
+		     
+
+;
+
+@V 1 176 0
+Adj_UnsynchronizeREAL	115	VAR_EXTERNAL	@TYP:10
+@RV 1268		     
+
+;
+
+@V 1 177 0
+Adj_ExecuteOffsetREAL	116	VAR_EXTERNAL	@TYP:10
+@RV 1269		     
+
+;
+
+@V 1 182 0
+Adj_Offset_Unsync	117	VAR	@TYP:1
+		     
+
+;
+
+@V 1 183 0
+Adj_Offset_Execute	118	VAR	@TYP:1
+		     
+
+;
+
+@V 1 184 0
+MasterPosition	119	VAR	@TYP:11
+		     
+
+;
+
+@V 1 185 0
+OffsetLREAL	120	VAR	@TYP:11
+		     
+
+;
+
+@V 1 186 0
+SlavePosition	121	VAR	@TYP:11
+		     
+
+;
+
+@V 1 187 0
+MC_MoveAbsolute_2	122	VAR	@FB:30
+		     
+
+;
+
+@V 1 188 0
+errorPLUS	123	VAR	@TYP:1
+		     
+
+;
+
+@V 1 189 0
+errorMINUS	124	VAR	@TYP:1
+		     
+
+;
+
+@V 1 190 0
+OffsetTooLarge	125	VAR	@TYP:1
+		     
+
+;
+
+@V 1 191 0
+C105	126	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 196 0
+Adj_Offset_Too_Large	127	VAR_EXTERNAL	@TYP:10
+@RV 1016		     
+
+;
+
+@V 1 197 0
+Adj_Offset_Entered	128	VAR_EXTERNAL	@TYP:10
+@RV 1267		     
+
+;
+
+@V 1 198 0
+gAdj_Offset_Out	129	VAR_EXTERNAL	@TYP:10
+@RV 1017		     
+
+;
+
+@V 1 203 0
+C110	130	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 204 0
+StatusBoth	131	VAR	@TYP:1
+		     
+
+;
+
+@V 1 205 0
+C123	132	VAR	@TYP:1
+		     
+
+;
+
+@V 1 206 0
+C125	133	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 207 0
+C126	134	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 208 0
+C124	135	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 213 0
+gAdj_SynchronizeREAL	136	VAR_EXTERNAL	@TYP:10
+@RV 1262		     
+
+;
+
+@V 1 214 0
+gAdj_Execute_Abs_MoveREAL	137	VAR_EXTERNAL	@TYP:10
+@RV 1263		     
+
+;
+
+@V 1 215 0
+gAdj_R_Bott	138	VAR_EXTERNAL	@TYP:10
+@RV 1258		     
+
+;
+
+@V 1 216 0
+AXIS1	139	VAR_EXTERNAL	@TYP:1038
+@RV 1304		     
+
+;
+
+@V 1 217 0
+AXIS2	140	VAR_EXTERNAL	@TYP:1038
+@RV 1325		     
+
+;
+
+@V 1 218 0
+gAdj_Target_Position	141	VAR_EXTERNAL	@TYP:10
+@RV 1261		     
+
+;
+
+@V 1 219 0
+gAdj_L_Bott	142	VAR_EXTERNAL	@TYP:10
+@RV 1260		     
+
+;
+
+@V 1 220 0
+gAdj_L_Top	143	VAR_EXTERNAL	@TYP:10
+@RV 1259		     
+
+;
+
+@V 1 221 0
+gAdj_R_Top	144	VAR_EXTERNAL	@TYP:10
+@RV 1257		     
+
+;
+
+@V 1 222 0
+Adj_Prot_Disabled	145	VAR_EXTERNAL	@TYP:10
+@RV 1015		     
+
+;
+
+@V 1 223 0
+WW_Drives_Enable_PB	146	VAR_EXTERNAL	@TYP:10
+@RV 1032		     
+
+;
+
+@V 1 228 0
+Drives_Enable_Roller	147	VAR	@TYP:1
+		     
+
+;
+
+
+Roller@@856	148	VAR	@TYP:1
+		     
+
+;
+
+
+Roller@@860	149	VAR	@TYP:1
+		     
+
+;
+

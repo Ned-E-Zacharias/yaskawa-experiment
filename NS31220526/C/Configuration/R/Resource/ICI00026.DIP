@@ -1,0 +1,25 @@
+(*
+T: FUNCTION_BLOCK MC_GearIn
+FW: NO
+CI#: 26
+QSL: 15
+QVE: 15
+QVPC: 15
+QPar: 15
+QFBI: 0
+*)
+Acceleration	@IV 6	@TYP:11	VAR_INPUT
+Active	@IV 12	@TYP:1	VAR_OUTPUT
+BufferMode	@IV 9	@TYP:3	VAR_INPUT
+Busy	@IV 11	@TYP:1	VAR_OUTPUT
+CommandAborted	@IV 13	@TYP:1	VAR_OUTPUT
+Deceleration	@IV 7	@TYP:11	VAR_INPUT
+Error	@IV 14	@TYP:1	VAR_OUTPUT
+ErrorID	@IV 15	@TYP:7	VAR_OUTPUT
+Execute	@IV 3	@TYP:1	VAR_INPUT
+InGear	@IV 10	@TYP:1	VAR_OUTPUT
+Jerk	@IV 8	@TYP:11	VAR_INPUT
+Master	@IV 1	@TYP:24	VAR_IN_OUT
+RatioDenominator	@IV 5	@TYP:4	VAR_INPUT
+RatioNumerator	@IV 4	@TYP:4	VAR_INPUT
+Slave	@IV 2	@TYP:24	VAR_IN_OUT

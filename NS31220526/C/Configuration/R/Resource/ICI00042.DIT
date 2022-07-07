@@ -1,0 +1,88 @@
+(*
+T: FUNCTION_BLOCK AxisStatus
+FW: NO
+CI#: 42
+QSL: 13
+QVE: 13
+QVPC: 13
+QPar: 11
+QFBI: 1
+*)
+@V 1 6 0
+MC_ReadAxisError_1	1	VAR	@FB:47
+		     
+
+;
+
+@V 1 11 0
+Axis	2	VAR_IN_OUT	@TYP:1038
+		     
+
+;
+
+@V 1 16 0
+Enable	3	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 21 0
+Valid	4	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 22 0
+Error	5	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 23 0
+ErrorID	6	VAR_OUTPUT	@TYP:7
+		     
+
+;
+
+@V 1 24 0
+DriveWarning	7	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 25 0
+DriveAlarm	8	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 26 0
+ControlAlarm	9	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 27 0
+DriveWarningID	10	VAR_OUTPUT	@TYP:7
+		     
+
+;
+
+@V 1 28 0
+DriveAlarmID	11	VAR_OUTPUT	@TYP:7
+		     
+
+;
+
+@V 1 29 0
+ControlAlarmID	12	VAR_OUTPUT	@TYP:8
+		     
+
+;
+
+@V 2 19 0
+@T_Code_00	13	VAR	@TYP:3
+		     
+
+;
+

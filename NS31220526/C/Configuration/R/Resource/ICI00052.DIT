@@ -1,0 +1,34 @@
+(*
+T: FUNCTION DiameterCalc
+FW: NO
+CI#: 52
+QSL: 4
+QVE: 4
+QVPC: 4
+QPar: 4
+QFBI: 0
+*)
+@V 1 6 0
+WinderDist	1	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 7 0
+StartingWinderDist	2	VAR_INPUT	@TYP:10
+		     
+
+;
+
+@V 1 8 0
+RepeatDist	3	VAR_INPUT	@TYP:10
+		     
+
+;
+
+
+diameterCalc	4	VAR_OUTPUT	@TYP:10
+		     
+
+;
+

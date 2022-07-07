@@ -1,0 +1,172 @@
+(*
+T: PROGRAM dummy03
+FW: NO
+CI#: 13
+QSL: 27
+QVE: 27
+QVPC: 27
+QPar: 0
+QFBI: 2
+*)
+@V 1 6 0
+V000	1	VAR RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 11 0
+C000	2	VAR	@TYP:1
+		     
+
+;
+
+@V 1 12 0
+C001	3	VAR	@TYP:1
+		     
+
+;
+
+@V 1 13 0
+CTU_1	4	VAR	@FB:15
+		     
+
+;
+
+@V 1 14 0
+CTU_2	5	VAR	@FB:15
+		     
+
+;
+
+@V 1 15 0
+V001	6	VAR	@TYP:18
+		     
+
+;
+
+@V 1 20 0
+bustestZ	7	VAR_EXTERNAL	@TYP:4
+@RV 692		     
+
+;
+
+@V 1 22 0
+Main_SMC_Ready	8	VAR_EXTERNAL	@TYP:1
+@RV 399		     
+
+;
+
+@V 1 27 0
+C002	9	VAR	@TYP:1
+		     
+
+;
+
+@V 1 28 0
+C004	10	VAR	@TYP:1
+		     
+
+;
+
+@V 1 33 0
+SOL_Hole_Punch_1	11	VAR_EXTERNAL	@TYP:1
+@RV 828		     
+
+;
+
+@V 1 38 0
+C005	12	VAR	@TYP:1
+		     
+
+;
+
+@V 1 39 0
+C006	13	VAR	@TYP:1
+		     
+
+;
+
+@V 1 40 0
+C008	14	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 45 0
+PX215004	15	VAR_EXTERNAL	@TYP:1
+@RV 1637		     
+
+;
+
+@V 1 50 0
+C011	16	VAR	@TYP:1
+		     
+
+;
+
+@V 1 55 0
+testCounter	17	VAR_EXTERNAL	@TYP:4
+@RV 1671		     
+
+;
+
+@V 1 56 0
+testNumber	18	VAR_EXTERNAL	@TYP:4
+@RV 1672		     
+
+;
+
+@V 1 61 0
+V002	19	VAR RETAIN	@TYP:4
+		     
+@TYP:4# 00#0000002a
+;
+
+@V 1 66 0
+EIPStatus_01	20	VAR_EXTERNAL	@TYP:18
+@RV 1653		     
+
+;
+
+@V 1 71 0
+V003	21	VAR	@TYP:4
+		     
+
+;
+
+@V 1 76 0
+V004	22	VAR RETAIN	@TYP:4
+		     
+@TYP:4# 00#00001092
+;
+
+@V 1 81 0
+TestNumberA	23	VAR_EXTERNAL	@TYP:4
+@RV 1685		     
+
+;
+
+@V 1 86 0
+V005	24	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+
+@V 1 87 0
+C008a	25	VAR	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 88 0
+C008b	26	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+
+@V 1 89 0
+C008c	27	VAR	@TYP:1
+		     
+@TYP:1# 1
+;
+

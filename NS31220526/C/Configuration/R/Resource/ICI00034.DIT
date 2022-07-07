@@ -1,0 +1,82 @@
+(*
+T: FUNCTION_BLOCK Blink
+FW: NO
+CI#: 34
+QSL: 12
+QVE: 12
+QVPC: 12
+QPar: 3
+QFBI: 5
+*)
+@V 1 6 0
+Output	1	VAR_OUTPUT	@TYP:1
+		     
+
+;
+
+@V 1 11 0
+Enable	2	VAR_INPUT	@TYP:1
+		     
+
+;
+
+@V 1 12 0
+Frequency	3	VAR_INPUT	@TYP:12
+		     
+
+;
+
+@V 1 17 0
+TP_1	4	VAR	@FB:19
+		     
+
+;
+
+@V 1 18 0
+ON	5	VAR	@TYP:1
+		     
+
+;
+
+@V 1 19 0
+OFF	6	VAR	@TYP:1
+		     
+
+;
+
+@V 1 20 0
+F_TRIG_1	7	VAR	@FB:23
+		     
+
+;
+
+@V 1 21 0
+High	8	VAR	@TYP:1
+		     
+
+;
+
+@V 1 22 0
+F_TRIG_2	9	VAR	@FB:23
+		     
+
+;
+
+@V 1 23 0
+R_TRIG_4	10	VAR	@FB:35
+		     
+
+;
+
+@V 1 24 0
+TP_2	11	VAR	@FB:19
+		     
+
+;
+
+@V 1 25 0
+Start	12	VAR	@TYP:1
+		     
+
+;
+

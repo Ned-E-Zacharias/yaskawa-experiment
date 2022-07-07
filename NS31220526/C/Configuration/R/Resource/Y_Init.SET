@@ -1,0 +1,4 @@
+TASK Y_Init
+(TYPE := SYSTEM,
+SPG := 0
+);

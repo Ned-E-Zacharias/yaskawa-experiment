@@ -1,0 +1,1509 @@
+377
+82
+0 0 376 0
+@V2 2 RESOURCE Resource 0 0 0
+	
+86
+376 1 0 0
+@V2 10 @ Global_Variables 0 0 0
+F C\Configuration\R\Resource\Global_Variables.vb
+12
+348 1 27 0
+@V2 12 @ FUNCTIONS 0 0 0
+	
+78
+349 2 0 0
+@V2 6 UINT_TO_LREAL UINT_TO_LREAL 0 61 0
+	
+78
+350 2 0 0
+@V2 6 OR OR 0 60 0
+	
+78
+351 2 0 0
+@V2 6 MIN MIN 0 59 0
+	
+78
+352 2 0 0
+@V2 6 DIV DIV 0 58 0
+	
+78
+353 2 0 0
+@V2 6 ABS ABS 0 57 0
+	
+78
+354 2 0 0
+@V2 6 GE GE 0 56 0
+	
+78
+355 2 0 0
+@V2 6 DiameterCalc DiameterCalc 0 52 0
+	
+78
+356 2 0 0
+@V2 6 LIMIT LIMIT 0 50 0
+	
+78
+357 2 0 0
+@V2 6 LE LE 0 49 0
+	
+78
+358 2 0 0
+@V2 6 UINT_TO_UDINT UINT_TO_UDINT 0 46 0
+	
+78
+359 2 0 0
+@V2 6 UINT_TO_INT UINT_TO_INT 0 45 0
+	
+78
+360 2 0 0
+@V2 6 NE NE 0 44 0
+	
+78
+361 2 0 0
+@V2 6 NOT NOT 0 43 0
+	
+78
+362 2 0 0
+@V2 6 DIV_T_AI DIV_T_AI 0 36 0
+	
+78
+363 2 0 0
+@V2 6 MOVE MOVE 0 22 0
+	
+78
+364 2 0 0
+@V2 6 SUB SUB 0 20 0
+	
+78
+365 2 0 0
+@V2 6 LT LT 0 18 0
+	
+78
+366 2 0 0
+@V2 6 GT GT 0 17 0
+	
+78
+367 2 0 0
+@V2 6 ADD ADD 0 14 0
+	
+78
+368 2 0 0
+@V2 6 DWORD_TO_DINT DWORD_TO_DINT 0 11 0
+	
+78
+369 2 0 0
+@V2 6 REAL_TO_LREAL REAL_TO_LREAL 0 10 0
+	
+78
+370 2 0 0
+@V2 6 LREAL_TO_REAL LREAL_TO_REAL 0 9 0
+	
+78
+371 2 0 0
+@V2 6 REAL_TO_BOOL REAL_TO_BOOL 0 8 0
+	
+78
+372 2 0 0
+@V2 6 BOOL_TO_REAL BOOL_TO_REAL 0 7 0
+	
+78
+373 2 0 0
+@V2 6 MUL MUL 0 6 0
+	
+78
+374 2 0 0
+@V2 6 EQ EQ 0 5 0
+	
+78
+375 2 0 0
+@V2 6 AND AND 0 1 0
+	
+84
+1 1 1 0
+@V2 3 @ Y_Init 0 0 0
+F 
+80
+2 2 0 0
+@V2 4 Initialize Initialize 1 2 0
+	
+84
+3 1 1 0
+@V2 3 @ X_Init 0 0 0
+F 
+80
+4 2 0 0
+@V2 4 Initialize ColdInitialize 2 2 0
+	
+84
+5 1 3 0
+@V2 3 @ IOTask 0 0 0
+F 
+80
+6 2 0 0
+@V2 4 EthernetIP EthernetIP 3 3 0
+	
+80
+7 2 0 0
+@V2 4 Modbus Modbus 4 4 0
+	
+80
+8 2 0 0
+@V2 4 IOTask IO 5 12 0
+	
+84
+9 1 26 0
+@V2 3 @ Control 0 0 0
+F 
+80
+10 2 2 0
+@V2 4 dummy03 Dummy03 6 13 0
+	
+70
+11 3 0 0
+@V2 5 CTU CTU_1 7 15 4
+	
+70
+12 3 0 0
+@V2 5 CTU CTU_2 8 15 5
+	
+80
+13 2 22 0
+@V2 4 Roller Roller 9 16 0
+	
+70
+14 3 0 0
+@V2 5 MC_Power MC_Power_Right 10 25 4
+	
+70
+15 3 0 0
+@V2 5 MC_Power MC_Power_Left 11 25 5
+	
+70
+16 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_1 12 31 6
+	
+70
+17 3 0 0
+@V2 5 MC_Stop MC_Stop_1 13 24 8
+	
+70
+18 3 0 0
+@V2 5 MC_ReadActualPosition MC_ReadActualPosition_Right 14 32 9
+	
+70
+19 3 0 0
+@V2 5 F_TRIG F_TRIG_1 15 23 11
+	
+70
+20 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_Right 16 28 12
+	
+70
+21 3 0 0
+@V2 5 MC_MoveRelative MC_MoveRelative_Right 17 29 13
+	
+70
+22 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_Left 18 31 21
+	
+70
+23 3 0 0
+@V2 5 MC_Stop MC_Stop_2 19 24 22
+	
+70
+24 3 0 0
+@V2 5 F_TRIG F_TRIG_2 20 23 23
+	
+70
+25 3 0 0
+@V2 5 MC_ReadActualPosition MC_ReadActualPosition_Left 21 32 24
+	
+70
+26 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_left 22 28 26
+	
+70
+27 3 0 0
+@V2 5 MC_GearIn MC_GearIn_1 23 26 27
+	
+70
+28 3 0 0
+@V2 5 MC_GearOut MC_GearOut_1 24 27 28
+	
+70
+29 3 0 0
+@V2 5 TON TON_1 25 21 59
+	
+70
+30 3 0 0
+@V2 5 TON TON_2 26 21 62
+	
+70
+31 3 0 0
+@V2 5 MC_MoveAbsolute MC_MoveAbsolute_1 27 30 70
+	
+70
+32 3 0 0
+@V2 5 TP TP_1 28 19 83
+	
+70
+33 3 0 0
+@V2 5 CTU CTU_3 29 15 96
+	
+70
+34 3 0 0
+@V2 5 TON TON_3 30 21 108
+	
+70
+35 3 0 0
+@V2 5 MC_MoveAbsolute MC_MoveAbsolute_2 31 30 122
+	
+84
+36 1 311 0
+@V2 3 @ A_Task 0 0 0
+F 
+80
+37 2 29 0
+@V2 4 HolePunching HolePunching 32 33 0
+	
+70
+38 3 0 0
+@V2 5 TP TP_1 33 19 2
+	
+70
+39 3 0 0
+@V2 5 TP TP_2 34 19 4
+	
+70
+40 3 5 0
+@V2 5 Blink Blink_When_Loader_Mode 35 34 10
+	
+70
+57 4 0 0
+@V2 5 TP TP_1 52 19 4
+	
+70
+58 4 0 0
+@V2 5 F_TRIG F_TRIG_1 53 23 7
+	
+70
+59 4 0 0
+@V2 5 F_TRIG F_TRIG_2 54 23 9
+	
+70
+60 4 0 0
+@V2 5 R_TRIG R_TRIG_4 55 35 10
+	
+70
+61 4 0 0
+@V2 5 TP TP_2 56 19 11
+	
+70
+41 3 0 0
+@V2 5 CTU Lost_Main_SMC_Count 36 15 17
+	
+70
+42 3 0 0
+@V2 5 CTU Found_Main_SMC_CNTR 37 15 19
+	
+70
+43 3 0 0
+@V2 5 CTU Lost_Seal_Data_Cntr 38 15 29
+	
+70
+44 3 0 0
+@V2 5 CTU Lost_Cut_Data_Cntr 39 15 30
+	
+70
+45 3 0 0
+@V2 5 CTU Found_Cut_Data_Cntr 40 15 31
+	
+70
+46 3 0 0
+@V2 5 CTU Found_Seal_Data_Cntr 41 15 32
+	
+70
+47 3 0 0
+@V2 5 CTU Lost_Banner_Enet_Ready_CNTR 42 15 34
+	
+70
+48 3 0 0
+@V2 5 CTU Found_Banner_Enet_Ready_Cntr 43 15 36
+	
+70
+49 3 5 0
+@V2 5 Blink Blink_When_Low_Roll_Warn 44 34 43
+	
+70
+62 4 0 0
+@V2 5 TP TP_1 57 19 4
+	
+70
+63 4 0 0
+@V2 5 F_TRIG F_TRIG_1 58 23 7
+	
+70
+64 4 0 0
+@V2 5 F_TRIG F_TRIG_2 59 23 9
+	
+70
+65 4 0 0
+@V2 5 R_TRIG R_TRIG_4 60 35 10
+	
+70
+66 4 0 0
+@V2 5 TP TP_2 61 19 11
+	
+70
+50 3 0 0
+@V2 5 TON TON_1 45 21 44
+	
+70
+51 3 0 0
+@V2 5 TP TP_Hole_Vacuum_Pulse 46 19 52
+	
+70
+52 3 0 0
+@V2 5 TP TP_3 47 19 58
+	
+70
+53 3 0 0
+@V2 5 TP TP_4 48 19 59
+	
+70
+54 3 0 0
+@V2 5 TP TP_Hole_Vacuum_Pulse_4UP 49 19 60
+	
+70
+55 3 0 0
+@V2 5 TON TON_2 50 21 89
+	
+70
+56 3 0 0
+@V2 5 TON TON_3 51 21 90
+	
+80
+67 2 48 0
+@V2 4 TackSeal1 TackSeal1 62 37 0
+	
+70
+68 3 0 0
+@V2 5 R_TRIG R_TRIG_1 63 35 1
+	
+70
+69 3 9 0
+@V2 5 AxisControl AxisControl_SD212354 64 38 2
+	
+70
+93 4 1 0
+@V2 5 AxisStatus AxisStatus_2 88 42 14
+	
+70
+101 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 96 47 1
+	
+70
+94 4 0 0
+@V2 5 MC_Power MC_Power_1 89 25 19
+	
+70
+95 4 0 0
+@V2 5 MC_Reset MC_Reset_2 90 40 20
+	
+70
+96 4 0 0
+@V2 5 R_TRIG R_TRIG_1 91 35 23
+	
+70
+97 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 92 41 28
+	
+70
+98 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 93 41 29
+	
+70
+99 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 94 41 30
+	
+70
+100 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 95 41 31
+	
+70
+70 3 9 0
+@V2 5 AxisControl AxisControl_SD212454 65 38 3
+	
+70
+102 4 1 0
+@V2 5 AxisStatus AxisStatus_2 97 42 14
+	
+70
+110 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 105 47 1
+	
+70
+103 4 0 0
+@V2 5 MC_Power MC_Power_1 98 25 19
+	
+70
+104 4 0 0
+@V2 5 MC_Reset MC_Reset_2 99 40 20
+	
+70
+105 4 0 0
+@V2 5 R_TRIG R_TRIG_1 100 35 23
+	
+70
+106 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 101 41 28
+	
+70
+107 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 102 41 29
+	
+70
+108 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 103 41 30
+	
+70
+109 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 104 41 31
+	
+70
+71 3 0 0
+@V2 5 MC_ReadActualPosition SD212354_ReadPos 66 32 7
+	
+70
+72 3 0 0
+@V2 5 MC_ReadActualPosition SD212454_ReadPos 67 32 8
+	
+70
+73 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_SD212354 68 28 9
+	
+70
+74 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_SD212454 69 28 10
+	
+70
+75 3 0 0
+@V2 5 MC_MoveAbsolute TS_Move_X 70 30 11
+	
+70
+76 3 0 0
+@V2 5 MC_MoveAbsolute TS_Move_Y 71 30 12
+	
+70
+77 3 0 0
+@V2 5 R_TRIG R_TRIG_8 72 35 49
+	
+70
+78 3 0 0
+@V2 5 R_TRIG TS1_X_Dec_TRIG 73 35 69
+	
+70
+79 3 0 0
+@V2 5 R_TRIG TS1_X_Inc_TRIG 74 35 70
+	
+70
+80 3 0 0
+@V2 5 R_TRIG TS1_Y_Dec_TRIG 75 35 71
+	
+70
+81 3 0 0
+@V2 5 R_TRIG TS1_Y_Inc_TRIG 76 35 72
+	
+70
+82 3 0 0
+@V2 5 R_TRIG TS2_X_Dec_TRIG 77 35 73
+	
+70
+83 3 0 0
+@V2 5 R_TRIG TS2_X_Inc_TRIG 78 35 74
+	
+70
+84 3 0 0
+@V2 5 R_TRIG TS2_Y_Dec_TRIG 79 35 75
+	
+70
+85 3 0 0
+@V2 5 R_TRIG TS2_Y_Inc_TRIG 80 35 76
+	
+70
+86 3 0 0
+@V2 5 F_TRIG F_TRIG_SD212354_Enable 81 23 92
+	
+70
+87 3 0 0
+@V2 5 MC_Stop MC_Stop_SD212354 82 24 93
+	
+70
+88 3 0 0
+@V2 5 F_TRIG F_TRIG_SD212454_Enable 83 23 94
+	
+70
+89 3 0 0
+@V2 5 MC_Stop MC_Stop_SD212454 84 24 95
+	
+70
+90 3 5 0
+@V2 5 Blink Blink_Bump_Repeat 85 34 96
+	
+70
+111 4 0 0
+@V2 5 TP TP_1 106 19 4
+	
+70
+112 4 0 0
+@V2 5 F_TRIG F_TRIG_1 107 23 7
+	
+70
+113 4 0 0
+@V2 5 F_TRIG F_TRIG_2 108 23 9
+	
+70
+114 4 0 0
+@V2 5 R_TRIG R_TRIG_4 109 35 10
+	
+70
+115 4 0 0
+@V2 5 TP TP_2 110 19 11
+	
+70
+91 3 0 0
+@V2 5 TON TON_Bump_Repeat_Delay 86 21 97
+	
+70
+92 3 0 0
+@V2 5 MC_ReadStatus MC_ReadStatus_1 87 39 110
+	
+80
+116 2 98 0
+@V2 4 UnwindControl UnwindControl 111 48 0
+	
+70
+117 3 9 0
+@V2 5 AxisControl AxisControl_TopUW 112 38 1
+	
+70
+159 4 1 0
+@V2 5 AxisStatus AxisStatus_2 154 42 14
+	
+70
+167 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 162 47 1
+	
+70
+160 4 0 0
+@V2 5 MC_Power MC_Power_1 155 25 19
+	
+70
+161 4 0 0
+@V2 5 MC_Reset MC_Reset_2 156 40 20
+	
+70
+162 4 0 0
+@V2 5 R_TRIG R_TRIG_1 157 35 23
+	
+70
+163 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 158 41 28
+	
+70
+164 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 159 41 29
+	
+70
+165 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 160 41 30
+	
+70
+166 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 161 41 31
+	
+70
+118 3 9 0
+@V2 5 AxisControl AxisControl_BottomUW 113 38 2
+	
+70
+168 4 1 0
+@V2 5 AxisStatus AxisStatus_2 163 42 14
+	
+70
+176 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 171 47 1
+	
+70
+169 4 0 0
+@V2 5 MC_Power MC_Power_1 164 25 19
+	
+70
+170 4 0 0
+@V2 5 MC_Reset MC_Reset_2 165 40 20
+	
+70
+171 4 0 0
+@V2 5 R_TRIG R_TRIG_1 166 35 23
+	
+70
+172 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 167 41 28
+	
+70
+173 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 168 41 29
+	
+70
+174 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 169 41 30
+	
+70
+175 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 170 41 31
+	
+70
+119 3 2 0
+@V2 5 WinderPID WinderPID_Top 114 51 31
+	
+70
+177 4 0 0
+@V2 5 R_TRIG R_TRIG_RstInt 172 35 16
+	
+70
+178 4 0 0
+@V2 5 TON TON_Update 173 21 17
+	
+70
+120 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_Top 115 31 32
+	
+70
+121 3 6 0
+@V2 5 Enable_FB_Template Enable_FB_Template_1 116 54 33
+	
+70
+179 4 0 0
+@V2 5 R_TRIG R_TRIG_1 174 35 14
+	
+70
+180 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 175 41 16
+	
+70
+181 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 176 41 17
+	
+70
+182 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 177 41 18
+	
+70
+183 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 178 41 19
+	
+70
+184 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_5 179 41 20
+	
+70
+122 3 6 0
+@V2 5 Enable_FB_Template Enable_WinderPID_Top 117 54 34
+	
+70
+185 4 0 0
+@V2 5 R_TRIG R_TRIG_1 180 35 14
+	
+70
+186 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 181 41 16
+	
+70
+187 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 182 41 17
+	
+70
+188 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 183 41 18
+	
+70
+189 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 184 41 19
+	
+70
+190 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_5 185 41 20
+	
+70
+123 3 2 0
+@V2 5 WinderPID WinderPID_Bottom 118 51 37
+	
+70
+191 4 0 0
+@V2 5 R_TRIG R_TRIG_RstInt 186 35 16
+	
+70
+192 4 0 0
+@V2 5 TON TON_Update 187 21 17
+	
+70
+124 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_Bottom 119 31 38
+	
+70
+125 3 6 0
+@V2 5 Enable_FB_Template Enable_FB_Template_2 120 54 39
+	
+70
+193 4 0 0
+@V2 5 R_TRIG R_TRIG_1 188 35 14
+	
+70
+194 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 189 41 16
+	
+70
+195 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 190 41 17
+	
+70
+196 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 191 41 18
+	
+70
+197 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 192 41 19
+	
+70
+198 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_5 193 41 20
+	
+70
+126 3 6 0
+@V2 5 Enable_FB_Template Enable_FB_Bottom 121 54 40
+	
+70
+199 4 0 0
+@V2 5 R_TRIG R_TRIG_1 194 35 14
+	
+70
+200 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 195 41 16
+	
+70
+201 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 196 41 17
+	
+70
+202 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 197 41 18
+	
+70
+203 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 198 41 19
+	
+70
+204 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_5 199 41 20
+	
+70
+127 3 6 0
+@V2 5 Enable_FB_Template Enable_WinderPID_Bottom 122 54 41
+	
+70
+205 4 0 0
+@V2 5 R_TRIG R_TRIG_1 200 35 14
+	
+70
+206 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 201 41 16
+	
+70
+207 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 202 41 17
+	
+70
+208 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 203 41 18
+	
+70
+209 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 204 41 19
+	
+70
+210 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_5 205 41 20
+	
+70
+128 3 0 0
+@V2 5 MC_ReadActualVelocity MC_ReadActualVelocity_Top 123 55 46
+	
+70
+129 3 0 0
+@V2 5 MC_ReadActualVelocity MC_ReadActualVelocity_Bot 124 55 49
+	
+70
+130 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_TopRaiseDancer 125 31 52
+	
+70
+131 3 0 0
+@V2 5 R_TRIG R_TRIG_EnableTop 126 35 53
+	
+70
+132 3 0 0
+@V2 5 R_TRIG R_TRIG_EnableBottom 127 35 56
+	
+70
+133 3 0 0
+@V2 5 R_TRIG R_TRIG_DisableTop 128 35 60
+	
+70
+134 3 0 0
+@V2 5 R_TRIG R_TRIG_DisableBottom 129 35 61
+	
+70
+135 3 0 0
+@V2 5 R_TRIG R_TRIG_LoadMode 130 35 62
+	
+70
+136 3 0 0
+@V2 5 MC_Stop MC_Stop_TopHigh 131 24 63
+	
+70
+137 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_TopLowerDancer 132 31 64
+	
+70
+138 3 0 0
+@V2 5 MC_Stop MC_Stop_TopLow 133 24 65
+	
+70
+139 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_BtmRaiseDanc_1 134 31 67
+	
+70
+140 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_BtmLowerDanc_1 135 31 68
+	
+70
+141 3 0 0
+@V2 5 MC_Stop MC_Stop_BottomLow_1 136 24 69
+	
+70
+142 3 0 0
+@V2 5 MC_Stop MC_Stop_BotHigh 137 24 70
+	
+70
+143 3 0 0
+@V2 5 MC_ReadActualPosition MC_ReadActualPosition_Top 138 32 77
+	
+70
+144 3 0 0
+@V2 5 MC_ReadActualPosition MC_ReadActualPosition_Bottom 139 32 78
+	
+70
+145 3 0 0
+@V2 5 R_TRIG R_TRIG_FilmStartTop 140 35 80
+	
+70
+146 3 0 0
+@V2 5 R_TRIG R_TRIG_FilmStopTop 141 35 81
+	
+70
+147 3 2 0
+@V2 5 MovingAverage MovingAverage_1 142 53 82
+	
+70
+211 4 0 0
+@V2 5 R_TRIG R_TRIG_Enable 206 35 15
+	
+70
+212 4 0 0
+@V2 5 R_TRIG R_TRIG_Trigger 207 35 16
+	
+70
+148 3 2 0
+@V2 5 MovingAverage MovingAverage_2 143 53 83
+	
+70
+213 4 0 0
+@V2 5 R_TRIG R_TRIG_Enable 208 35 15
+	
+70
+214 4 0 0
+@V2 5 R_TRIG R_TRIG_Trigger 209 35 16
+	
+70
+149 3 0 0
+@V2 5 R_TRIG R_TRIG_TopEnableLatch 144 35 85
+	
+70
+150 3 0 0
+@V2 5 R_TRIG R_TRIG_FilmStopBottom_1 145 35 89
+	
+70
+151 3 0 0
+@V2 5 R_TRIG R_TRIG_FilmStartBottom_1 146 35 90
+	
+70
+152 3 0 0
+@V2 5 R_TRIG R_TRIG_BotEnableLatch 147 35 96
+	
+70
+153 3 0 0
+@V2 5 MC_MoveVelocity MC_MoveVelocity_Test_Top 148 31 99
+	
+70
+154 3 0 0
+@V2 5 MC_Stop MC_Stop_1_Test_Top 149 24 104
+	
+70
+155 3 0 0
+@V2 5 R_TRIG R_TRIG_1 150 35 105
+	
+70
+156 3 0 0
+@V2 5 F_TRIG F_TRIG_1 151 23 106
+	
+70
+157 3 0 0
+@V2 5 MC_ReadActualPosition MC_ReadActualPosition_1 152 32 110
+	
+70
+158 3 0 0
+@V2 5 MC_Power MC_Power_1 153 25 113
+	
+80
+215 2 74 0
+@V2 4 ValvePlacer1 ValvePlacer1 210 62 0
+	
+70
+216 3 9 0
+@V2 5 AxisControl AxisControl_SD212304 211 38 2
+	
+70
+258 4 1 0
+@V2 5 AxisStatus AxisStatus_2 253 42 14
+	
+70
+266 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 261 47 1
+	
+70
+259 4 0 0
+@V2 5 MC_Power MC_Power_1 254 25 19
+	
+70
+260 4 0 0
+@V2 5 MC_Reset MC_Reset_2 255 40 20
+	
+70
+261 4 0 0
+@V2 5 R_TRIG R_TRIG_1 256 35 23
+	
+70
+262 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 257 41 28
+	
+70
+263 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 258 41 29
+	
+70
+264 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 259 41 30
+	
+70
+265 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 260 41 31
+	
+70
+217 3 9 0
+@V2 5 AxisControl AxisControl_SD212404 212 38 3
+	
+70
+267 4 1 0
+@V2 5 AxisStatus AxisStatus_2 262 42 14
+	
+70
+275 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 270 47 1
+	
+70
+268 4 0 0
+@V2 5 MC_Power MC_Power_1 263 25 19
+	
+70
+269 4 0 0
+@V2 5 MC_Reset MC_Reset_2 264 40 20
+	
+70
+270 4 0 0
+@V2 5 R_TRIG R_TRIG_1 265 35 23
+	
+70
+271 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 266 41 28
+	
+70
+272 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 267 41 29
+	
+70
+273 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 268 41 30
+	
+70
+274 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 269 41 31
+	
+70
+218 3 0 0
+@V2 5 MC_MoveAbsolute VP_Move_X 213 30 21
+	
+70
+219 3 0 0
+@V2 5 MC_MoveAbsolute VP_Move_Y 214 30 22
+	
+70
+220 3 0 0
+@V2 5 MC_ReadActualPosition SD212304_ReadPos 215 32 38
+	
+70
+221 3 0 0
+@V2 5 MC_ReadActualPosition SD212404_ReadPos 216 32 39
+	
+70
+222 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_SD212304 217 28 42
+	
+70
+223 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_SD212404 218 28 43
+	
+70
+224 3 9 0
+@V2 5 AxisControl AxisControl_SD212504 219 38 44
+	
+70
+276 4 1 0
+@V2 5 AxisStatus AxisStatus_2 271 42 14
+	
+70
+284 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 279 47 1
+	
+70
+277 4 0 0
+@V2 5 MC_Power MC_Power_1 272 25 19
+	
+70
+278 4 0 0
+@V2 5 MC_Reset MC_Reset_2 273 40 20
+	
+70
+279 4 0 0
+@V2 5 R_TRIG R_TRIG_1 274 35 23
+	
+70
+280 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 275 41 28
+	
+70
+281 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 276 41 29
+	
+70
+282 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 277 41 30
+	
+70
+283 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 278 41 31
+	
+70
+225 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_SD212504 220 28 47
+	
+70
+226 3 0 0
+@V2 5 MC_MoveAbsolute VP_Move_O 221 30 48
+	
+70
+227 3 0 0
+@V2 5 R_TRIG R_TRIG_1 222 35 54
+	
+70
+228 3 0 0
+@V2 5 R_TRIG R_TRIG_2 223 35 56
+	
+70
+229 3 0 0
+@V2 5 R_TRIG R_TRIG_3 224 35 57
+	
+70
+230 3 0 0
+@V2 5 R_TRIG R_TRIG_8 225 35 58
+	
+70
+231 3 0 0
+@V2 5 R_TRIG VP1_O_Dec_TRIG 226 35 89
+	
+70
+232 3 0 0
+@V2 5 R_TRIG VP1_O_Inc_TRIG 227 35 90
+	
+70
+233 3 0 0
+@V2 5 R_TRIG VP2_O_Dec_TRIG 228 35 91
+	
+70
+234 3 0 0
+@V2 5 R_TRIG VP2_O_Inc_TRIG 229 35 92
+	
+70
+235 3 0 0
+@V2 5 R_TRIG VP2_X_Dec_TRIG 230 35 102
+	
+70
+236 3 0 0
+@V2 5 R_TRIG VP2_X_Inc_TRIG 231 35 103
+	
+70
+237 3 0 0
+@V2 5 R_TRIG VP2_Y_Dec_TRIG 232 35 104
+	
+70
+238 3 0 0
+@V2 5 R_TRIG VP2_Y_Inc_TRIG 233 35 105
+	
+70
+239 3 0 0
+@V2 5 R_TRIG VP1_X_Dec_TRIG 234 35 112
+	
+70
+240 3 0 0
+@V2 5 R_TRIG VP1_X_Inc_TRIG 235 35 113
+	
+70
+241 3 0 0
+@V2 5 F_TRIG F_TRIG_SD212304_Enable 236 23 120
+	
+70
+242 3 0 0
+@V2 5 MC_Stop MC_Stop_SD212304 237 24 121
+	
+70
+243 3 0 0
+@V2 5 F_TRIG F_TRIG_SD212404_Enable 238 23 122
+	
+70
+244 3 0 0
+@V2 5 MC_Stop MC_Stop_SD212404 239 24 123
+	
+70
+245 3 0 0
+@V2 5 F_TRIG F_TRIG_SD212504_Enable 240 23 124
+	
+70
+246 3 0 0
+@V2 5 MC_Stop MC_Stop_SD212504 241 24 125
+	
+70
+247 3 0 0
+@V2 5 R_TRIG R_TRIG_Relocate_Done 242 35 128
+	
+70
+248 3 0 0
+@V2 5 MC_MoveAbsolute VP_Move_O_Park 243 30 129
+	
+70
+249 3 0 0
+@V2 5 MC_MoveAbsolute VP_Move_Y_Park 244 30 130
+	
+70
+250 3 0 0
+@V2 5 MC_MoveAbsolute VP_Move_X_Park 245 30 131
+	
+70
+251 3 0 0
+@V2 5 R_TRIG R_TRIG_VP1_Roll_Change 246 35 133
+	
+70
+252 3 0 0
+@V2 5 R_TRIG R_TRIG_VP1_Data_Moved 247 35 134
+	
+70
+253 3 0 0
+@V2 5 R_TRIG R_TRIG_VP2_Roll_Change 248 35 136
+	
+70
+254 3 0 0
+@V2 5 R_TRIG R_TRIG_VP2_Mode_Auto 249 35 137
+	
+70
+255 3 0 0
+@V2 5 TON TON_Auto_Mode 250 21 141
+	
+70
+256 3 0 0
+@V2 5 TON TON_Bump_Repeat_Delay 251 21 145
+	
+70
+257 3 5 0
+@V2 5 Blink Blink_Bump_Repeat 252 34 149
+	
+70
+285 4 0 0
+@V2 5 TP TP_1 280 19 4
+	
+70
+286 4 0 0
+@V2 5 F_TRIG F_TRIG_1 281 23 7
+	
+70
+287 4 0 0
+@V2 5 F_TRIG F_TRIG_2 282 23 9
+	
+70
+288 4 0 0
+@V2 5 R_TRIG R_TRIG_4 283 35 10
+	
+70
+289 4 0 0
+@V2 5 TP TP_2 284 19 11
+	
+80
+290 2 47 0
+@V2 4 HolePunch1 HolePunch1 285 63 0
+	
+70
+291 3 0 0
+@V2 5 R_TRIG R_TRIG_1 286 35 1
+	
+70
+292 3 9 0
+@V2 5 AxisControl AxisControl_SD212554 287 38 2
+	
+70
+315 4 1 0
+@V2 5 AxisStatus AxisStatus_2 310 42 14
+	
+70
+323 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 318 47 1
+	
+70
+316 4 0 0
+@V2 5 MC_Power MC_Power_1 311 25 19
+	
+70
+317 4 0 0
+@V2 5 MC_Reset MC_Reset_2 312 40 20
+	
+70
+318 4 0 0
+@V2 5 R_TRIG R_TRIG_1 313 35 23
+	
+70
+319 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 314 41 28
+	
+70
+320 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 315 41 29
+	
+70
+321 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 316 41 30
+	
+70
+322 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 317 41 31
+	
+70
+293 3 9 0
+@V2 5 AxisControl AxisControl_SD212604 288 38 3
+	
+70
+324 4 1 0
+@V2 5 AxisStatus AxisStatus_2 319 42 14
+	
+70
+332 5 0 0
+@V2 5 MC_ReadAxisError MC_ReadAxisError_1 327 47 1
+	
+70
+325 4 0 0
+@V2 5 MC_Power MC_Power_1 320 25 19
+	
+70
+326 4 0 0
+@V2 5 MC_Reset MC_Reset_2 321 40 20
+	
+70
+327 4 0 0
+@V2 5 R_TRIG R_TRIG_1 322 35 23
+	
+70
+328 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_1 323 41 28
+	
+70
+329 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_2 324 41 29
+	
+70
+330 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_3 325 41 30
+	
+70
+331 4 0 0
+@V2 5 MOVE_UINT MOVE_UINT_4 326 41 31
+	
+70
+294 3 0 0
+@V2 5 MC_ReadActualPosition SD212554_ReadPos 289 32 22
+	
+70
+295 3 0 0
+@V2 5 MC_ReadActualPosition SD212604_ReadPos 290 32 23
+	
+70
+296 3 0 0
+@V2 5 MC_MoveAbsolute HP_Move_X 291 30 33
+	
+70
+297 3 0 0
+@V2 5 MC_MoveAbsolute HP_Move_Y 292 30 46
+	
+70
+298 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_SD212604 293 28 47
+	
+70
+299 3 0 0
+@V2 5 MC_SetPosition MC_SetPosition_SD212554 294 28 48
+	
+70
+300 3 0 0
+@V2 5 R_TRIG R_TRIG_8 295 35 49
+	
+70
+301 3 0 0
+@V2 5 R_TRIG HP2_Y_Inc_TRIG 296 35 78
+	
+70
+302 3 0 0
+@V2 5 R_TRIG HP1_Y_Inc_TRIG 297 35 79
+	
+70
+303 3 0 0
+@V2 5 R_TRIG HP1_Y_Dec_TRIG 298 35 80
+	
+70
+304 3 0 0
+@V2 5 R_TRIG HP1_X_Inc_TRIG 299 35 81
+	
+70
+305 3 0 0
+@V2 5 R_TRIG HP1_X_Dec_TRIG 300 35 82
+	
+70
+306 3 0 0
+@V2 5 R_TRIG HP2_Y_Dec_TRIG 301 35 83
+	
+70
+307 3 0 0
+@V2 5 R_TRIG HP2_X_Dec_TRIG 302 35 84
+	
+70
+308 3 0 0
+@V2 5 R_TRIG HP2_X_Inc_TRIG 303 35 85
+	
+70
+309 3 0 0
+@V2 5 MC_Stop MC_Stop_SD212604 304 24 92
+	
+70
+310 3 0 0
+@V2 5 F_TRIG F_TRIG_SD212604_Enable 305 23 93
+	
+70
+311 3 0 0
+@V2 5 MC_Stop MC_Stop_SD212554 306 24 94
+	
+70
+312 3 0 0
+@V2 5 F_TRIG F_TRIG_SD212554_Enable 307 23 95
+	
+70
+313 3 5 0
+@V2 5 Blink Blink_Bump_Repeat 308 34 96
+	
+70
+333 4 0 0
+@V2 5 TP TP_1 328 19 4
+	
+70
+334 4 0 0
+@V2 5 F_TRIG F_TRIG_1 329 23 7
+	
+70
+335 4 0 0
+@V2 5 F_TRIG F_TRIG_2 330 23 9
+	
+70
+336 4 0 0
+@V2 5 R_TRIG R_TRIG_4 331 35 10
+	
+70
+337 4 0 0
+@V2 5 TP TP_2 332 19 11
+	
+70
+314 3 0 0
+@V2 5 TON TON_Bump_Repeat_Delay 309 21 97
+	
+80
+338 2 9 0
+@V2 4 StatusControl StatusControl 333 64 0
+	
+70
+339 3 0 0
+@V2 5 TON TON_1 334 21 34
+	
+70
+340 3 0 0
+@V2 5 R_TRIG Drives_Enable_TRIG 335 35 201
+	
+70
+341 3 0 0
+@V2 5 R_TRIG Loader_Stop_PB_TRIG 336 35 202
+	
+70
+342 3 0 0
+@V2 5 R_TRIG Mode_Auto_TRIG 337 35 203
+	
+70
+343 3 0 0
+@V2 5 R_TRIG Reset_Drive_PB_TRIG 338 35 204
+	
+70
+344 3 0 0
+@V2 5 R_TRIG Start_PB_TRIG 339 35 205
+	
+70
+345 3 0 0
+@V2 5 R_TRIG Recipe_Change_TRIG 340 35 206
+	
+70
+346 3 0 0
+@V2 5 R_TRIG Loader_SetHome_PB_TRIG 341 35 211
+	
+70
+347 3 0 0
+@V2 5 R_TRIG Not_Healty_TRIG 342 35 255
+	

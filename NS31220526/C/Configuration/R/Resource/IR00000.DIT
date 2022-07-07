@@ -1,0 +1,10132 @@
+(*
+T: RESOURCE Resource
+FW: NO
+CI#: 0
+QSL: 1687
+QVE: 1687
+QVPC: 1687
+QPar: 0
+QFBI: 0
+*)
+@V 1 6 0
+Upper_Diameter_Constant	1	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 7 0
+Lower_Diameter_Constant	2	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 8 0
+Repeat_SP	3	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 13 0
+Thread_PB	4	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 14 0
+Unlock_Panel_Doors_PB	5	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 19 0
+Web_JogSpd_SP	6	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 24 0
+Reset_Alarm	7	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 25 0
+Drives_Enable_PB	8	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 26 0
+Mode_Auto	9	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 27 0
+Web_Jog_Fwd_PB	10	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 28 0
+Web_Jog_Rev_PB	11	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 29 0
+Reset_Drives_PB	12	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 30 0
+Start_PB	13	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 31 0
+Die_Change_PB	14	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 32 0
+Alarm_W1	15	VAR_GLOBAL	@TYP:19
+		     
+
+;
+
+@V 1 33 0
+Alarm_W2	16	VAR_GLOBAL	@TYP:19
+		     
+
+;
+
+@V 1 34 0
+CP1_Drives_Enabled	17	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 35 0
+CPx110_Status	18	VAR_GLOBAL	@TYP:19
+		     
+
+;
+
+@V 1 36 0
+CycleONS	19	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 37 0
+CycleTimerACC	20	VAR_GLOBAL	@TYP:12
+		     
+
+;
+
+@V 1 38 0
+Started	21	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 39 0
+Start_PB_Clear	22	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 40 0
+Recipe_Change_Clear	23	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 41 0
+Reset_Drive_PB_Clear	24	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 42 0
+Drives_Enable_PB_Clear	25	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 43 0
+HP2_Y_Max	26	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 44 0
+Recipe_Change_PB	27	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 45 0
+Loader_SetHome_PB_Clear	28	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 46 0
+TS1_X_SP_Bumped	29	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 47 0
+TS1_Y_SP_Bumped	30	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 48 0
+Loader_Mode_Req_by_Yask	31	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 49 0
+HP1_X_Pos_Override_SP	32	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 50 0
+HP1_Y_Pos_Override_SP	33	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 51 0
+VP1_Roll_Change_PB	34	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 52 0
+VP2_Roll_Change_PB	35	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 53 0
+HP2_X_Bump_Dist	36	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 54 0
+HP2_Y_Bump_Dist	37	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 55 0
+VP2_Y_Inc_PB	38	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 56 0
+VP2_Y_Dec_PB	39	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 57 0
+VP2_X_Inc_PB	40	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 58 0
+VP2_X_Dec_PB	41	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 59 0
+VP2_O_Inc_PB	42	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 60 0
+VP2_O_Dec_PB	43	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 61 0
+TS2_Y_Inc_PB	44	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 62 0
+TS2_Y_Dec_PB	45	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 63 0
+TS2_X_Inc_PB	46	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 64 0
+TS2_X_Dec_PB	47	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 65 0
+VP2_O_Bump_Value_SP	48	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 66 0
+VP2_Y_Bump_Value_SP	49	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 67 0
+VP2_X_Bump_Value_SP	50	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 68 0
+Perf_Seal_Dwell	51	VAR_GLOBAL	@TYP:12
+		     
+
+;
+
+@V 1 69 0
+Man_Perf_Seal	52	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 70 0
+Bump_Repeat_Time	53	VAR_GLOBAL	@TYP:12
+		     
+@TYP:12# 0S34000000
+;
+
+@V 1 71 0
+Bump_Repeat_Delay	54	VAR_GLOBAL	@TYP:12
+		     
+@TYP:12# 1S0
+;
+
+@V 1 72 0
+SD212504_ActPos	55	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 80 0
+Low_Roll_Alarm_SP	56	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 81 0
+Low_Roll_Warn_SP	57	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 86 0
+Lower_Roll_LOW_Warn	58	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 87 0
+Upper_Roll_LOW_Warn	59	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 88 0
+Lwr_Unwind_Alarm	60	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 89 0
+Upr_Unwind_Alarm	61	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 90 0
+Lower_Div_By_Zero	62	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 95 0
+Lower_Length	63	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 100 0
+Lower_Remaining_Imp	64	VAR_GLOBAL	@TYP:4
+		     
+
+;
+
+@V 1 101 0
+Lower_Roll_Low_Alarm	65	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 106 0
+LowerLength_Last_Roll	66	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 111 0
+Upper_Div_By_Zero	67	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 116 0
+Upper_Length	68	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 117 0
+Upper_Remaining_Imp	69	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 122 0
+Upper_Roll_Low_Alarm	70	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 127 0
+UpperLength_Last_Roll	71	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 132 0
+Lower_Aux_Captured_Bot	72	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 133 0
+Lower_Aux_Captured_Top	73	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 138 0
+Lower_Aux_Init_Length	74	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 143 0
+Lower_Bot_Captured	75	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 144 0
+Lower_Bot_Reached	76	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 145 0
+Lower_Init_Calculated	77	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 150 0
+Lower_Mot_Captured_Bot	78	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 151 0
+Lower_Mot_Captured_Top	79	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 152 0
+Lower_Mot_Init_Length	80	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 157 0
+Lower_Top_Captured	81	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 162 0
+UpperUnwindEnc_Pos	82	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 167 0
+UpperUnwindEnc_Vel	83	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 168 0
+Upper_Top_Reached	84	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 173 0
+Upper_Mot_Captured_Top	85	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 174 0
+Upper_Aux_Captured_Top	86	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 179 0
+Recalc_Unwind	87	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 184 0
+Min_Multiplier	88	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E-001
+;
+
+@V 1 185 0
+Max_Multiplier	89	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+000
+;
+
+@V 1 190 0
+Err_Upper_Ave	90	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 191 0
+Err_Lower_Ave	91	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 196 0
+Init_Lower_Vel_Multiplier	92	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.00000000000000000E+000
+;
+
+@V 1 197 0
+Init_Upper_Vel_Multiplier	93	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.00000000000000000E+000
+;
+
+@V 1 198 0
+Lower_Vel_Multiplier	94	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+000
+;
+
+@V 1 203 0
+SampleReady	95	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 208 0
+Target_Vel	96	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 209 0
+Upper_Vel_Multiplier	97	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+000
+;
+
+@V 1 214 0
+UpperMoveAvrError	98	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 215 0
+Web_Jog_For_PB	99	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 220 0
+Upper_Aux_Captured_Bot	100	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 221 0
+Upper_Aux_Init_Length	101	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 222 0
+Upper_Mot_Captured_Bot	102	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 223 0
+Upper_Mot_Init_Length	103	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 228 0
+Drive_Enable_Clear	104	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 229 0
+Roll_LOW_Alarm_Ack	105	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 230 0
+Upper_Roll_Diameter	106	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 231 0
+Lower_Roll_Diameter	107	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 239 0
+Loader_X_Pos_Valid	108	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 240 0
+Loader_Z_Pos_Valid	109	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 245 0
+Loader_HPos1_SP	110	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 1.00000000000000000E+000
+;
+
+@V 1 246 0
+Loader_HPos2_SP	111	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 6.25000000000000000E+000
+;
+
+@V 1 251 0
+Mode_Loader	112	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 252 0
+Loader_Above_Lower_SP	113	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 253 0
+Loader_Below_Lower_SP	114	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 254 0
+Loader_SetHome_PB	115	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 255 0
+XMoveBusy	116	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 256 0
+Loader_Left_Horiz_Alarm	117	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 257 0
+Loader_Right_Horiz_Alarm	118	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 258 0
+Loader_Left_Vert_Alarm	119	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 259 0
+Loader_Right_Vert_Alarm	120	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 260 0
+Loader_Above_Center_SP	121	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 261 0
+Loader_Below_Center_SP	122	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 262 0
+ZMoveBusy	123	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 263 0
+Loader_Above_Upper_SP	124	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 264 0
+Loader_Below_Upper_SP	125	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 265 0
+Loader_Above_Center_PB	126	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 266 0
+Loader_Above_Lower_PB	127	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 267 0
+Loader_Above_Upper_PB	128	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 268 0
+Loader_Below_Center_PB	129	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 269 0
+Loader_Below_Lower_PB	130	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 270 0
+Unload_Upper_PB	131	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 271 0
+Unload_Lower_PB	132	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 272 0
+Loader_Stop_PB	133	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 273 0
+Load_Upper_PB	134	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 274 0
+Load_Lower_PB	135	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 275 0
+Loader_Below_Upper_PB	136	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 276 0
+Loader_Clear_Pos_PB	137	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 277 0
+Loader_Pickup_Pos_PB	138	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 278 0
+Stop_All_Loader	139	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 279 0
+Upper_Bot_Captured	140	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 280 0
+Upper_Bot_Reached	141	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 281 0
+Upper_Init_Calculated	142	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 282 0
+Upper_Top_Captured	143	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 283 0
+UpperUnwindEnc	144	VAR_GLOBAL	@TYP:1038
+		     
+
+;
+
+@V 1 284 0
+LoaderXMove	145	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 285 0
+LoaderZMove	146	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 286 0
+LoaderXCmdPos	147	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 287 0
+LoaderXMoveDN	148	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 288 0
+LoaderZCmdPos	149	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 289 0
+LoaderZMoveDN	150	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 290 0
+XGear	151	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 291 0
+ZGear	152	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 292 0
+LoaderAxisInGear	153	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 293 0
+LoaderAxisGearError	154	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 294 0
+Loader_Enabled	155	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 295 0
+Loader_Stop_PB_Clear	156	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 296 0
+Mode_Loader_Req_by_Yask	157	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 297 0
+Load_Upper_Done	158	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 298 0
+Unload_Upper_Done	159	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 299 0
+Load_Lower_Done	160	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 300 0
+Unload_Lower_Done	161	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 301 0
+X1_Home_Done	162	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 302 0
+X2_Home_done	163	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 303 0
+OLD_Loader_Below_Center_PB	164	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 304 0
+Old_Loader_Below_Lower_PB	165	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 312 0
+Valve_1_TS_X_Offset	166	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 313 0
+Valve_1_TS_Y_Offset	167	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 314 0
+VP1_O_SP	168	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 315 0
+VP1_X_SP	169	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 316 0
+VP1_Y_SP	170	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 317 0
+Valve_1_VP_X_Offset	171	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 318 0
+Valve_1_VP_Y_Offset	172	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 323 0
+HP1_Hole_Punch_PB	173	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 328 0
+Valve_1_HP_X_Offset	174	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 329 0
+Valve_1_HP_Y_Offset	175	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 334 0
+HP1_Y_Alarm	176	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 335 0
+HP1_X_Alarm	177	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 336 0
+VP1_O_Alarm	178	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 337 0
+TS1_Y_Alarm	179	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 338 0
+VP1_Y_Alarm	180	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 339 0
+TS1_X_Alarm	181	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 340 0
+VP1_X_Alarm	182	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 345 0
+VP_HP_Differential	183	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 3.14499999999999990E+001
+;
+
+@V 1 346 0
+TS2_X_Max	184	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 347 0
+TS2_X_Min	185	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 348 0
+TS2_Y_Max	186	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 349 0
+TS2_Y_Min	187	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 350 0
+VP2_O_Min	188	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 351 0
+VP2_O_Max	189	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 352 0
+VP2_X_Max	190	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 353 0
+VP2_X_Min	191	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 354 0
+VP2_Y_Max	192	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 355 0
+VP2_Y_Min	193	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 360 0
+VP1_O_Inc_PB	194	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 365 0
+VP1_O_Max	195	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.00000000000000000E+002
+;
+
+@V 1 366 0
+VP1_O_Min	196	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# -2.00000000000000000E+002
+;
+
+@V 1 371 0
+VP1_X_Dec_PB	197	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 372 0
+VP1_X_Inc_PB	198	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 377 0
+VP1_X_Max	199	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+001
+;
+
+@V 1 378 0
+VP1_X_Min	200	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.00000000000000000E+001
+;
+
+@V 1 383 0
+VP1_Y_Dec_PB	201	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 384 0
+VP1_Y_Inc_PB	202	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 389 0
+VP1_Y_Max	203	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 1.50000000000000000E+001
+;
+
+@V 1 390 0
+VP1_Y_Min	204	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# -1.50000000000000000E+001
+;
+
+@V 1 395 0
+HP2_Hole_Punch_PB	205	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 400 0
+Valve_1_VP_O_Offset	206	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 401 0
+Valve_2_VP_O_Offset	207	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 406 0
+HP1_X_Dec_PB	208	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 407 0
+HP1_X_Inc_PB	209	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 412 0
+HP1_X_Max	210	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+001
+;
+
+@V 1 413 0
+HP1_X_Min	211	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.00000000000000000E+001
+;
+
+@V 1 418 0
+HP1_Y_Dec_PB	212	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 419 0
+HP1_Y_Inc_PB	213	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 424 0
+HP1_Y_Max	214	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 1.50000000000000000E+001
+;
+
+@V 1 425 0
+HP1_Y_Min	215	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# -1.50000000000000000E+001
+;
+
+@V 1 430 0
+TS1_Calculate_PB	216	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 431 0
+TS1_X_Dec_PB	217	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 432 0
+TS1_X_Inc_PB	218	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 437 0
+TS1_X_Max	219	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+001
+;
+
+@V 1 438 0
+TS1_X_Min	220	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.00000000000000000E+001
+;
+
+@V 1 443 0
+TS1_Y_Dec_PB	221	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 444 0
+TS1_Y_Inc_PB	222	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 449 0
+TS1_Y_Max	223	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 1.50000000000000000E+001
+;
+
+@V 1 450 0
+TS1_Y_Min	224	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# -1.50000000000000000E+001
+;
+
+@V 1 451 0
+Valve_2_TS_X_Offset	225	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 452 0
+Valve_2_HP_X_Offset	226	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 453 0
+Valve_2_VP_Y_Offset	227	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 454 0
+Valve_2_TS_Y_Offset	228	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 455 0
+Valve_2_HP_Y_Offset	229	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 456 0
+Hole_3_X_Offset	230	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 457 0
+Hole_3_Y_Offset	231	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 458 0
+Hole_4_X_Offset	232	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 459 0
+Hole_4_Y_Offset	233	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 464 0
+Hole_1_Req	234	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 465 0
+Hole_2_Req	235	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 466 0
+Hole_3_Req	236	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 467 0
+Hole_4_Req	237	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 472 0
+Reg_Eye_X_Location	238	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 473 0
+Roller_X_Location	239	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 478 0
+VP1_Enable_PB	240	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 479 0
+VP1_O_Dec_PB	241	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 484 0
+Roller_X_Offset_9	242	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 485 0
+Roller_X_Offset_8	243	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 486 0
+Roller_X_Offset_7	244	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 487 0
+Roller_X_Offset_6	245	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 488 0
+Roller_X_Offset_5	246	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 489 0
+Roller_X_Offset_4	247	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 490 0
+Roller_X_Offset_3	248	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 491 0
+Roller_X_Offset_14	249	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 492 0
+Roller_X_Offset_13	250	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 493 0
+Roller_X_Offset_12	251	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 494 0
+Roller_X_Offset_11	252	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 495 0
+Roller_X_Offset_10	253	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 496 0
+COS_to_VP_Datum	254	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 497 0
+Valve_2_VP_X_Offset	255	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 498 0
+Reg_Eye_X_Offset_2	256	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 499 0
+Reg_Eye_X_Offset_3	257	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 500 0
+Reg_Eye_X_Offset_4	258	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 501 0
+Reg_Eye_X_Offset_5	259	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 502 0
+Reg_Eye_X_Offset_6	260	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 503 0
+Reg_Eye_X_Offset_7	261	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 504 0
+Reg_Eye_X_Offset_8	262	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 505 0
+Reg_Eye_X_Offset_9	263	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 506 0
+Reg_Eye_X_Offset_10	264	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 507 0
+Reg_Eye_X_Offset_11	265	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 508 0
+Reg_Eye_X_Offset_12	266	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 509 0
+Reg_Eye_X_Offset_13	267	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 510 0
+Reg_Eye_X_Offset_14	268	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 511 0
+Roller_X_Offset_2	269	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 516 0
+VP_Relocate	270	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 517 0
+VP_X_Busy	271	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 518 0
+VP_X_Active	272	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 519 0
+Use_TS_Two	273	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 520 0
+VP_X_Error	274	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 521 0
+VP_X_ErrorID	275	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 522 0
+VP_X_Done	276	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 523 0
+VP_Y_Busy	277	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 524 0
+VP_Y_Active	278	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 525 0
+VP_Y_Error	279	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 526 0
+VP_Y_ErrorID	280	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 527 0
+Set_VP_1_Y_0	281	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 528 0
+Set_VP_1_X_0	282	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 529 0
+Set_VP_1_Theta_0	283	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 530 0
+Set_TS_1_Y_0	284	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 531 0
+Set_TS_1_X_0	285	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 532 0
+Set_HP_1_Y_0	286	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 533 0
+Set_HP_1_X_0	287	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 538 0
+TS1_Y_Bump_Value_SP	288	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 539 0
+TS1_X_Bump_Value_SP	289	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 540 0
+HP1_Y_Bump_Value_SP	290	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 541 0
+HP1_X_Bump_Value_SP	291	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 546 0
+Two_Valves_Req	292	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 551 0
+HP2_X_Min	293	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 556 0
+TS_Locating_Error	294	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 561 0
+HP2_Y_Min	295	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 562 0
+HP2_X_Max	296	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 567 0
+VP_Locating_Error	297	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 572 0
+PunchDwell	298	VAR_GLOBAL RETAIN	@TYP:12
+		     
+@TYP:12# 0S100000000
+;
+
+@V 1 577 0
+VP1_Y_Bump_Value_SP	299	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 578 0
+VP1_X_Bump_Value_SP	300	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 579 0
+VP1_O_Bump_Value_SP	301	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 580 0
+HP2_Y_Dec_PB	302	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 581 0
+HP2_Y_Bump_Value_SP	303	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 582 0
+HP2_Y_Inc_PB	304	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 587 0
+TS2_X_Bump_Value_SP	305	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 588 0
+TS2_Y_Bump_Value_SP	306	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 593 0
+VP1_Y_Man_SP	307	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 594 0
+VP1_X_Man_SP	308	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 595 0
+VP2_X_Man_SP	309	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 596 0
+VP2_Y_Man_SP	310	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 597 0
+VP2_O_Man_SP	311	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 598 0
+VP1_O_Man_SP	312	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 606 0
+PLCMODE_ON	313	VAR_GLOBAL	@TYP:1
+%MX 1.0.0		     
+
+;
+
+@V 1 607 0
+PLCMODE_RUN	314	VAR_GLOBAL	@TYP:1
+%MX 1.0.1		     
+
+;
+
+@V 1 608 0
+PLCMODE_STOP	315	VAR_GLOBAL	@TYP:1
+%MX 1.0.2		     
+
+;
+
+@V 1 609 0
+PLCMODE_HALT	316	VAR_GLOBAL	@TYP:1
+%MX 1.0.3		     
+
+;
+
+@V 1 610 0
+PLCDEBUG_BPSET	317	VAR_GLOBAL	@TYP:1
+%MX 1.1.4		     
+
+;
+
+@V 1 611 0
+PLCDEBUG_FORCE	318	VAR_GLOBAL	@TYP:1
+%MX 1.2.0		     
+
+;
+
+@V 1 612 0
+PLCDEBUG_POWERFLOW	319	VAR_GLOBAL	@TYP:1
+%MX 1.2.3		     
+
+;
+
+@V 1 613 0
+PLC_TICKS_PER_SEC	320	VAR_GLOBAL	@TYP:3
+%MW 1.44		     
+
+;
+
+@V 1 614 0
+PLC_SYS_TICK_CNT	321	VAR_GLOBAL	@TYP:4
+%MD 1.52		     
+
+;
+
+@V 1 615 0
+PLC_TASK_AVAILABLE	322	VAR_GLOBAL	@TYP:3
+%MW 1.1000		     
+
+;
+
+@V 1 616 0
+PLC_TASK_DEFINED	323	VAR_GLOBAL	@TYP:3
+%MW 1.1002		     
+
+;
+
+@V 1 624 0
+MO1_DI_00_Upper_Roll_Present	324	VAR_GLOBAL	@TYP:1
+%IX 61504.0		     
+
+;
+
+@V 1 625 0
+MO1_DI_01_Lower_Roll_Present	325	VAR_GLOBAL	@TYP:1
+%IX 61504.1		     
+
+;
+
+@V 1 626 0
+MO1_DI_02_Right_Carriage_Itlk	326	VAR_GLOBAL	@TYP:1
+%IX 61504.2		     
+
+;
+
+@V 1 627 0
+MO1_DI_03_Left_Carriage_Itlk	327	VAR_GLOBAL	@TYP:1
+%IX 61504.3		     
+
+;
+
+@V 1 628 0
+Mo1_DI_04_Adj_Jog_Up	328	VAR_GLOBAL	@TYP:1
+%IX 61504.4		     
+
+;
+
+@V 1 629 0
+MO1_DI_05_Adj_Jog_Down	329	VAR_GLOBAL	@TYP:1
+%IX 61504.5		     
+
+;
+
+@V 1 630 0
+MO1_DI_06_Adj_Jog_Select	330	VAR_GLOBAL	@TYP:1
+%IX 61504.6		     
+
+;
+
+@V 1 631 0
+PX214469	331	VAR_GLOBAL	@TYP:1
+%IX 61504.7		     
+
+;
+
+@V 1 632 0
+PX214473	332	VAR_GLOBAL	@TYP:1
+%IX 61505.0		     
+
+;
+
+@V 1 633 0
+Seal_Index_Ready_ILK	333	VAR_GLOBAL	@TYP:1
+%IX 61505.4		     
+
+;
+
+@V 1 634 0
+MO1_DI_13	334	VAR_GLOBAL	@TYP:1
+%IX 61505.5		     
+
+;
+
+@V 1 635 0
+MO1_DI_14	335	VAR_GLOBAL	@TYP:1
+%IX 61505.6		     
+
+;
+
+@V 1 636 0
+MO1_DI_15	336	VAR_GLOBAL	@TYP:1
+%IX 61505.7		     
+
+;
+
+@V 1 637 0
+MO1_DO_02_White_Light	337	VAR_GLOBAL	@TYP:1
+%QX 61504.2		     
+
+;
+
+@V 1 638 0
+MO1_DO_03_Blue_Light	338	VAR_GLOBAL	@TYP:1
+%QX 61504.3		     
+
+;
+
+@V 1 639 0
+MO1_DO_04_Red_Light	339	VAR_GLOBAL	@TYP:1
+%QX 61504.4		     
+
+;
+
+@V 1 640 0
+MO1_DO_05_Green_Light	340	VAR_GLOBAL	@TYP:1
+%QX 61504.5		     
+
+;
+
+@V 1 641 0
+MO1_DO_06_Amber_Light	341	VAR_GLOBAL	@TYP:1
+%QX 61504.6		     
+
+;
+
+@V 1 642 0
+MO1_DO_07_Horn	342	VAR_GLOBAL	@TYP:1
+%QX 61504.7		     
+
+;
+
+@V 1 643 0
+MO1_DO_08_Low_Roll_Alarm	343	VAR_GLOBAL	@TYP:1
+%QX 61505.0		     
+
+;
+
+@V 1 644 0
+PanelDoorInterlock	344	VAR_GLOBAL	@TYP:1
+%QX 61505.1		     
+
+;
+
+@V 1 645 0
+HeaterPowerCon	345	VAR_GLOBAL	@TYP:1
+%QX 61505.2		     
+
+;
+
+@V 1 646 0
+MO1_DO_11	346	VAR_GLOBAL	@TYP:1
+%QX 61505.3		     
+
+;
+
+@V 1 647 0
+MO1_DO_12	347	VAR_GLOBAL	@TYP:1
+%QX 61505.4		     
+
+;
+
+@V 1 648 0
+MO1_DO_13	348	VAR_GLOBAL	@TYP:1
+%QX 61505.5		     
+
+;
+
+@V 1 649 0
+MO1_DO_14	349	VAR_GLOBAL	@TYP:1
+%QX 61505.6		     
+
+;
+
+@V 1 650 0
+MO1_DO_15	350	VAR_GLOBAL	@TYP:1
+%QX 61505.7		     
+
+;
+
+@V 1 651 0
+Cycle_Ready_Output	351	VAR_GLOBAL	@TYP:1
+%QX 61504.0		     
+
+;
+
+@V 1 652 0
+CP2210_Cycle_Ready	352	VAR_GLOBAL	@TYP:1
+%IX 61505.2		     
+
+;
+
+@V 1 653 0
+CP2310_Cycle_Ready	353	VAR_GLOBAL	@TYP:1
+%IX 61505.3		     
+
+;
+
+@V 1 654 0
+CP_Interlock_Sig_4	354	VAR_GLOBAL	@TYP:1
+%IX 61505.4		     
+
+;
+
+@V 1 655 0
+CP_Interlock_Sig_5	355	VAR_GLOBAL	@TYP:1
+%IX 61505.5		     
+
+;
+
+@V 1 656 0
+CP_Interlock_Sig_6	356	VAR_GLOBAL	@TYP:1
+%IX 61505.6		     
+
+;
+
+@V 1 657 0
+CP_Interlock_Sig_7	357	VAR_GLOBAL	@TYP:1
+%IX 61505.7		     
+
+;
+
+@V 1 658 0
+CP2110_Cycle_Ready	358	VAR_GLOBAL	@TYP:1
+%IX 61505.1		     
+
+;
+
+@V 1 659 0
+MO1_DO_01	359	VAR_GLOBAL	@TYP:1
+%QX 61504.1		     
+
+;
+
+@V 1 667 0
+Off_Bit	360	VAR_GLOBAL RETAIN	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 672 0
+V134	361	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 673 0
+V133	362	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 674 0
+V147	363	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 675 0
+All_Jog_Rev	364	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 676 0
+All_Jog_FWD	365	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 681 0
+SD212454_SetPos	366	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 682 0
+SD212604_SetPos	367	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 683 0
+SD212554_SetPos	368	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 688 0
+Alarm_Word2	369	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 693 0
+SD212504_SetPos	370	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 698 0
+gLoadRollMode	371	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 699 0
+Alarm_Word1	372	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 700 0
+In_Loader_Mode	373	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 701 0
+Roll_Change_Right	374	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 702 0
+Roll_Change_Left	375	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 707 0
+Upper_IMP_On_Roll	376	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 708 0
+Lower_IMP_On_Roll	377	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 713 0
+Loader_Rolls_Engaged	378	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 714 0
+Loader_Unwind_Ctr	379	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 715 0
+Unload_Lower_Enabled	380	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 716 0
+Unload_Upper_Enabled	381	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 717 0
+Load_Lower_Enabled	382	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 718 0
+Load_Upper_Enabled	383	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 719 0
+CP2110Status	384	VAR_GLOBAL	@TYP:19
+		     
+
+;
+
+@V 1 720 0
+Drives_Enable_Clear	385	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 725 0
+HP1_Y_SP_Bumped	386	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 726 0
+HP1_X_SP_bumped	387	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 731 0
+VP1_X_SP_Bumped	388	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 732 0
+VP1_Y_SP_Bumped	389	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 733 0
+VP1_O_SP_Bumped	390	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 734 0
+HP2_X_Dec_PB	391	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 735 0
+HP2_X_Bump_Value_SP	392	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 736 0
+HP2_X_Inc_PB	393	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 737 0
+HP1_X_Man_SP	394	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 742 0
+Revert_VS_Auto	395	VAR_GLOBAL RETAIN	@TYP:1
+		     
+@TYP:1# 1
+;
+
+@V 1 747 0
+HP1_Y_Man_SP	396	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 748 0
+HP2_X_Man_SP	397	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 749 0
+HP2_Y_Man_SP	398	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 750 0
+Main_SMC_Ready	399	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 751 0
+Lower_Top_Reached	400	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 756 0
+Upper_Imp_From_Inches	401	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 757 0
+Lower_IMP_From_Inches	402	VAR_GLOBAL RETAIN	@TYP:4
+		     
+
+;
+
+@V 1 762 0
+Bypass_U_Bot	403	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 763 0
+Bypass_L_Bot	404	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 764 0
+Run_Unwind_Calcs	405	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 765 0
+Loader_Mode_Blink	406	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 766 0
+Ave_Lower_Vel_Mult	407	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 767 0
+Ave_Upper_Vel_Mult	408	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 772 0
+Min_Unwind_Vel	409	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 1.00000000000000000E+000
+;
+
+@V 1 773 0
+Max_Unwind_Vel	410	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 3.00000000000000000E+001
+;
+
+@V 1 778 0
+Init_Upper_Vel	411	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 779 0
+Init_Lower_Vel	412	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 780 0
+Lost_Main_SMC_Cnt	413	VAR_GLOBAL	@TYP:3
+		     
+
+;
+
+@V 1 781 0
+Found_Main_SMC_Cnt	414	VAR_GLOBAL	@TYP:3
+		     
+
+;
+
+@V 1 782 0
+V020	415	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 783 0
+Cut_Data_Status_Ready	416	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 784 0
+Seal_Data_Ready	417	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 785 0
+Banner_Enet_Status_Ready	418	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 786 0
+TS1_Locating_Error	419	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 787 0
+TS2_Locating_Error	420	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 788 0
+HP1_Locating_Error	421	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 789 0
+HP2_Locating_Error	422	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 790 0
+VP1_Locating_Error	423	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 791 0
+VP2_Locating_Error	424	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 792 0
+Carriage_Interlock	425	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 793 0
+Seal_Zone1_Temp	426	VAR_GLOBAL	@TYP:18
+%IW 34816		     
+
+;
+
+@V 1 794 0
+Seal_Zone1_Output	427	VAR_GLOBAL	@TYP:18
+%IW 34818		     
+
+;
+
+@V 1 795 0
+Seal_Zone1_HeatPower	428	VAR_GLOBAL	@TYP:18
+%IW 34820		     
+
+;
+
+@V 1 796 0
+Seal_Zone1_ActSP	429	VAR_GLOBAL	@TYP:18
+%IW 34822		     
+
+;
+
+@V 1 797 0
+Seal_Zone1_Error	430	VAR_GLOBAL	@TYP:18
+%IW 34824		     
+
+;
+
+@V 1 798 0
+Seal_Zone1_AlarmData1	431	VAR_GLOBAL	@TYP:18
+%IW 34828		     
+
+;
+
+@V 1 799 0
+Seal_Zone1_AlarmData2	432	VAR_GLOBAL	@TYP:18
+%IW 34830		     
+
+;
+
+@V 1 800 0
+Seal_Zone1_AlarmData3	433	VAR_GLOBAL	@TYP:18
+%IW 34832		     
+
+;
+
+@V 1 801 0
+Seal_Zone1_AlarmData4	434	VAR_GLOBAL	@TYP:18
+%IW 34834		     
+
+;
+
+@V 1 802 0
+Seal_Zone2_Temp	435	VAR_GLOBAL	@TYP:18
+%IW 34836		     
+
+;
+
+@V 1 803 0
+Seal_Zone2_Output	436	VAR_GLOBAL	@TYP:18
+%IW 34838		     
+
+;
+
+@V 1 804 0
+Seal_Zone2_HeatPower	437	VAR_GLOBAL	@TYP:18
+%IW 34840		     
+
+;
+
+@V 1 805 0
+Seal_Zone2_ActSP	438	VAR_GLOBAL	@TYP:18
+%IW 34842		     
+
+;
+
+@V 1 806 0
+Seal_Zone2_Error	439	VAR_GLOBAL	@TYP:18
+%IW 34844		     
+
+;
+
+@V 1 807 0
+Seal_Zone2_AlarmData1	440	VAR_GLOBAL	@TYP:18
+%IW 34848		     
+
+;
+
+@V 1 808 0
+Seal_Zone2_AlarmData2	441	VAR_GLOBAL	@TYP:18
+%IW 34850		     
+
+;
+
+@V 1 809 0
+Seal_Zone2_AlarmData3	442	VAR_GLOBAL	@TYP:18
+%IW 34852		     
+
+;
+
+@V 1 810 0
+Seal_Zone2_AlarmData4	443	VAR_GLOBAL	@TYP:18
+%IW 34854		     
+
+;
+
+@V 1 811 0
+Seal_Zone3_Temp	444	VAR_GLOBAL	@TYP:18
+%IW 34856		     
+
+;
+
+@V 1 812 0
+Seal_Zone3_Output	445	VAR_GLOBAL	@TYP:18
+%IW 34858		     
+
+;
+
+@V 1 813 0
+Seal_Zone3_HeatPower	446	VAR_GLOBAL	@TYP:18
+%IW 34860		     
+
+;
+
+@V 1 814 0
+Seal_Zone3_ActSP	447	VAR_GLOBAL	@TYP:18
+%IW 34862		     
+
+;
+
+@V 1 815 0
+Seal_Zone3_Error	448	VAR_GLOBAL	@TYP:18
+%IW 34864		     
+
+;
+
+@V 1 816 0
+Seal_Zone3_AlarmData1	449	VAR_GLOBAL	@TYP:18
+%IW 34868		     
+
+;
+
+@V 1 817 0
+Seal_Zone3_AlarmData2	450	VAR_GLOBAL	@TYP:18
+%IW 34870		     
+
+;
+
+@V 1 818 0
+Seal_Zone3_AlarmData3	451	VAR_GLOBAL	@TYP:18
+%IW 34872		     
+
+;
+
+@V 1 819 0
+Seal_Zone3_AlarmData4	452	VAR_GLOBAL	@TYP:18
+%IW 34874		     
+
+;
+
+@V 1 820 0
+Seal_Zone4_Temp	453	VAR_GLOBAL	@TYP:18
+%IW 34876		     
+
+;
+
+@V 1 821 0
+Seal_Zone4_Output	454	VAR_GLOBAL	@TYP:18
+%IW 34878		     
+
+;
+
+@V 1 822 0
+Seal_Zone4_HeatPower	455	VAR_GLOBAL	@TYP:18
+%IW 34880		     
+
+;
+
+@V 1 823 0
+Seal_Zone4_ActSP	456	VAR_GLOBAL	@TYP:18
+%IW 34882		     
+
+;
+
+@V 1 824 0
+Seal_Zone4_Error	457	VAR_GLOBAL	@TYP:18
+%IW 34884		     
+
+;
+
+@V 1 825 0
+Seal_Zone4_AlarmData1	458	VAR_GLOBAL	@TYP:18
+%IW 34888		     
+
+;
+
+@V 1 826 0
+Seal_Zone4_AlarmData2	459	VAR_GLOBAL	@TYP:18
+%IW 34890		     
+
+;
+
+@V 1 827 0
+Seal_Zone4_AlarmData3	460	VAR_GLOBAL	@TYP:18
+%IW 34892		     
+
+;
+
+@V 1 828 0
+Seal_Zone4_AlarmData4	461	VAR_GLOBAL	@TYP:18
+%IW 34894		     
+
+;
+
+@V 1 829 0
+Seal_Zone5_Temp	462	VAR_GLOBAL	@TYP:18
+%IW 34896		     
+
+;
+
+@V 1 830 0
+Seal_Zone5_Output	463	VAR_GLOBAL	@TYP:18
+%IW 34898		     
+
+;
+
+@V 1 831 0
+Seal_Zone5_HeatPower	464	VAR_GLOBAL	@TYP:18
+%IW 34900		     
+
+;
+
+@V 1 832 0
+Seal_Zone5_ActSP	465	VAR_GLOBAL	@TYP:18
+%IW 34902		     
+
+;
+
+@V 1 833 0
+Seal_Zone5_Error	466	VAR_GLOBAL	@TYP:18
+%IW 34904		     
+
+;
+
+@V 1 834 0
+Seal_Zone5_AlarmData1	467	VAR_GLOBAL	@TYP:18
+%IW 34908		     
+
+;
+
+@V 1 835 0
+Seal_Zone5_AlarmData2	468	VAR_GLOBAL	@TYP:18
+%IW 34910		     
+
+;
+
+@V 1 836 0
+Seal_Zone5_AlarmData3	469	VAR_GLOBAL	@TYP:18
+%IW 34912		     
+
+;
+
+@V 1 837 0
+Seal_Zone5_AlarmData4	470	VAR_GLOBAL	@TYP:18
+%IW 34914		     
+
+;
+
+@V 1 838 0
+Seal_Zone6_Temp	471	VAR_GLOBAL	@TYP:18
+%IW 34916		     
+
+;
+
+@V 1 839 0
+Seal_Zone6_Output	472	VAR_GLOBAL	@TYP:18
+%IW 34918		     
+
+;
+
+@V 1 840 0
+Seal_Zone6_HeatPower	473	VAR_GLOBAL	@TYP:18
+%IW 34920		     
+
+;
+
+@V 1 841 0
+Seal_Zone6_ActSP	474	VAR_GLOBAL	@TYP:18
+%IW 34922		     
+
+;
+
+@V 1 842 0
+Seal_Zone6_Error	475	VAR_GLOBAL	@TYP:18
+%IW 34924		     
+
+;
+
+@V 1 843 0
+Seal_Zone6_AlarmData1	476	VAR_GLOBAL	@TYP:18
+%IW 34928		     
+
+;
+
+@V 1 844 0
+Seal_Zone6_AlarmData2	477	VAR_GLOBAL	@TYP:18
+%IW 34930		     
+
+;
+
+@V 1 845 0
+Seal_Zone6_AlarmData3	478	VAR_GLOBAL	@TYP:18
+%IW 34932		     
+
+;
+
+@V 1 846 0
+Seal_Zone6_AlarmData4	479	VAR_GLOBAL	@TYP:18
+%IW 34934		     
+
+;
+
+@V 1 847 0
+Zone1_AckTune	480	VAR_GLOBAL	@TYP:1
+%IX 34826.1		     
+
+;
+
+@V 1 848 0
+Zone1_Tune_Done	481	VAR_GLOBAL	@TYP:1
+%IX 34826.2		     
+
+;
+
+@V 1 849 0
+Zone1_Tune_Fail	482	VAR_GLOBAL	@TYP:1
+%IX 34826.3		     
+
+;
+
+@V 1 850 0
+Zone2_AckTune	483	VAR_GLOBAL	@TYP:1
+%IX 34846.1		     
+
+;
+
+@V 1 851 0
+Zone2_Tune_Done	484	VAR_GLOBAL	@TYP:1
+%IX 34846.2		     
+
+;
+
+@V 1 852 0
+Zone2_Tune_Fail	485	VAR_GLOBAL	@TYP:1
+%IX 34846.3		     
+
+;
+
+@V 1 853 0
+Zone3_AckTune	486	VAR_GLOBAL	@TYP:1
+%IX 34866.1		     
+
+;
+
+@V 1 854 0
+Zone3_Tune_Done	487	VAR_GLOBAL	@TYP:1
+%IX 34866.2		     
+
+;
+
+@V 1 855 0
+Zone3_Tune_Fail	488	VAR_GLOBAL	@TYP:1
+%IX 34866.3		     
+
+;
+
+@V 1 856 0
+Zone4_AckTune	489	VAR_GLOBAL	@TYP:1
+%IX 34886.1		     
+
+;
+
+@V 1 857 0
+Zone4_Tune_Done	490	VAR_GLOBAL	@TYP:1
+%IX 34886.2		     
+
+;
+
+@V 1 858 0
+Zone4_Tune_Fail	491	VAR_GLOBAL	@TYP:1
+%IX 34886.3		     
+
+;
+
+@V 1 859 0
+Zone5_AckTune	492	VAR_GLOBAL	@TYP:1
+%IX 34906.1		     
+
+;
+
+@V 1 860 0
+Zone5_Tune_Done	493	VAR_GLOBAL	@TYP:1
+%IX 34906.2		     
+
+;
+
+@V 1 861 0
+Zone5_Tune_Fail	494	VAR_GLOBAL	@TYP:1
+%IX 34906.3		     
+
+;
+
+@V 1 862 0
+Zone6_AckTune	495	VAR_GLOBAL	@TYP:1
+%IX 34926.1		     
+
+;
+
+@V 1 863 0
+Zone6_Tune_Done	496	VAR_GLOBAL	@TYP:1
+%IX 34926.2		     
+
+;
+
+@V 1 864 0
+Zone6_Tune_Fail	497	VAR_GLOBAL	@TYP:1
+%IX 34926.3		     
+
+;
+
+@V 1 865 0
+Perf_Heat_Status_1	498	VAR_GLOBAL	@TYP:18
+%IW 34936		     
+
+;
+
+@V 1 866 0
+AX1_SO3	499	VAR_GLOBAL	@TYP:1
+%QX 53248.2		     
+
+;
+
+@V 1 867 0
+AX1_SO2	500	VAR_GLOBAL	@TYP:1
+%QX 53248.1		     
+
+;
+
+@V 1 868 0
+AX1_SO1	501	VAR_GLOBAL	@TYP:1
+%QX 53248.0		     
+
+;
+
+@V 1 869 0
+AX1_PSET	502	VAR_GLOBAL	@TYP:1
+%IX 53252.7		     
+
+;
+
+@V 1 870 0
+AX1_PON	503	VAR_GLOBAL	@TYP:1
+%IX 53252.4		     
+
+;
+
+@V 1 871 0
+AX1_SVON	504	VAR_GLOBAL	@TYP:1
+%IX 53252.3		     
+
+;
+
+@V 1 872 0
+AX1_WARNG	505	VAR_GLOBAL	@TYP:1
+%IX 53252.1		     
+
+;
+
+@V 1 873 0
+AX1_ALM	506	VAR_GLOBAL	@TYP:1
+%IX 53252.0		     
+
+;
+
+@V 1 874 0
+AX1_SI3_IO15	507	VAR_GLOBAL	@TYP:1
+%IX 53249.7		     
+
+;
+
+@V 1 875 0
+AX1_SI2_IO14	508	VAR_GLOBAL	@TYP:1
+%IX 53249.6		     
+
+;
+
+@V 1 876 0
+AX1_SI1_IO13	509	VAR_GLOBAL	@TYP:1
+%IX 53249.5		     
+
+;
+
+@V 1 877 0
+AX1_SI0_IO12	510	VAR_GLOBAL	@TYP:1
+%IX 53249.4		     
+
+;
+
+@V 1 878 0
+AX1_HBB	511	VAR_GLOBAL	@TYP:1
+%IX 53249.2		     
+
+;
+
+@V 1 879 0
+AX1_BRK	512	VAR_GLOBAL	@TYP:1
+%IX 53249.1		     
+
+;
+
+@V 1 880 0
+AX1_SI6_EXT3	513	VAR_GLOBAL	@TYP:1
+%IX 53249.0		     
+
+;
+
+@V 1 881 0
+AX1_SI5_EXT2	514	VAR_GLOBAL	@TYP:1
+%IX 53248.7		     
+
+;
+
+@V 1 882 0
+AX1_SI4_EXT1	515	VAR_GLOBAL	@TYP:1
+%IX 53248.6		     
+
+;
+
+@V 1 883 0
+AX1_SI3_DEC	516	VAR_GLOBAL	@TYP:1
+%IX 53248.2		     
+
+;
+
+@V 1 884 0
+AX1_SI2_NOT	517	VAR_GLOBAL	@TYP:1
+%IX 53248.1		     
+
+;
+
+@V 1 885 0
+AX1_SI1_POT	518	VAR_GLOBAL	@TYP:1
+%IX 53248.0		     
+
+;
+
+@V 1 886 0
+AX2_SO3	519	VAR_GLOBAL	@TYP:1
+%QX 53312.2		     
+
+;
+
+@V 1 887 0
+AX2_SO2	520	VAR_GLOBAL	@TYP:1
+%QX 53312.1		     
+
+;
+
+@V 1 888 0
+AX2_SO1	521	VAR_GLOBAL	@TYP:1
+%QX 53312.0		     
+
+;
+
+@V 1 889 0
+AX2_PSET	522	VAR_GLOBAL	@TYP:1
+%IX 53316.7		     
+
+;
+
+@V 1 890 0
+AX2_PON	523	VAR_GLOBAL	@TYP:1
+%IX 53316.4		     
+
+;
+
+@V 1 891 0
+AX2_SVON	524	VAR_GLOBAL	@TYP:1
+%IX 53316.3		     
+
+;
+
+@V 1 892 0
+AX2_WARNG	525	VAR_GLOBAL	@TYP:1
+%IX 53316.1		     
+
+;
+
+@V 1 893 0
+AX2_ALM	526	VAR_GLOBAL	@TYP:1
+%IX 53316.0		     
+
+;
+
+@V 1 894 0
+AX2_SI3_IO15	527	VAR_GLOBAL	@TYP:1
+%IX 53313.7		     
+
+;
+
+@V 1 895 0
+AX2_SI2_IO14	528	VAR_GLOBAL	@TYP:1
+%IX 53313.6		     
+
+;
+
+@V 1 896 0
+AX2_SI1_IO13	529	VAR_GLOBAL	@TYP:1
+%IX 53313.5		     
+
+;
+
+@V 1 897 0
+AX2_SI0_IO12	530	VAR_GLOBAL	@TYP:1
+%IX 53313.4		     
+
+;
+
+@V 1 898 0
+AX2_HBB	531	VAR_GLOBAL	@TYP:1
+%IX 53313.2		     
+
+;
+
+@V 1 899 0
+AX2_BRK	532	VAR_GLOBAL	@TYP:1
+%IX 53313.1		     
+
+;
+
+@V 1 900 0
+AX2_SI6_EXT3	533	VAR_GLOBAL	@TYP:1
+%IX 53313.0		     
+
+;
+
+@V 1 901 0
+AX2_SI5_EXT2	534	VAR_GLOBAL	@TYP:1
+%IX 53312.7		     
+
+;
+
+@V 1 902 0
+AX2_SI4_EXT1	535	VAR_GLOBAL	@TYP:1
+%IX 53312.6		     
+
+;
+
+@V 1 903 0
+AX2_SI3_DEC	536	VAR_GLOBAL	@TYP:1
+%IX 53312.2		     
+
+;
+
+@V 1 904 0
+AX2_SI2_NOT	537	VAR_GLOBAL	@TYP:1
+%IX 53312.1		     
+
+;
+
+@V 1 905 0
+AX2_SI1_POT	538	VAR_GLOBAL	@TYP:1
+%IX 53312.0		     
+
+;
+
+@V 1 906 0
+AX3_SO3	539	VAR_GLOBAL	@TYP:1
+%QX 53376.2		     
+
+;
+
+@V 1 907 0
+AX3_SO2	540	VAR_GLOBAL	@TYP:1
+%QX 53376.1		     
+
+;
+
+@V 1 908 0
+AX3_SO1	541	VAR_GLOBAL	@TYP:1
+%QX 53376.0		     
+
+;
+
+@V 1 909 0
+AX3_PSET	542	VAR_GLOBAL	@TYP:1
+%IX 53380.7		     
+
+;
+
+@V 1 910 0
+AX3_PON	543	VAR_GLOBAL	@TYP:1
+%IX 53380.4		     
+
+;
+
+@V 1 911 0
+AX3_SVON	544	VAR_GLOBAL	@TYP:1
+%IX 53380.3		     
+
+;
+
+@V 1 912 0
+AX3_WARNG	545	VAR_GLOBAL	@TYP:1
+%IX 53380.1		     
+
+;
+
+@V 1 913 0
+AX3_ALM	546	VAR_GLOBAL	@TYP:1
+%IX 53380.0		     
+
+;
+
+@V 1 914 0
+AX3_SI3_IO15	547	VAR_GLOBAL	@TYP:1
+%IX 53377.7		     
+
+;
+
+@V 1 915 0
+AX3_SI2_IO14	548	VAR_GLOBAL	@TYP:1
+%IX 53377.6		     
+
+;
+
+@V 1 916 0
+AX3_SI1_IO13	549	VAR_GLOBAL	@TYP:1
+%IX 53377.5		     
+
+;
+
+@V 1 917 0
+AX3_SI0_IO12	550	VAR_GLOBAL	@TYP:1
+%IX 53377.4		     
+
+;
+
+@V 1 918 0
+AX3_HBB	551	VAR_GLOBAL	@TYP:1
+%IX 53377.2		     
+
+;
+
+@V 1 919 0
+AX3_BRK	552	VAR_GLOBAL	@TYP:1
+%IX 53377.1		     
+
+;
+
+@V 1 920 0
+AX3_SI6_EXT3	553	VAR_GLOBAL	@TYP:1
+%IX 53377.0		     
+
+;
+
+@V 1 921 0
+AX3_SI5_EXT2	554	VAR_GLOBAL	@TYP:1
+%IX 53376.7		     
+
+;
+
+@V 1 922 0
+AX3_SI4_EXT1	555	VAR_GLOBAL	@TYP:1
+%IX 53376.6		     
+
+;
+
+@V 1 923 0
+AX3_SI3_DEC	556	VAR_GLOBAL	@TYP:1
+%IX 53376.2		     
+
+;
+
+@V 1 924 0
+AX3_SI2_NOT	557	VAR_GLOBAL	@TYP:1
+%IX 53376.1		     
+
+;
+
+@V 1 925 0
+AX3_SI1_POT	558	VAR_GLOBAL	@TYP:1
+%IX 53376.0		     
+
+;
+
+@V 1 926 0
+AX4_SO3	559	VAR_GLOBAL	@TYP:1
+%QX 53440.2		     
+
+;
+
+@V 1 927 0
+AX4_SO2	560	VAR_GLOBAL	@TYP:1
+%QX 53440.1		     
+
+;
+
+@V 1 928 0
+AX4_SO1	561	VAR_GLOBAL	@TYP:1
+%QX 53440.0		     
+
+;
+
+@V 1 929 0
+AX4_PSET	562	VAR_GLOBAL	@TYP:1
+%IX 53444.7		     
+
+;
+
+@V 1 930 0
+AX4_PON	563	VAR_GLOBAL	@TYP:1
+%IX 53444.4		     
+
+;
+
+@V 1 931 0
+AX4_SVON	564	VAR_GLOBAL	@TYP:1
+%IX 53444.3		     
+
+;
+
+@V 1 932 0
+AX4_WARNG	565	VAR_GLOBAL	@TYP:1
+%IX 53444.1		     
+
+;
+
+@V 1 933 0
+AX4_ALM	566	VAR_GLOBAL	@TYP:1
+%IX 53444.0		     
+
+;
+
+@V 1 934 0
+AX4_SI3_IO15	567	VAR_GLOBAL	@TYP:1
+%IX 53441.7		     
+
+;
+
+@V 1 935 0
+AX4_SI2_IO14	568	VAR_GLOBAL	@TYP:1
+%IX 53441.6		     
+
+;
+
+@V 1 936 0
+AX4_SI1_IO13	569	VAR_GLOBAL	@TYP:1
+%IX 53441.5		     
+
+;
+
+@V 1 937 0
+AX4_SI0_IO12	570	VAR_GLOBAL	@TYP:1
+%IX 53441.4		     
+
+;
+
+@V 1 938 0
+AX4_HBB	571	VAR_GLOBAL	@TYP:1
+%IX 53441.2		     
+
+;
+
+@V 1 939 0
+AX4_BRK	572	VAR_GLOBAL	@TYP:1
+%IX 53441.1		     
+
+;
+
+@V 1 940 0
+AX4_SI6_EXT3	573	VAR_GLOBAL	@TYP:1
+%IX 53441.0		     
+
+;
+
+@V 1 941 0
+AX4_SI5_EXT2	574	VAR_GLOBAL	@TYP:1
+%IX 53440.7		     
+
+;
+
+@V 1 942 0
+AX4_SI4_EXT1	575	VAR_GLOBAL	@TYP:1
+%IX 53440.6		     
+
+;
+
+@V 1 943 0
+AX4_SI3_DEC	576	VAR_GLOBAL	@TYP:1
+%IX 53440.2		     
+
+;
+
+@V 1 944 0
+AX4_SI2_NOT	577	VAR_GLOBAL	@TYP:1
+%IX 53440.1		     
+
+;
+
+@V 1 945 0
+AX4_SI1_POT	578	VAR_GLOBAL	@TYP:1
+%IX 53440.0		     
+
+;
+
+@V 1 946 0
+AX9_SO3	579	VAR_GLOBAL	@TYP:1
+%QX 53760.2		     
+
+;
+
+@V 1 947 0
+AX9_SO2	580	VAR_GLOBAL	@TYP:1
+%QX 53760.1		     
+
+;
+
+@V 1 948 0
+AX9_SO1	581	VAR_GLOBAL	@TYP:1
+%QX 53760.0		     
+
+;
+
+@V 1 949 0
+AX9_PSET	582	VAR_GLOBAL	@TYP:1
+%IX 53764.7		     
+
+;
+
+@V 1 950 0
+AX9_PON	583	VAR_GLOBAL	@TYP:1
+%IX 53764.4		     
+
+;
+
+@V 1 951 0
+AX9_SVON	584	VAR_GLOBAL	@TYP:1
+%IX 53764.3		     
+
+;
+
+@V 1 952 0
+AX9_WARNG	585	VAR_GLOBAL	@TYP:1
+%IX 53764.1		     
+
+;
+
+@V 1 953 0
+AX9_ALM	586	VAR_GLOBAL	@TYP:1
+%IX 53764.0		     
+
+;
+
+@V 1 954 0
+AX9_SI3_IO15	587	VAR_GLOBAL	@TYP:1
+%IX 53761.7		     
+
+;
+
+@V 1 955 0
+AX9_SI2_IO14	588	VAR_GLOBAL	@TYP:1
+%IX 53761.6		     
+
+;
+
+@V 1 956 0
+AX9_SI1_IO13	589	VAR_GLOBAL	@TYP:1
+%IX 53761.5		     
+
+;
+
+@V 1 957 0
+AX9_SI0_IO12	590	VAR_GLOBAL	@TYP:1
+%IX 53761.4		     
+
+;
+
+@V 1 958 0
+AX9_HBB	591	VAR_GLOBAL	@TYP:1
+%IX 53761.2		     
+
+;
+
+@V 1 959 0
+AX9_BRK	592	VAR_GLOBAL	@TYP:1
+%IX 53761.1		     
+
+;
+
+@V 1 960 0
+AX9_SI6_EXT3	593	VAR_GLOBAL	@TYP:1
+%IX 53761.0		     
+
+;
+
+@V 1 961 0
+AX9_SI5_EXT2	594	VAR_GLOBAL	@TYP:1
+%IX 53760.7		     
+
+;
+
+@V 1 962 0
+AX9_SI4_EXT1	595	VAR_GLOBAL	@TYP:1
+%IX 53760.6		     
+
+;
+
+@V 1 963 0
+AX9_SI3_DEC	596	VAR_GLOBAL	@TYP:1
+%IX 53760.2		     
+
+;
+
+@V 1 964 0
+AX9_SI2_NOT	597	VAR_GLOBAL	@TYP:1
+%IX 53760.1		     
+
+;
+
+@V 1 965 0
+AX9_SI1_POT	598	VAR_GLOBAL	@TYP:1
+%IX 53760.0		     
+
+;
+
+@V 1 966 0
+gFilmIndexing	599	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 967 0
+gTopUnwindActVel	600	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 968 0
+gBottomUnwindActVel	601	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 969 0
+RollDiameter	602	VAR_GLOBAL	@TYP:10
+		     
+
+;
+
+@V 1 970 0
+gTopUnwindActPos	603	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 971 0
+TopUnwindEnable	604	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 972 0
+gLowRollAlarm	605	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 974 0
+NewVar95	606	VAR_GLOBAL	@TYP:11
+%IL 33904		     
+
+;
+
+@V 1 975 0
+Enable_Perf_Heat	607	VAR_GLOBAL	@TYP:11
+%IL 33896		     
+
+;
+
+@V 1 976 0
+New_Var97	608	VAR_GLOBAL	@TYP:11
+%IL 33888		     
+
+;
+
+@V 1 977 0
+Seal_Plate_ID_IN	609	VAR_GLOBAL	@TYP:19
+%ID 33880		     
+
+;
+
+@V 1 978 0
+NEWVAR94	610	VAR_GLOBAL	@TYP:11
+%IL 33872		     
+
+;
+
+@V 1 979 0
+NEWVAR93	611	VAR_GLOBAL	@TYP:11
+%IL 33864		     
+
+;
+
+@V 1 981 0
+CP2210_Film_Index_Stop	612	VAR_GLOBAL	@TYP:19
+%ID 21560		     
+
+;
+
+@V 1 982 0
+HP2_Y_POS	613	VAR_GLOBAL	@TYP:11
+%IL 33856		     
+
+;
+
+@V 1 983 0
+HP2_X_POS	614	VAR_GLOBAL	@TYP:11
+%IL 33848		     
+
+;
+
+@V 1 984 0
+VP2_X_POS	615	VAR_GLOBAL	@TYP:11
+%IL 33808		     
+
+;
+
+@V 1 985 0
+LowerUnwindEnc_Vel	616	VAR_GLOBAL	@TYP:11
+%IL 33800		     
+
+;
+
+@V 1 995 0
+CPx210_Spare_2	617	VAR_GLOBAL	@TYP:19
+%ID 33884		     
+
+;
+
+@V 1 996 0
+CPx210_Spare_1	618	VAR_GLOBAL	@TYP:19
+%ID 33880		     
+
+;
+
+@V 1 997 0
+CPx210_Alarm_2	619	VAR_GLOBAL	@TYP:19
+%ID 33876		     
+
+;
+
+@V 1 998 0
+CPx210_Alarm_1	620	VAR_GLOBAL	@TYP:19
+%ID 33872		     
+
+;
+
+@V 1 999 0
+CPx210_Status_2	621	VAR_GLOBAL	@TYP:19
+%ID 33872		     
+
+;
+
+@V 1 1000 0
+TS2_Y_Man_SP	622	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1001 0
+TS2_X_Man_SP	623	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1002 0
+TS1_X_Man_SP	624	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1003 0
+TS1_Y_Man_SP	625	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1004 0
+VS_Relocate_Trig	626	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1005 0
+VS_Relocate_Signals	627	VAR_GLOBAL	@TYP:19
+%QD 33892		     
+
+;
+
+@V 1 1010 0
+VS_Enables	628	VAR_GLOBAL RETAIN	@TYP:19
+%QD 21584		     
+
+;
+
+@V 1 1011 0
+HP2_Y_SP_EIP	629	VAR_GLOBAL RETAIN	@TYP:11
+%QL 21536		     
+
+;
+
+@V 1 1012 0
+VP2_Y_SP_EIP	630	VAR_GLOBAL RETAIN	@TYP:11
+%QL 21576		     
+
+;
+
+@V 1 1017 0
+SealAutoTunePB	631	VAR_GLOBAL	@TYP:19
+%QD 33896		     
+
+;
+
+@V 1 1022 0
+VP2_X_SP_EIP	632	VAR_GLOBAL RETAIN	@TYP:11
+%QL 21568		     
+
+;
+
+@V 1 1023 0
+VP2_O_SP_EIP	633	VAR_GLOBAL RETAIN	@TYP:11
+%QL 21560		     
+
+;
+
+@V 1 1024 0
+TS2_Y_SP_EIP	634	VAR_GLOBAL RETAIN	@TYP:11
+%QL 21552		     
+
+;
+
+@V 1 1025 0
+TS2_X_SP_EIP	635	VAR_GLOBAL RETAIN	@TYP:11
+%QL 21544		     
+
+;
+
+@V 1 1026 0
+HP2_X_SP_EIP	636	VAR_GLOBAL RETAIN	@TYP:11
+%QL 21528		     
+
+;
+
+@V 1 1031 0
+CPx310_Spare_2_to_CP2	637	VAR_GLOBAL	@TYP:19
+%QD 33828		     
+
+;
+
+@V 1 1032 0
+CPx310_Spare_1_to_CP2	638	VAR_GLOBAL	@TYP:19
+%QD 33824		     
+
+;
+
+@V 1 1033 0
+CPx310_Alarm_2_to_CP2	639	VAR_GLOBAL	@TYP:19
+%QD 33820		     
+
+;
+
+@V 1 1034 0
+CPx310_Alarm_1_to_CP2	640	VAR_GLOBAL	@TYP:19
+%QD 33816		     
+
+;
+
+@V 1 1035 0
+CPx310_Status_to_CP2	641	VAR_GLOBAL	@TYP:19
+%QD 33812		     
+
+;
+
+@V 1 1036 0
+CPx110_Override_Speed_to_CP2	642	VAR_GLOBAL	@TYP:10
+%QD 33808		     
+
+;
+
+@V 1 1037 0
+CPx110_Spare_1_to_CP2	643	VAR_GLOBAL	@TYP:19
+%QD 33804		     
+
+;
+
+@V 1 1038 0
+CPx110_Alarm_2_to_CP2	644	VAR_GLOBAL	@TYP:19
+%QD 33800		     
+
+;
+
+@V 1 1039 0
+CPx110_Alarm_1_to_CP2	645	VAR_GLOBAL	@TYP:19
+%QD 33796		     
+
+;
+
+@V 1 1040 0
+CPx110_Status_to_CP2	646	VAR_GLOBAL	@TYP:19
+%QD 33792		     
+
+;
+
+@V 1 1041 0
+AX6_SO3	647	VAR_GLOBAL	@TYP:1
+%QX 53568.2		     
+
+;
+
+@V 1 1042 0
+AX6_SO2	648	VAR_GLOBAL	@TYP:1
+%QX 53568.1		     
+
+;
+
+@V 1 1043 0
+AX6_SO1	649	VAR_GLOBAL	@TYP:1
+%QX 53568.0		     
+
+;
+
+@V 1 1044 0
+AX6_PSET	650	VAR_GLOBAL	@TYP:1
+%IX 53572.7		     
+
+;
+
+@V 1 1045 0
+AX6_PON	651	VAR_GLOBAL	@TYP:1
+%IX 53572.4		     
+
+;
+
+@V 1 1046 0
+AX6_SVON	652	VAR_GLOBAL	@TYP:1
+%IX 53572.3		     
+
+;
+
+@V 1 1047 0
+AX6_WARNG	653	VAR_GLOBAL	@TYP:1
+%IX 53572.1		     
+
+;
+
+@V 1 1048 0
+AX6_ALM	654	VAR_GLOBAL	@TYP:1
+%IX 53572.0		     
+
+;
+
+@V 1 1049 0
+AX6_SI3_IO15	655	VAR_GLOBAL	@TYP:1
+%IX 53569.7		     
+
+;
+
+@V 1 1050 0
+AX6_SI2_IO14	656	VAR_GLOBAL	@TYP:1
+%IX 53569.6		     
+
+;
+
+@V 1 1051 0
+AX6_SI1_IO13	657	VAR_GLOBAL	@TYP:1
+%IX 53569.5		     
+
+;
+
+@V 1 1052 0
+AX6_SI0_IO12	658	VAR_GLOBAL	@TYP:1
+%IX 53569.4		     
+
+;
+
+@V 1 1053 0
+AX6_HBB	659	VAR_GLOBAL	@TYP:1
+%IX 53569.2		     
+
+;
+
+@V 1 1054 0
+AX6_BRK	660	VAR_GLOBAL	@TYP:1
+%IX 53569.1		     
+
+;
+
+@V 1 1055 0
+AX6_SI6_EXT3	661	VAR_GLOBAL	@TYP:1
+%IX 53569.0		     
+
+;
+
+@V 1 1056 0
+AX6_SI5_EXT2	662	VAR_GLOBAL	@TYP:1
+%IX 53568.7		     
+
+;
+
+@V 1 1057 0
+AX6_SI4_EXT1	663	VAR_GLOBAL	@TYP:1
+%IX 53568.6		     
+
+;
+
+@V 1 1058 0
+AX6_SI3_DEC	664	VAR_GLOBAL	@TYP:1
+%IX 53568.2		     
+
+;
+
+@V 1 1059 0
+AX6_SI2_NOT	665	VAR_GLOBAL	@TYP:1
+%IX 53568.1		     
+
+;
+
+@V 1 1060 0
+AX6_SI1_POT	666	VAR_GLOBAL	@TYP:1
+%IX 53568.0		     
+
+;
+
+@V 1 1061 0
+At_Roll_Change	667	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1062 0
+At_Park	668	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1063 0
+Go_To_Park	669	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1064 0
+NewVar2	670	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1065 0
+AX7_SO3	671	VAR_GLOBAL	@TYP:1
+%QX 53632.2		     
+
+;
+
+@V 1 1066 0
+AX7_SO2	672	VAR_GLOBAL	@TYP:1
+%QX 53632.1		     
+
+;
+
+@V 1 1067 0
+AX7_SO1	673	VAR_GLOBAL	@TYP:1
+%QX 53632.0		     
+
+;
+
+@V 1 1068 0
+AX7_PSET	674	VAR_GLOBAL	@TYP:1
+%IX 53636.7		     
+
+;
+
+@V 1 1069 0
+AX7_PON	675	VAR_GLOBAL	@TYP:1
+%IX 53636.4		     
+
+;
+
+@V 1 1070 0
+AX7_SVON	676	VAR_GLOBAL	@TYP:1
+%IX 53636.3		     
+
+;
+
+@V 1 1071 0
+AX7_WARNG	677	VAR_GLOBAL	@TYP:1
+%IX 53636.1		     
+
+;
+
+@V 1 1072 0
+AX7_ALM	678	VAR_GLOBAL	@TYP:1
+%IX 53636.0		     
+
+;
+
+@V 1 1073 0
+AX7_SI3_IO15	679	VAR_GLOBAL	@TYP:1
+%IX 53633.7		     
+
+;
+
+@V 1 1074 0
+AX7_SI2_IO14	680	VAR_GLOBAL	@TYP:1
+%IX 53633.6		     
+
+;
+
+@V 1 1075 0
+AX7_SI1_IO13	681	VAR_GLOBAL	@TYP:1
+%IX 53633.5		     
+
+;
+
+@V 1 1076 0
+AX7_SI0_IO12	682	VAR_GLOBAL	@TYP:1
+%IX 53633.4		     
+
+;
+
+@V 1 1077 0
+AX7_HBB	683	VAR_GLOBAL	@TYP:1
+%IX 53633.2		     
+
+;
+
+@V 1 1078 0
+AX7_BRK	684	VAR_GLOBAL	@TYP:1
+%IX 53633.1		     
+
+;
+
+@V 1 1079 0
+AX7_SI6_EXT3	685	VAR_GLOBAL	@TYP:1
+%IX 53633.0		     
+
+;
+
+@V 1 1080 0
+AX7_SI5_EXT2	686	VAR_GLOBAL	@TYP:1
+%IX 53632.7		     
+
+;
+
+@V 1 1081 0
+AX7_SI4_EXT1	687	VAR_GLOBAL	@TYP:1
+%IX 53632.6		     
+
+;
+
+@V 1 1082 0
+AX7_SI3_DEC	688	VAR_GLOBAL	@TYP:1
+%IX 53632.2		     
+
+;
+
+@V 1 1083 0
+AX7_SI2_NOT	689	VAR_GLOBAL	@TYP:1
+%IX 53632.1		     
+
+;
+
+@V 1 1084 0
+AX7_SI1_POT	690	VAR_GLOBAL	@TYP:1
+%IX 53632.0		     
+
+;
+
+@V 1 1085 0
+V001	691	VAR_GLOBAL	@TYP:4
+		     
+
+;
+
+@V 1 1086 0
+bustestZ	692	VAR_GLOBAL	@TYP:4
+		     
+
+;
+
+@V 1 1087 0
+Inst_102_Output64	693	VAR_GLOBAL	@TYP:8
+%QD 22252		     
+
+;
+
+@V 1 1088 0
+Inst_102_Output63	694	VAR_GLOBAL	@TYP:8
+%QD 22248		     
+
+;
+
+@V 1 1089 0
+Inst_102_Output62	695	VAR_GLOBAL	@TYP:8
+%QD 22244		     
+
+;
+
+@V 1 1090 0
+Inst_102_Output61	696	VAR_GLOBAL	@TYP:8
+%QD 22240		     
+
+;
+
+@V 1 1091 0
+Inst_102_Output60	697	VAR_GLOBAL	@TYP:8
+%QD 22236		     
+
+;
+
+@V 1 1092 0
+Inst_102_Output59	698	VAR_GLOBAL	@TYP:8
+%QD 22232		     
+
+;
+
+@V 1 1093 0
+Inst_102_Output58	699	VAR_GLOBAL	@TYP:8
+%QD 22228		     
+
+;
+
+@V 1 1094 0
+Inst_102_Output57	700	VAR_GLOBAL	@TYP:8
+%QD 22224		     
+
+;
+
+@V 1 1095 0
+Inst_102_Output56	701	VAR_GLOBAL	@TYP:8
+%QD 22220		     
+
+;
+
+@V 1 1096 0
+Inst_102_Output55	702	VAR_GLOBAL	@TYP:8
+%QD 22216		     
+
+;
+
+@V 1 1097 0
+Inst_102_Output54	703	VAR_GLOBAL	@TYP:8
+%QD 22212		     
+
+;
+
+@V 1 1098 0
+Inst_102_Output53	704	VAR_GLOBAL	@TYP:8
+%QD 22208		     
+
+;
+
+@V 1 1099 0
+Inst_102_Output52	705	VAR_GLOBAL	@TYP:8
+%QD 22204		     
+
+;
+
+@V 1 1100 0
+Inst_102_Output51	706	VAR_GLOBAL	@TYP:8
+%QD 22200		     
+
+;
+
+@V 1 1101 0
+Inst_102_Output50	707	VAR_GLOBAL	@TYP:8
+%QD 22196		     
+
+;
+
+@V 1 1102 0
+Inst_102_Output49	708	VAR_GLOBAL	@TYP:8
+%QD 22192		     
+
+;
+
+@V 1 1103 0
+Inst_102_Output48	709	VAR_GLOBAL	@TYP:8
+%QD 22188		     
+
+;
+
+@V 1 1104 0
+Inst_102_Output47	710	VAR_GLOBAL	@TYP:8
+%QD 22184		     
+
+;
+
+@V 1 1105 0
+Inst_102_Output46	711	VAR_GLOBAL	@TYP:8
+%QD 22180		     
+
+;
+
+@V 1 1106 0
+Inst_102_Output45	712	VAR_GLOBAL	@TYP:8
+%QD 22176		     
+
+;
+
+@V 1 1107 0
+Inst_102_Output44	713	VAR_GLOBAL	@TYP:8
+%QD 22172		     
+
+;
+
+@V 1 1108 0
+Inst_102_Output43	714	VAR_GLOBAL	@TYP:8
+%QD 22168		     
+
+;
+
+@V 1 1109 0
+Inst_102_Output42	715	VAR_GLOBAL	@TYP:8
+%QD 22164		     
+
+;
+
+@V 1 1110 0
+Inst_102_Output41	716	VAR_GLOBAL	@TYP:8
+%QD 22160		     
+
+;
+
+@V 1 1111 0
+Inst_102_Output40	717	VAR_GLOBAL	@TYP:8
+%QD 22156		     
+
+;
+
+@V 1 1112 0
+Inst_102_Output39	718	VAR_GLOBAL	@TYP:8
+%QD 22152		     
+
+;
+
+@V 1 1113 0
+Inst_102_Output38	719	VAR_GLOBAL	@TYP:8
+%QD 22148		     
+
+;
+
+@V 1 1114 0
+Inst_102_Output37	720	VAR_GLOBAL	@TYP:8
+%QD 22144		     
+
+;
+
+@V 1 1115 0
+Inst_102_Output36	721	VAR_GLOBAL	@TYP:8
+%QD 22140		     
+
+;
+
+@V 1 1116 0
+Inst_102_Output35	722	VAR_GLOBAL	@TYP:8
+%QD 22136		     
+
+;
+
+@V 1 1117 0
+Inst_102_Output34	723	VAR_GLOBAL	@TYP:8
+%QD 22132		     
+
+;
+
+@V 1 1118 0
+Inst_102_Output33	724	VAR_GLOBAL	@TYP:8
+%QD 22128		     
+
+;
+
+@V 1 1119 0
+Inst_102_Output32	725	VAR_GLOBAL	@TYP:8
+%QD 22124		     
+
+;
+
+@V 1 1120 0
+Inst_102_Output31	726	VAR_GLOBAL	@TYP:8
+%QD 22120		     
+
+;
+
+@V 1 1121 0
+Inst_102_Output30	727	VAR_GLOBAL	@TYP:8
+%QD 22116		     
+
+;
+
+@V 1 1122 0
+Inst_102_Output29	728	VAR_GLOBAL	@TYP:8
+%QD 22112		     
+
+;
+
+@V 1 1123 0
+Inst_102_Output28	729	VAR_GLOBAL	@TYP:8
+%QD 22108		     
+
+;
+
+@V 1 1124 0
+Inst_102_Output27	730	VAR_GLOBAL	@TYP:8
+%QD 22104		     
+
+;
+
+@V 1 1125 0
+Inst_102_Output26	731	VAR_GLOBAL	@TYP:8
+%QD 22100		     
+
+;
+
+@V 1 1126 0
+Inst_102_Output25	732	VAR_GLOBAL	@TYP:8
+%QD 22096		     
+
+;
+
+@V 1 1127 0
+Inst_102_Output24	733	VAR_GLOBAL	@TYP:8
+%QD 22092		     
+
+;
+
+@V 1 1128 0
+Inst_102_Output23	734	VAR_GLOBAL	@TYP:8
+%QD 22088		     
+
+;
+
+@V 1 1129 0
+Inst_102_Output22	735	VAR_GLOBAL	@TYP:8
+%QD 22084		     
+
+;
+
+@V 1 1130 0
+Inst_102_Output21	736	VAR_GLOBAL	@TYP:8
+%QD 22080		     
+
+;
+
+@V 1 1131 0
+Inst_102_Output20	737	VAR_GLOBAL	@TYP:8
+%QD 22076		     
+
+;
+
+@V 1 1132 0
+Inst_102_Output19	738	VAR_GLOBAL	@TYP:8
+%QD 22072		     
+
+;
+
+@V 1 1133 0
+Inst_102_Output18	739	VAR_GLOBAL	@TYP:8
+%QD 22068		     
+
+;
+
+@V 1 1134 0
+Inst_102_Output17	740	VAR_GLOBAL	@TYP:8
+%QD 22064		     
+
+;
+
+@V 1 1135 0
+Inst_102_Output16	741	VAR_GLOBAL	@TYP:8
+%QD 22060		     
+
+;
+
+@V 1 1136 0
+Inst_102_Output15	742	VAR_GLOBAL	@TYP:8
+%QD 22056		     
+
+;
+
+@V 1 1137 0
+Inst_102_Output14	743	VAR_GLOBAL	@TYP:8
+%QD 22052		     
+
+;
+
+@V 1 1138 0
+Inst_102_Output13	744	VAR_GLOBAL	@TYP:8
+%QD 22048		     
+
+;
+
+@V 1 1139 0
+Inst_102_Output12	745	VAR_GLOBAL	@TYP:8
+%QD 22044		     
+
+;
+
+@V 1 1140 0
+Inst_102_Output11	746	VAR_GLOBAL	@TYP:8
+%QD 22040		     
+
+;
+
+@V 1 1141 0
+Inst_102_Output10	747	VAR_GLOBAL	@TYP:8
+%QD 22036		     
+
+;
+
+@V 1 1142 0
+Inst_102_Output9	748	VAR_GLOBAL	@TYP:8
+%QD 22032		     
+
+;
+
+@V 1 1143 0
+Inst_102_Output8	749	VAR_GLOBAL	@TYP:8
+%QD 22028		     
+
+;
+
+@V 1 1144 0
+Inst_102_Output7	750	VAR_GLOBAL	@TYP:8
+%QD 22024		     
+
+;
+
+@V 1 1145 0
+gBotRollDiameter	751	VAR_GLOBAL	@TYP:10
+%QD 22020		     
+
+;
+
+@V 1 1146 0
+gTopRollDiameter	752	VAR_GLOBAL	@TYP:10
+%QD 22016		     
+
+;
+
+@V 1 1147 0
+gStatusWord_4	753	VAR_GLOBAL	@TYP:19
+%QD 22012		     
+
+;
+
+@V 1 1148 0
+gStatusWord_3	754	VAR_GLOBAL	@TYP:19
+%QD 22008		     
+
+;
+
+@V 1 1149 0
+gStatusWord_2	755	VAR_GLOBAL	@TYP:19
+%QD 22004		     
+
+;
+
+@V 1 1150 0
+gStatusWord_1	756	VAR_GLOBAL	@TYP:19
+%QD 22000		     
+
+;
+
+@V 1 1151 0
+Inst_112_Input64	757	VAR_GLOBAL	@TYP:8
+%ID 22252		     
+
+;
+
+@V 1 1152 0
+Inst_112_Input63	758	VAR_GLOBAL	@TYP:8
+%ID 22248		     
+
+;
+
+@V 1 1153 0
+Inst_112_Input62	759	VAR_GLOBAL	@TYP:8
+%ID 22244		     
+
+;
+
+@V 1 1154 0
+Inst_112_Input61	760	VAR_GLOBAL	@TYP:8
+%ID 22240		     
+
+;
+
+@V 1 1155 0
+Inst_112_Input60	761	VAR_GLOBAL	@TYP:8
+%ID 22236		     
+
+;
+
+@V 1 1156 0
+Inst_112_Input59	762	VAR_GLOBAL	@TYP:8
+%ID 22232		     
+
+;
+
+@V 1 1157 0
+Inst_112_Input58	763	VAR_GLOBAL	@TYP:8
+%ID 22228		     
+
+;
+
+@V 1 1158 0
+Inst_112_Input57	764	VAR_GLOBAL	@TYP:8
+%ID 22224		     
+
+;
+
+@V 1 1159 0
+Inst_112_Input56	765	VAR_GLOBAL	@TYP:8
+%ID 22220		     
+
+;
+
+@V 1 1160 0
+Inst_112_Input55	766	VAR_GLOBAL	@TYP:8
+%ID 22216		     
+
+;
+
+@V 1 1161 0
+Inst_112_Input54	767	VAR_GLOBAL	@TYP:8
+%ID 22212		     
+
+;
+
+@V 1 1162 0
+Inst_112_Input53	768	VAR_GLOBAL	@TYP:8
+%ID 22208		     
+
+;
+
+@V 1 1163 0
+Inst_112_Input52	769	VAR_GLOBAL	@TYP:8
+%ID 22204		     
+
+;
+
+@V 1 1164 0
+Inst_112_Input51	770	VAR_GLOBAL	@TYP:8
+%ID 22200		     
+
+;
+
+@V 1 1165 0
+Inst_112_Input50	771	VAR_GLOBAL	@TYP:8
+%ID 22196		     
+
+;
+
+@V 1 1166 0
+Inst_112_Input49	772	VAR_GLOBAL	@TYP:8
+%ID 22192		     
+
+;
+
+@V 1 1167 0
+Inst_112_Input48	773	VAR_GLOBAL	@TYP:8
+%ID 22188		     
+
+;
+
+@V 1 1168 0
+Inst_112_Input47	774	VAR_GLOBAL	@TYP:8
+%ID 22184		     
+
+;
+
+@V 1 1169 0
+Inst_112_Input46	775	VAR_GLOBAL	@TYP:8
+%ID 22180		     
+
+;
+
+@V 1 1170 0
+Inst_112_Input45	776	VAR_GLOBAL	@TYP:8
+%ID 22176		     
+
+;
+
+@V 1 1171 0
+Inst_112_Input44	777	VAR_GLOBAL	@TYP:8
+%ID 22172		     
+
+;
+
+@V 1 1172 0
+Inst_112_Input43	778	VAR_GLOBAL	@TYP:8
+%ID 22168		     
+
+;
+
+@V 1 1173 0
+Inst_112_Input42	779	VAR_GLOBAL	@TYP:8
+%ID 22164		     
+
+;
+
+@V 1 1174 0
+Inst_112_Input41	780	VAR_GLOBAL	@TYP:8
+%ID 22160		     
+
+;
+
+@V 1 1175 0
+Inst_112_Input40	781	VAR_GLOBAL	@TYP:8
+%ID 22156		     
+
+;
+
+@V 1 1176 0
+Inst_112_Input39	782	VAR_GLOBAL	@TYP:8
+%ID 22152		     
+
+;
+
+@V 1 1177 0
+Inst_112_Input38	783	VAR_GLOBAL	@TYP:8
+%ID 22148		     
+
+;
+
+@V 1 1178 0
+Inst_112_Input37	784	VAR_GLOBAL	@TYP:8
+%ID 22144		     
+
+;
+
+@V 1 1179 0
+Inst_112_Input36	785	VAR_GLOBAL	@TYP:8
+%ID 22140		     
+
+;
+
+@V 1 1180 0
+Inst_112_Input35	786	VAR_GLOBAL	@TYP:8
+%ID 22136		     
+
+;
+
+@V 1 1181 0
+Inst_112_Input34	787	VAR_GLOBAL	@TYP:8
+%ID 22132		     
+
+;
+
+@V 1 1182 0
+Inst_112_Input33	788	VAR_GLOBAL	@TYP:8
+%ID 22128		     
+
+;
+
+@V 1 1183 0
+Inst_112_Input32	789	VAR_GLOBAL	@TYP:8
+%ID 22124		     
+
+;
+
+@V 1 1184 0
+Inst_112_Input31	790	VAR_GLOBAL	@TYP:8
+%ID 22120		     
+
+;
+
+@V 1 1185 0
+Inst_112_Input30	791	VAR_GLOBAL	@TYP:8
+%ID 22116		     
+
+;
+
+@V 1 1186 0
+Inst_112_Input29	792	VAR_GLOBAL	@TYP:8
+%ID 22112		     
+
+;
+
+@V 1 1187 0
+Inst_112_Input28	793	VAR_GLOBAL	@TYP:8
+%ID 22108		     
+
+;
+
+@V 1 1188 0
+Inst_112_Input27	794	VAR_GLOBAL	@TYP:8
+%ID 22104		     
+
+;
+
+@V 1 1189 0
+Inst_112_Input26	795	VAR_GLOBAL	@TYP:8
+%ID 22100		     
+
+;
+
+@V 1 1190 0
+Inst_112_Input25	796	VAR_GLOBAL	@TYP:8
+%ID 22096		     
+
+;
+
+@V 1 1191 0
+Inst_112_Input24	797	VAR_GLOBAL	@TYP:8
+%ID 22092		     
+
+;
+
+@V 1 1192 0
+Inst_112_Input23	798	VAR_GLOBAL	@TYP:8
+%ID 22088		     
+
+;
+
+@V 1 1193 0
+Inst_112_Input22	799	VAR_GLOBAL	@TYP:8
+%ID 22084		     
+
+;
+
+@V 1 1194 0
+Inst_112_Input21	800	VAR_GLOBAL	@TYP:8
+%ID 22080		     
+
+;
+
+@V 1 1195 0
+Inst_112_Input20	801	VAR_GLOBAL	@TYP:8
+%ID 22076		     
+
+;
+
+@V 1 1196 0
+Inst_112_Input19	802	VAR_GLOBAL	@TYP:8
+%ID 22072		     
+
+;
+
+@V 1 1197 0
+Inst_112_Input18	803	VAR_GLOBAL	@TYP:8
+%ID 22068		     
+
+;
+
+@V 1 1198 0
+Inst_112_Input17	804	VAR_GLOBAL	@TYP:8
+%ID 22064		     
+
+;
+
+@V 1 1199 0
+Inst_112_Input16	805	VAR_GLOBAL	@TYP:8
+%ID 22060		     
+
+;
+
+@V 1 1200 0
+Inst_112_Input15	806	VAR_GLOBAL	@TYP:8
+%ID 22056		     
+
+;
+
+@V 1 1201 0
+Inst_112_Input14	807	VAR_GLOBAL	@TYP:8
+%ID 22052		     
+
+;
+
+@V 1 1202 0
+Inst_112_Input13	808	VAR_GLOBAL	@TYP:8
+%ID 22048		     
+
+;
+
+@V 1 1203 0
+Inst_112_Input12	809	VAR_GLOBAL	@TYP:8
+%ID 22044		     
+
+;
+
+@V 1 1204 0
+Inst_112_Input11	810	VAR_GLOBAL	@TYP:8
+%ID 22040		     
+
+;
+
+@V 1 1205 0
+Inst_112_Input10	811	VAR_GLOBAL	@TYP:8
+%ID 22036		     
+
+;
+
+@V 1 1206 0
+Inst_112_Input9	812	VAR_GLOBAL	@TYP:8
+%ID 22032		     
+
+;
+
+@V 1 1207 0
+gSealNipActualPosition	813	VAR_GLOBAL	@TYP:10
+%ID 22028		     
+
+;
+
+@V 1 1208 0
+gSealNipActualVelocity	814	VAR_GLOBAL	@TYP:10
+%ID 22024		     
+
+;
+
+@V 1 1209 0
+gBottomDancerPos	815	VAR_GLOBAL	@TYP:10
+%ID 22020		     
+
+;
+
+@V 1 1210 0
+gTopDancerPos	816	VAR_GLOBAL	@TYP:10
+%ID 22016		     
+
+;
+
+@V 1 1211 0
+gControlWord_4	817	VAR_GLOBAL	@TYP:19
+%ID 22012		     
+
+;
+
+@V 1 1212 0
+gControlWord_3	818	VAR_GLOBAL	@TYP:19
+%ID 22008		     
+
+;
+
+@V 1 1213 0
+gControlWord_2	819	VAR_GLOBAL	@TYP:19
+%ID 22004		     
+
+;
+
+@V 1 1214 0
+gControlWord_1	820	VAR_GLOBAL	@TYP:19
+%ID 22000		     
+
+;
+
+@V 1 1216 0
+Low_Roll_Warn_Blink	821	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1221 0
+V028	822	VAR_GLOBAL RETAIN	@TYP:12
+		     
+@TYP:12# 2S0
+;
+
+@V 1 1238 0
+Seal_1_Block_Ret	823	VAR_GLOBAL	@TYP:1
+%IX 32769.4		     
+
+;
+
+@V 1 1239 0
+Seal_1_Block_Ext	824	VAR_GLOBAL	@TYP:1
+%IX 32769.5		     
+
+;
+
+@V 1 1240 0
+Seal_2_Block_Ret	825	VAR_GLOBAL	@TYP:1
+%IX 32769.6		     
+
+;
+
+@V 1 1241 0
+Seal_2_Block_Ext	826	VAR_GLOBAL	@TYP:1
+%IX 32769.7		     
+
+;
+
+@V 1 1247 0
+HP_4UP_Dwell	827	VAR_GLOBAL RETAIN	@TYP:12
+		     
+@TYP:12# 0S300000000
+;
+
+@V 1 1252 0
+SOL_Hole_Punch_1	828	VAR_GLOBAL	@TYP:1
+%QX 32768.0		     
+
+;
+
+@V 1 1253 0
+SOL_Hole_Punch_2	829	VAR_GLOBAL	@TYP:1
+%QX 32768.2		     
+
+;
+
+@V 1 1254 0
+SOL_UpperEncoderRetract	830	VAR_GLOBAL	@TYP:1
+%QX 32768.4		     
+
+;
+
+@V 1 1255 0
+SOL_LowerEncoderRetract	831	VAR_GLOBAL	@TYP:1
+%QX 32768.6		     
+
+;
+
+@V 1 1256 0
+SOL_HolePunch_1_Vac	832	VAR_GLOBAL	@TYP:1
+%QX 32769.0		     
+
+;
+
+@V 1 1257 0
+SOL_HolePunch_2_Vac	833	VAR_GLOBAL	@TYP:1
+%QX 32769.2		     
+
+;
+
+@V 1 1258 0
+Perf_Seal_Valve	834	VAR_GLOBAL	@TYP:1
+%QX 32769.4		     
+
+;
+
+@V 1 1259 0
+Left_Vac2	835	VAR_GLOBAL	@TYP:1
+%QX 32769.6		     
+
+;
+
+@V 1 1260 0
+Right_Vac2	836	VAR_GLOBAL	@TYP:1
+%QX 32770.0		     
+
+;
+
+@V 1 1261 0
+Left_HP2	837	VAR_GLOBAL	@TYP:1
+%QX 32770.2		     
+
+;
+
+@V 1 1262 0
+Right_HP2	838	VAR_GLOBAL	@TYP:1
+%QX 32770.4		     
+
+;
+
+@V 1 1263 0
+Perf_Seal_Valve_6	839	VAR_GLOBAL	@TYP:1
+%QX 32770.6		     
+
+;
+
+@V 1 1264 0
+Perf_Seal_PLaten_1	840	VAR_GLOBAL	@TYP:1
+%QX 32771.0		     
+
+;
+
+@V 1 1265 0
+Perf_Seal_PLaten_2	841	VAR_GLOBAL	@TYP:1
+%QX 32771.2		     
+
+;
+
+@V 1 1266 0
+Labeler_Signal_1	842	VAR_GLOBAL	@TYP:1
+%QX 32769.4		     
+
+;
+
+@V 1 1267 0
+Labeler_Signal_2	843	VAR_GLOBAL	@TYP:1
+%QX 32769.5		     
+
+;
+
+@V 1 1268 0
+Left_4UP_HP_Enable	844	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1269 0
+Left_4UP_HP_Manual	845	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1270 0
+Right_4UP_HP_Enable	846	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1271 0
+Right_4UP_HP_Manual	847	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1273 0
+Banner_Virtual_Status	848	VAR_GLOBAL	@TYP:19
+%ID 34304		     
+
+;
+
+@V 1 1274 0
+NewVar4	849	VAR_GLOBAL	@TYP:19
+%ID 34306		     
+
+;
+
+@V 1 1275 0
+NewVar5	850	VAR_GLOBAL	@TYP:19
+%ID 34308		     
+
+;
+
+@V 1 1276 0
+NewVar6	851	VAR_GLOBAL	@TYP:19
+%ID 34310		     
+
+;
+
+@V 1 1278 0
+Low_Roll_Alarm_Dia_SP	852	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1279 0
+VP_Relocating	853	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1280 0
+SD212404_ActPos	854	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1281 0
+SD212304_ActPos	855	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1282 0
+FADrives_Enable_ClearLSE	856	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1283 0
+Direction	857	VAR_GLOBAL	@TYP:1031
+		     
+
+;
+
+@V 1 1286 0
+CPx310_Alarm_1	858	VAR_GLOBAL	@TYP:19
+%ID 34308		     
+
+;
+
+@V 1 1287 0
+CPx310_Alarm_2	859	VAR_GLOBAL	@TYP:19
+%ID 34312		     
+
+;
+
+@V 1 1288 0
+CPx310_Spare_1	860	VAR_GLOBAL	@TYP:19
+%ID 34316		     
+
+;
+
+@V 1 1289 0
+CPx310_Spare_2	861	VAR_GLOBAL	@TYP:19
+%ID 34320		     
+
+;
+
+@V 1 1290 0
+CPx310_Status	862	VAR_GLOBAL	@TYP:19
+%ID 34304		     
+
+;
+
+@V 1 1292 0
+CPx110_Status_to_CP3	863	VAR_GLOBAL	@TYP:19
+%QD 34304		     
+
+;
+
+@V 1 1293 0
+CPx110_Alarm_1_to_CP3	864	VAR_GLOBAL	@TYP:19
+%QD 34308		     
+
+;
+
+@V 1 1294 0
+CPx110_Alarm_2_to_CP3	865	VAR_GLOBAL	@TYP:19
+%QD 34312		     
+
+;
+
+@V 1 1295 0
+CPx110_Banner_Status_to_CP3	866	VAR_GLOBAL	@TYP:19
+%QD 34316		     
+
+;
+
+@V 1 1296 0
+CPx110_Override_Speed_to_CP3	867	VAR_GLOBAL	@TYP:10
+%QD 34320		     
+
+;
+
+@V 1 1297 0
+CPx210_Status_to_CP3	868	VAR_GLOBAL	@TYP:19
+%QD 34324		     
+
+;
+
+@V 1 1298 0
+CPx210_Alarm_1_to_CP3	869	VAR_GLOBAL	@TYP:19
+%QD 34328		     
+
+;
+
+@V 1 1299 0
+CPx210_Alarm_2_to_CP3	870	VAR_GLOBAL	@TYP:19
+%QD 34332		     
+
+;
+
+@V 1 1300 0
+CutAutoTunePB	871	VAR_GLOBAL	@TYP:19
+%QD 34348		     
+
+;
+
+@V 1 1301 0
+Seal_Plate_ID_OUT	872	VAR_GLOBAL	@TYP:19
+%QD 34344		     
+
+;
+
+@V 1 1302 0
+CPx210_Spare_1_to_CP3	873	VAR_GLOBAL	@TYP:19
+%QD 34336		     
+
+;
+
+@V 1 1303 0
+CPx210_Spare_2_to_CP3	874	VAR_GLOBAL	@TYP:19
+%QD 34340		     
+
+;
+
+@V 1 1304 0
+SMC_4U2	875	VAR_GLOBAL	@TYP:18
+%IW 34822		     
+
+;
+
+@V 1 1305 0
+status_from_CPX210	876	VAR_GLOBAL	@TYP:19
+		     
+
+;
+
+@V 1 1306 0
+StatusCPC210	877	VAR_GLOBAL	@TYP:19
+		     
+
+;
+
+@V 1 1307 0
+StatusCPX210	878	VAR_GLOBAL	@TYP:19
+		     
+
+;
+
+@V 1 1308 0
+Lower_Roll_Diameter_Z	879	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1309 0
+Upper_Roll_Diameter_Z	880	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1310 0
+FilmStopLocal	881	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1311 0
+V002	882	VAR_GLOBAL	@TYP:10
+		     
+
+;
+
+@V 1 1312 0
+V004	883	VAR_GLOBAL	@TYP:10
+		     
+
+;
+
+@V 1 1313 0
+AXIS21	884	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#0015}
+;
+
+@V 1 1314 0
+Film_Index_Stop	885	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1315 0
+C076	886	VAR_GLOBAL	@TYP:1
+		     
+@TYP:1# 0
+;
+
+@V 1 1323 0
+Perf_Seal_Dwell_2	887	VAR_GLOBAL RETAIN	@TYP:12
+		     
+
+;
+
+@V 1 1324 0
+Perf_Seal_Dwell_3	888	VAR_GLOBAL RETAIN	@TYP:12
+		     
+
+;
+
+@V 1 1325 0
+Perf_Seal_Dwell_4	889	VAR_GLOBAL RETAIN	@TYP:12
+		     
+
+;
+
+@V 1 1326 0
+Perf_Seal_Dwell_5	890	VAR_GLOBAL RETAIN	@TYP:12
+		     
+
+;
+
+@V 1 1327 0
+Perf_Seal_Dwell_6	891	VAR_GLOBAL RETAIN	@TYP:12
+		     
+
+;
+
+@V 1 1338 0
+WW_PLCmode_Run	892	VAR_GLOBAL	@TYP:10
+%QD 28676		     
+
+;
+
+@V 1 1339 0
+WW_SD212654_Enabled	893	VAR_GLOBAL	@TYP:10
+%QD 28680		     
+
+;
+
+@V 1 1340 0
+WW_SD212704_Enabled	894	VAR_GLOBAL	@TYP:10
+%QD 28684		     
+
+;
+
+@V 1 1341 0
+WW_CP1_Drives_Enabled	895	VAR_GLOBAL	@TYP:10
+%QD 28688		     
+
+;
+
+@V 1 1342 0
+WW_HP_Locating_Error	896	VAR_GLOBAL	@TYP:10
+%QD 28692		     
+
+;
+
+@V 1 1343 0
+WW_HP1_X_Alarm	897	VAR_GLOBAL	@TYP:10
+%QD 28696		     
+
+;
+
+@V 1 1344 0
+WW_HP1_Y_Alarm	898	VAR_GLOBAL	@TYP:10
+%QD 28700		     
+
+;
+
+@V 1 1345 0
+WW_Load_Lower_Enabled	899	VAR_GLOBAL	@TYP:10
+%QD 28704		     
+
+;
+
+@V 1 1346 0
+WW_Load_Upper_Enabled	900	VAR_GLOBAL	@TYP:10
+%QD 28708		     
+
+;
+
+@V 1 1347 0
+WW_Loader_Left_Horiz_Alarm	901	VAR_GLOBAL	@TYP:10
+%QD 28712		     
+
+;
+
+@V 1 1348 0
+WW_Loader_Left_Vert_Alarm	902	VAR_GLOBAL	@TYP:10
+%QD 28716		     
+
+;
+
+@V 1 1349 0
+WW_Loader_Right_Horiz_Alarm	903	VAR_GLOBAL	@TYP:10
+%QD 28720		     
+
+;
+
+@V 1 1350 0
+WW_Loader_Right_Vert_Alarm	904	VAR_GLOBAL	@TYP:10
+%QD 28724		     
+
+;
+
+@V 1 1351 0
+WW_Loader_Rolls_Engaged	905	VAR_GLOBAL	@TYP:10
+%QD 28728		     
+
+;
+
+@V 1 1352 0
+WW_Loader_Unwind_Ctr	906	VAR_GLOBAL	@TYP:10
+%QD 28732		     
+
+;
+
+@V 1 1353 0
+NewVar8	907	VAR_GLOBAL	@TYP:10
+%QD 28736		     
+
+;
+
+@V 1 1354 0
+WW_Lower_Roll_LOW_Warn	908	VAR_GLOBAL	@TYP:10
+%QD 28740		     
+
+;
+
+@V 1 1355 0
+WW_Lwr_Unwind_Alarm	909	VAR_GLOBAL	@TYP:10
+%QD 28744		     
+
+;
+
+@V 1 1356 0
+WW_Reset_Alarm	910	VAR_GLOBAL	@TYP:10
+%QD 28748		     
+
+;
+
+@V 1 1357 0
+WW_TS_Locating_Error	911	VAR_GLOBAL	@TYP:10
+%QD 28752		     
+
+;
+
+@V 1 1358 0
+WW_Use_TS_Two	912	VAR_GLOBAL	@TYP:10
+%QD 28756		     
+
+;
+
+@V 1 1359 0
+WW_Unload_Lower_Enabled	913	VAR_GLOBAL	@TYP:10
+%QD 28760		     
+
+;
+
+@V 1 1360 0
+WW_Unload_Upper_Enabled	914	VAR_GLOBAL	@TYP:10
+%QD 28764		     
+
+;
+
+@V 1 1361 0
+NewVar7	915	VAR_GLOBAL	@TYP:10
+%QD 28768		     
+
+;
+
+@V 1 1362 0
+WW_Upper_Roll_LOW_Warn	916	VAR_GLOBAL	@TYP:10
+%QD 28772		     
+
+;
+
+@V 1 1363 0
+WW_Upr_Unwind_Alarm	917	VAR_GLOBAL	@TYP:10
+%QD 28776		     
+
+;
+
+@V 1 1364 0
+WW_VP_Locating_Error	918	VAR_GLOBAL	@TYP:10
+%QD 28780		     
+
+;
+
+@V 1 1365 0
+WW_VP1_O_Alarm	919	VAR_GLOBAL	@TYP:10
+%QD 28784		     
+
+;
+
+@V 1 1366 0
+WW_VP1_X_Alarm	920	VAR_GLOBAL	@TYP:10
+%QD 28788		     
+
+;
+
+@V 1 1367 0
+WW_VP1_Y_Alarm	921	VAR_GLOBAL	@TYP:10
+%QD 28792		     
+
+;
+
+@V 1 1368 0
+WW_Cycle_Ready_Output	922	VAR_GLOBAL	@TYP:10
+%QD 28672		     
+
+;
+
+@V 1 1369 0
+WW_Alarm_W2	923	VAR_GLOBAL	@TYP:4
+%QD 28800		     
+
+;
+
+@V 1 1370 0
+WW_HP1_X_Bump_Value	924	VAR_GLOBAL	@TYP:10
+%QD 28804		     
+
+;
+
+@V 1 1371 0
+WW_HP1_Y_Bump_Value	925	VAR_GLOBAL	@TYP:10
+%QD 28808		     
+
+;
+
+@V 1 1372 0
+WW_TS1_X_Bump_Value	926	VAR_GLOBAL	@TYP:10
+%QD 28812		     
+
+;
+
+@V 1 1373 0
+WW_TS1_Y_Bump_Value	927	VAR_GLOBAL	@TYP:10
+%QD 28816		     
+
+;
+
+@V 1 1374 0
+WW_VP1_O_Bump_Value	928	VAR_GLOBAL	@TYP:10
+%QD 28820		     
+
+;
+
+@V 1 1375 0
+WW_VP1_X_Bump_Value	929	VAR_GLOBAL	@TYP:10
+%QD 28824		     
+
+;
+
+@V 1 1376 0
+WW_VP1_Y_Bump_Value	930	VAR_GLOBAL	@TYP:10
+%QD 28828		     
+
+;
+
+@V 1 1377 0
+WW_PLC_Sys_Tick_CNT	931	VAR_GLOBAL	@TYP:4
+%QD 28832		     
+
+;
+
+@V 1 1378 0
+WW_CP2110Status	932	VAR_GLOBAL	@TYP:4
+%QD 28836		     
+
+;
+
+@V 1 1379 0
+WW_Lower_IMP_From_Inches	933	VAR_GLOBAL	@TYP:4
+%QD 28840		     
+
+;
+
+@V 1 1380 0
+WW_Lower_Length	934	VAR_GLOBAL	@TYP:10
+%QD 28844		     
+
+;
+
+@V 1 1381 0
+WW_Lower_Remaining_Imp	935	VAR_GLOBAL	@TYP:4
+%QD 28848		     
+
+;
+
+@V 1 1382 0
+WW_Safety_Word0	936	VAR_GLOBAL	@TYP:4
+%QD 28852		     
+
+;
+
+@V 1 1383 0
+WW_Upper_IMP_From_Inches	937	VAR_GLOBAL	@TYP:4
+%QD 28856		     
+
+;
+
+@V 1 1384 0
+WW_Upper_Length	938	VAR_GLOBAL	@TYP:10
+%QD 28860		     
+
+;
+
+@V 1 1385 0
+WW_Upper_Remaining_Imp	939	VAR_GLOBAL	@TYP:4
+%QD 28864		     
+
+;
+
+@V 1 1386 0
+WW_Alarm_W1	940	VAR_GLOBAL	@TYP:4
+%QD 28796		     
+
+;
+
+@V 1 1387 0
+WW_Stop_PB	941	VAR_GLOBAL	@TYP:10
+%QD 28868		     
+
+;
+
+@V 1 1388 0
+WW_Loader_Pickup_Pos_PB_Clr	942	VAR_GLOBAL	@TYP:10
+%QD 28872		     
+
+;
+
+@V 1 1389 0
+WW_Loader_Clear_Pos_PB_Clr	943	VAR_GLOBAL	@TYP:10
+%QD 28876		     
+
+;
+
+@V 1 1390 0
+WW_Loader_Below_Upper_PB_Clr	944	VAR_GLOBAL	@TYP:10
+%QD 28880		     
+
+;
+
+@V 1 1391 0
+WW_Loader_Below_Lower_PB_Clr	945	VAR_GLOBAL	@TYP:10
+%QD 28884		     
+
+;
+
+@V 1 1392 0
+WW_Loader_Below_Center_PB_Clr	946	VAR_GLOBAL	@TYP:10
+%QD 28888		     
+
+;
+
+@V 1 1393 0
+WW_Loader_Above_Upper_PB_Clr	947	VAR_GLOBAL	@TYP:10
+%QD 28892		     
+
+;
+
+@V 1 1394 0
+WW_Loader_Above_Lower_PB_Clr	948	VAR_GLOBAL	@TYP:10
+%QD 28896		     
+
+;
+
+@V 1 1395 0
+WW_Loader_Above_Center_PB_Clr	949	VAR_GLOBAL	@TYP:10
+%QD 28900		     
+
+;
+
+@V 1 1396 0
+WW_Load_Upper_PB_Clear	950	VAR_GLOBAL	@TYP:10
+%QD 28904		     
+
+;
+
+@V 1 1397 0
+WW_Load_Lower_PB_Clear	951	VAR_GLOBAL	@TYP:10
+%QD 28908		     
+
+;
+
+@V 1 1398 0
+WW_Drives_Enable_Clear	952	VAR_GLOBAL	@TYP:10
+%QD 28912		     
+
+;
+
+@V 1 1399 0
+WW_Hole_1_Req_By_Yask	953	VAR_GLOBAL	@TYP:10
+%QD 28916		     
+
+;
+
+@V 1 1400 0
+WW_Hole_2_Req_By_Yask	954	VAR_GLOBAL	@TYP:10
+%QD 28920		     
+
+;
+
+@V 1 1401 0
+WW_Loader_Mode_Req_by_Yask	955	VAR_GLOBAL	@TYP:10
+%QD 28924		     
+
+;
+
+@V 1 1402 0
+WW_Loader_SetHome_PB_Clear	956	VAR_GLOBAL	@TYP:10
+%QD 28928		     
+
+;
+
+@V 1 1403 0
+WW_Loader_Stop_PB_Clear	957	VAR_GLOBAL	@TYP:10
+%QD 28932		     
+
+;
+
+@V 1 1404 0
+WW_Mode_Auto_Clear	958	VAR_GLOBAL	@TYP:10
+%QD 28936		     
+
+;
+
+@V 1 1405 0
+WW_Reset_Drive_PB_Clear	959	VAR_GLOBAL	@TYP:10
+%QD 28940		     
+
+;
+
+@V 1 1406 0
+WW_Start_PB_Clear	960	VAR_GLOBAL	@TYP:10
+%QD 28944		     
+
+;
+
+@V 1 1407 0
+WW_Unload_Lower_PB_Clear	961	VAR_GLOBAL	@TYP:10
+%QD 28948		     
+
+;
+
+@V 1 1408 0
+WW_Unload_Upper_PB_Clear	962	VAR_GLOBAL	@TYP:10
+%QD 28952		     
+
+;
+
+@V 1 1409 0
+WW_HP1_X_SP_Out	963	VAR_GLOBAL	@TYP:10
+%QD 28956		     
+
+;
+
+@V 1 1410 0
+WW_HP1_Y_SP_Out	964	VAR_GLOBAL	@TYP:10
+%QD 28964		     
+
+;
+
+@V 1 1411 0
+WW_TS1_X_SP_Out	965	VAR_GLOBAL	@TYP:10
+%QD 28968		     
+
+;
+
+@V 1 1412 0
+WW_TS1_Y_SP_Out	966	VAR_GLOBAL	@TYP:10
+%QD 28972		     
+
+;
+
+@V 1 1413 0
+WW_VP1_O_SP_Out	967	VAR_GLOBAL	@TYP:10
+%QD 28976		     
+
+;
+
+@V 1 1414 0
+WW_VP1_X_SP_Out	968	VAR_GLOBAL	@TYP:10
+%QD 28980		     
+
+;
+
+@V 1 1415 0
+WW_VP1_Y_SP_Out	969	VAR_GLOBAL	@TYP:10
+%QD 28984		     
+
+;
+
+@V 1 1416 0
+WW_Recipe_Change_Clear	970	VAR_GLOBAL	@TYP:10
+%QD 28960		     
+
+;
+
+@V 1 1417 0
+WW_HP2_X_Bump_Value	971	VAR_GLOBAL	@TYP:10
+%QD 28988		     
+
+;
+
+@V 1 1418 0
+WW_HP2_Y_Bump_Value	972	VAR_GLOBAL	@TYP:10
+%QD 28992		     
+
+;
+
+@V 1 1419 0
+WW_TS2_X_Bump_Value	973	VAR_GLOBAL	@TYP:10
+%QD 28996		     
+
+;
+
+@V 1 1420 0
+WW_TS2_Y_Bump_Value	974	VAR_GLOBAL	@TYP:10
+%QD 29000		     
+
+;
+
+@V 1 1421 0
+WW_VP2_O_Bump_Value	975	VAR_GLOBAL	@TYP:10
+%QD 29004		     
+
+;
+
+@V 1 1422 0
+WW_VP2_X_Bump_Value	976	VAR_GLOBAL	@TYP:10
+%QD 29008		     
+
+;
+
+@V 1 1423 0
+WW_VP2_Y_Bump_Value	977	VAR_GLOBAL	@TYP:10
+%QD 29012		     
+
+;
+
+@V 1 1424 0
+VP1_Man_Enable	978	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1425 0
+VP2_Man_Enable	979	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1426 0
+WW_Unwind_Estop_active	980	VAR_GLOBAL	@TYP:10
+%QD 29016		     
+
+;
+
+@V 1 1427 0
+WW_Seal_Estop_active	981	VAR_GLOBAL	@TYP:10
+%QD 29020		     
+
+;
+
+@V 1 1428 0
+WW_Cut_Estop_active	982	VAR_GLOBAL	@TYP:10
+%QD 29024		     
+
+;
+
+@V 1 1429 0
+WW_P_P_Estop_active	983	VAR_GLOBAL	@TYP:10
+%QD 29028		     
+
+;
+
+@V 1 1430 0
+WW_Seal_Gate_active	984	VAR_GLOBAL	@TYP:10
+%QD 29032		     
+
+;
+
+@V 1 1431 0
+WW_Cut_Gate_active	985	VAR_GLOBAL	@TYP:10
+%QD 29036		     
+
+;
+
+@V 1 1432 0
+WW_Light_Curtain_Active	986	VAR_GLOBAL	@TYP:10
+%QD 29040		     
+
+;
+
+@V 1 1433 0
+WW_Banner_Enet_Status	987	VAR_GLOBAL	@TYP:10
+%QD 29044		     
+
+;
+
+@V 1 1434 0
+WW_TS1_Locating_Error	988	VAR_GLOBAL	@TYP:10
+%QD 29048		     
+
+;
+
+@V 1 1435 0
+WW_HP1_Locating_Error	989	VAR_GLOBAL	@TYP:10
+%QD 29052		     
+
+;
+
+@V 1 1436 0
+WW_VP1_Locating_Error	990	VAR_GLOBAL	@TYP:10
+%QD 29056		     
+
+;
+
+@V 1 1437 0
+WW_TS2_Locating_Error	991	VAR_GLOBAL	@TYP:10
+%QD 29060		     
+
+;
+
+@V 1 1438 0
+WW_HP2_Locating_Error	992	VAR_GLOBAL	@TYP:10
+%QD 29064		     
+
+;
+
+@V 1 1439 0
+WW_VP2_Locating_Error	993	VAR_GLOBAL	@TYP:10
+%QD 29068		     
+
+;
+
+@V 1 1440 0
+WW_Upper_Roll_Diameter	994	VAR_GLOBAL	@TYP:10
+%QD 29072		     
+
+;
+
+@V 1 1441 0
+WW_Lower_Roll_Diameter	995	VAR_GLOBAL	@TYP:10
+%QD 29076		     
+
+;
+
+@V 1 1442 0
+Low_Roll_Dia_SP	996	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1443 0
+Upper_Act_Dia	997	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1444 0
+Lower_Act_Dia	998	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1445 0
+Upper_Act_Dia_Set	999	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1446 0
+Lower_Act_Dia_Set	1000	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1447 0
+Perf_Seal_Enable	1001	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1448 0
+WW_Zone1_Temp	1002	VAR_GLOBAL	@TYP:10
+%QD 29080		     
+
+;
+
+@V 1 1449 0
+WW_Zone2_Temp	1003	VAR_GLOBAL	@TYP:10
+%QD 29084		     
+
+;
+
+@V 1 1450 0
+WW_Zone3_Temp	1004	VAR_GLOBAL	@TYP:10
+%QD 29088		     
+
+;
+
+@V 1 1451 0
+WW_Zone4_Temp	1005	VAR_GLOBAL	@TYP:10
+%QD 29092		     
+
+;
+
+@V 1 1452 0
+WW_Zone5_Temp	1006	VAR_GLOBAL	@TYP:10
+%QD 29096		     
+
+;
+
+@V 1 1453 0
+gCP1_Status_Bits_mb	1007	VAR_GLOBAL	@TYP:19
+%QD 29100		     
+
+;
+
+@V 1 1454 0
+WW_Alarm_Word_1	1008	VAR_GLOBAL	@TYP:19
+%QD 29104		     
+
+;
+
+@V 1 1455 0
+WW_Alarm_Word_2	1009	VAR_GLOBAL	@TYP:19
+%QD 29108		     
+
+;
+
+@V 1 1456 0
+Adj_Test1	1010	VAR_GLOBAL	@TYP:10
+%QD 29112		     
+
+;
+
+@V 1 1457 0
+Adj_Position_Right	1011	VAR_GLOBAL	@TYP:10
+%QD 29116		     
+
+;
+
+@V 1 1458 0
+Adj_Position_Left	1012	VAR_GLOBAL	@TYP:10
+%QD 29120		     
+
+;
+
+@V 1 1459 0
+Adj_SynchronizedREAL	1013	VAR_GLOBAL	@TYP:10
+%QD 29124		     
+
+;
+
+@V 1 1460 0
+ADJ_EndTravel_OK	1014	VAR_GLOBAL	@TYP:10
+%QD 29128		     
+
+;
+
+@V 1 1461 0
+Adj_Prot_Disabled	1015	VAR_GLOBAL	@TYP:10
+%QD 29140		     
+
+;
+
+@V 1 1462 0
+Adj_Offset_Too_Large	1016	VAR_GLOBAL	@TYP:10
+%QD 29144		     
+
+;
+
+@V 1 1463 0
+gAdj_Offset_Out	1017	VAR_GLOBAL	@TYP:10
+%QD 29148		     
+
+;
+
+@V 1 1464 0
+VP2_X_SP_mb	1018	VAR_GLOBAL	@TYP:10
+%QD 29160		     
+
+;
+
+@V 1 1465 0
+VP2_Y_SP_mb	1019	VAR_GLOBAL	@TYP:10
+%QD 29164		     
+
+;
+
+@V 1 1466 0
+TS2_X_SP_mb	1020	VAR_GLOBAL	@TYP:10
+%QD 29168		     
+
+;
+
+@V 1 1467 0
+TS2_Y_SP_mb	1021	VAR_GLOBAL	@TYP:10
+%QD 29172		     
+
+;
+
+@V 1 1468 0
+HP2_X_SP_mb	1022	VAR_GLOBAL	@TYP:10
+%QD 29176		     
+
+;
+
+@V 1 1469 0
+NewVar11	1023	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1470 0
+NewVar12	1024	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1471 0
+NewVar13	1025	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1472 0
+HP2_Y_SP_mb	1026	VAR_GLOBAL	@TYP:10
+%QD 29180		     
+
+;
+
+@V 1 1473 0
+LowRollAlarm_mb	1027	VAR_GLOBAL	@TYP:10
+%QD 29184		     
+
+;
+
+@V 1 1474 0
+VS_Enables_X0	1028	VAR_GLOBAL	@TYP:10
+%QD 29188		     
+
+;
+
+@V 1 1475 0
+VS_Enables_X1	1029	VAR_GLOBAL	@TYP:10
+%QD 29192		     
+
+;
+
+@V 1 1483 0
+WW_Two_Valves_Req	1030	VAR_GLOBAL	@TYP:10
+%ID 28700		     
+
+;
+
+@V 1 1484 0
+WW_Die_Change_PB	1031	VAR_GLOBAL	@TYP:10
+%ID 28704		     
+
+;
+
+@V 1 1485 0
+WW_Drives_Enable_PB	1032	VAR_GLOBAL	@TYP:10
+%ID 28708		     
+
+;
+
+@V 1 1486 0
+WW_Hole_1_Req	1033	VAR_GLOBAL	@TYP:10
+%ID 28712		     
+
+;
+
+@V 1 1487 0
+WW_Hole_2_Req	1034	VAR_GLOBAL	@TYP:10
+%ID 28716		     
+
+;
+
+@V 1 1488 0
+WW_Hole_3_Req	1035	VAR_GLOBAL	@TYP:10
+%ID 28720		     
+
+;
+
+@V 1 1489 0
+WW_Hole_4_Req	1036	VAR_GLOBAL	@TYP:10
+%ID 28724		     
+
+;
+
+@V 1 1490 0
+WW_HP1_Hole_Punch_PB	1037	VAR_GLOBAL	@TYP:10
+%ID 28728		     
+
+;
+
+@V 1 1491 0
+WW_HP1_X_Dec_PB	1038	VAR_GLOBAL	@TYP:10
+%ID 28732		     
+
+;
+
+@V 1 1492 0
+WW_HP1_X_Inc_PB	1039	VAR_GLOBAL	@TYP:10
+%ID 28736		     
+
+;
+
+@V 1 1493 0
+WW_HP1_Y_Dec_PB	1040	VAR_GLOBAL	@TYP:10
+%ID 28740		     
+
+;
+
+@V 1 1494 0
+WW_HP1_Y_Inc_PB	1041	VAR_GLOBAL	@TYP:10
+%ID 28744		     
+
+;
+
+@V 1 1495 0
+WW_HP2_Hole_Punch_PB	1042	VAR_GLOBAL	@TYP:10
+%ID 28748		     
+
+;
+
+@V 1 1496 0
+WW_Load_Lower_PB	1043	VAR_GLOBAL	@TYP:10
+%ID 28752		     
+
+;
+
+@V 1 1497 0
+WW_Load_Upper_PB	1044	VAR_GLOBAL	@TYP:10
+%ID 28756		     
+
+;
+
+@V 1 1498 0
+WW_Loader_Above_Center_PB	1045	VAR_GLOBAL	@TYP:10
+%ID 28760		     
+
+;
+
+@V 1 1499 0
+WW_Loader_Above_Lower_PB	1046	VAR_GLOBAL	@TYP:10
+%ID 28764		     
+
+;
+
+@V 1 1500 0
+WW_Loader_Above_Upper_PB	1047	VAR_GLOBAL	@TYP:10
+%ID 28768		     
+
+;
+
+@V 1 1501 0
+WW_Loader_Below_Center_PB	1048	VAR_GLOBAL	@TYP:10
+%ID 28772		     
+
+;
+
+@V 1 1502 0
+WW_Loader_Below_Lower_PB	1049	VAR_GLOBAL	@TYP:10
+%ID 28776		     
+
+;
+
+@V 1 1503 0
+WW_Loader_Below_Upper_PB	1050	VAR_GLOBAL	@TYP:10
+%ID 28780		     
+
+;
+
+@V 1 1504 0
+WW_Loader_Clear_Pos_PB	1051	VAR_GLOBAL	@TYP:10
+%ID 28784		     
+
+;
+
+@V 1 1505 0
+WW_Loader_Pickup_Pos_PB	1052	VAR_GLOBAL	@TYP:10
+%ID 28788		     
+
+;
+
+@V 1 1506 0
+WW_Loader_SetHome_PB	1053	VAR_GLOBAL	@TYP:10
+%ID 28792		     
+
+;
+
+@V 1 1507 0
+WW_Loader_Stop_PB	1054	VAR_GLOBAL	@TYP:10
+%ID 28796		     
+
+;
+
+@V 1 1508 0
+WW_Mode_Auto	1055	VAR_GLOBAL	@TYP:10
+%ID 28800		     
+
+;
+
+@V 1 1509 0
+WW_Mode_Loader	1056	VAR_GLOBAL	@TYP:10
+%ID 28804		     
+
+;
+
+@V 1 1510 0
+WW_Reset_Drives_PB	1057	VAR_GLOBAL	@TYP:10
+%ID 28808		     
+
+;
+
+@V 1 1511 0
+WW_SET_HP_1_X_0	1058	VAR_GLOBAL	@TYP:10
+%ID 28672		     
+
+;
+
+@V 1 1512 0
+WW_SET_HP_1_Y_0	1059	VAR_GLOBAL	@TYP:10
+%ID 28676		     
+
+;
+
+@V 1 1513 0
+WW_SET_TS_1_X_0	1060	VAR_GLOBAL	@TYP:10
+%ID 28680		     
+
+;
+
+@V 1 1514 0
+WW_SET_TS_1_Y_0	1061	VAR_GLOBAL	@TYP:10
+%ID 28684		     
+
+;
+
+@V 1 1515 0
+WW_SET_VP_1_THETA_0	1062	VAR_GLOBAL	@TYP:10
+%ID 28688		     
+
+;
+
+@V 1 1516 0
+WW_SET_VP_1_X_0	1063	VAR_GLOBAL	@TYP:10
+%ID 28692		     
+
+;
+
+@V 1 1517 0
+WW_SET_VP_1_Y_0	1064	VAR_GLOBAL	@TYP:10
+%ID 28696		     
+
+;
+
+@V 1 1518 0
+WW_Roll_LOW_Alarm_Ack	1065	VAR_GLOBAL	@TYP:10
+%ID 28812		     
+
+;
+
+@V 1 1519 0
+WW_Start_PB	1066	VAR_GLOBAL	@TYP:10
+%ID 28816		     
+
+;
+
+@V 1 1520 0
+WW_Hole_4UP_2_Req	1067	VAR_GLOBAL	@TYP:10
+%ID 28820		     
+
+;
+
+@V 1 1521 0
+WW_Thread_PB	1068	VAR_GLOBAL	@TYP:10
+%ID 28824		     
+
+;
+
+@V 1 1522 0
+WW_TS1_Calculate_PB	1069	VAR_GLOBAL	@TYP:10
+%ID 28828		     
+
+;
+
+@V 1 1523 0
+WW_TS1_X_Dec_PB	1070	VAR_GLOBAL	@TYP:10
+%ID 28832		     
+
+;
+
+@V 1 1524 0
+WW_TS1_X_Inc_PB	1071	VAR_GLOBAL	@TYP:10
+%ID 28836		     
+
+;
+
+@V 1 1525 0
+WW_TS1_Y_Dec_PB	1072	VAR_GLOBAL	@TYP:10
+%ID 28840		     
+
+;
+
+@V 1 1526 0
+WW_TS1_Y_Inc_PB	1073	VAR_GLOBAL	@TYP:10
+%ID 28844		     
+
+;
+
+@V 1 1527 0
+WW_Unload_Lower_PB	1074	VAR_GLOBAL	@TYP:10
+%ID 28848		     
+
+;
+
+@V 1 1528 0
+WW_Unload_Upper_PB	1075	VAR_GLOBAL	@TYP:10
+%ID 28852		     
+
+;
+
+@V 1 1529 0
+WW_Unlock_Panel_Doors_PB	1076	VAR_GLOBAL	@TYP:10
+%ID 28856		     
+
+;
+
+@V 1 1530 0
+WW_VP1_O_Dec_PB	1077	VAR_GLOBAL	@TYP:10
+%ID 28864		     
+
+;
+
+@V 1 1531 0
+WW_VP1_O_Inc_PB	1078	VAR_GLOBAL	@TYP:10
+%ID 28868		     
+
+;
+
+@V 1 1532 0
+WW_VP1_X_Dec_PB	1079	VAR_GLOBAL	@TYP:10
+%ID 28872		     
+
+;
+
+@V 1 1533 0
+WW_VP1_X_Inc_PB	1080	VAR_GLOBAL	@TYP:10
+%ID 28876		     
+
+;
+
+@V 1 1534 0
+WW_VP1_Y_Dec_PB	1081	VAR_GLOBAL	@TYP:10
+%ID 28880		     
+
+;
+
+@V 1 1535 0
+WW_VP1_Y_Inc_PB	1082	VAR_GLOBAL	@TYP:10
+%ID 28884		     
+
+;
+
+@V 1 1536 0
+WW_Web_Jog_Fwd_PB	1083	VAR_GLOBAL	@TYP:10
+%ID 28892		     
+
+;
+
+@V 1 1537 0
+WW_HP1_X_Bump_Value_SP	1084	VAR_GLOBAL	@TYP:10
+%ID 28900		     
+
+;
+
+@V 1 1538 0
+WW_HP1_Y_Bump_Value_SP	1085	VAR_GLOBAL	@TYP:10
+%ID 28904		     
+
+;
+
+@V 1 1539 0
+WW_Lower_IMP_On_Roll	1086	VAR_GLOBAL	@TYP:4
+%ID 28908		     
+
+;
+
+@V 1 1540 0
+WW_TS1_X_Bump_Value_SP	1087	VAR_GLOBAL	@TYP:10
+%ID 28912		     
+
+;
+
+@V 1 1541 0
+WW_TS1_Y_Bump_Value_SP	1088	VAR_GLOBAL	@TYP:10
+%ID 28916		     
+
+;
+
+@V 1 1542 0
+WW_Upper_IMP_On_Roll	1089	VAR_GLOBAL	@TYP:4
+%ID 28920		     
+
+;
+
+@V 1 1543 0
+WW_VP1_O_Bump_Value_SP	1090	VAR_GLOBAL	@TYP:10
+%ID 28924		     
+
+;
+
+@V 1 1544 0
+WW_VP1_X_Bump_Value_SP	1091	VAR_GLOBAL	@TYP:10
+%ID 28928		     
+
+;
+
+@V 1 1545 0
+WW_Web_Jog_Rev_PB	1092	VAR_GLOBAL	@TYP:10
+%ID 28896		     
+
+;
+
+@V 1 1546 0
+WW_SD212304_SetPos	1093	VAR_GLOBAL	@TYP:10
+%ID 28936		     
+
+;
+
+@V 1 1547 0
+WW_SD212354_SetPos	1094	VAR_GLOBAL	@TYP:10
+%ID 28940		     
+
+;
+
+@V 1 1548 0
+WW_SD212404_SetPos	1095	VAR_GLOBAL	@TYP:10
+%ID 28944		     
+
+;
+
+@V 1 1549 0
+WW_SD212454_SetPos	1096	VAR_GLOBAL	@TYP:10
+%ID 28948		     
+
+;
+
+@V 1 1550 0
+WW_SD212504_SetPos	1097	VAR_GLOBAL	@TYP:10
+%ID 28952		     
+
+;
+
+@V 1 1551 0
+WW_SD212554_SetPos	1098	VAR_GLOBAL	@TYP:10
+%ID 28956		     
+
+;
+
+@V 1 1552 0
+WW_SD212604_SetPos	1099	VAR_GLOBAL	@TYP:10
+%ID 28960		     
+
+;
+
+@V 1 1553 0
+WW_COS_to_VP_Datum	1100	VAR_GLOBAL	@TYP:10
+%ID 28964		     
+
+;
+
+@V 1 1554 0
+WW_FeedSpd_SP	1101	VAR_GLOBAL	@TYP:10
+%ID 28968		     
+
+;
+
+@V 1 1555 0
+WW_Hole_3_X_Offset	1102	VAR_GLOBAL	@TYP:10
+%ID 28972		     
+
+;
+
+@V 1 1556 0
+WW_Hole_3_Y_Offset	1103	VAR_GLOBAL	@TYP:10
+%ID 28976		     
+
+;
+
+@V 1 1557 0
+WW_Hole_4_X_Offset	1104	VAR_GLOBAL	@TYP:10
+%ID 28980		     
+
+;
+
+@V 1 1558 0
+WW_Hole_4_Y_Offset	1105	VAR_GLOBAL	@TYP:10
+%ID 28984		     
+
+;
+
+@V 1 1559 0
+WW_HP1_X_MAX	1106	VAR_GLOBAL	@TYP:10
+%ID 28988		     
+
+;
+
+@V 1 1560 0
+WW_HP1_X_MIN	1107	VAR_GLOBAL	@TYP:10
+%ID 28992		     
+
+;
+
+@V 1 1561 0
+WW_VP1_Roll_Change_PB	1108	VAR_GLOBAL	@TYP:10
+%ID 28996		     
+
+;
+
+@V 1 1562 0
+WW_HP1_Y_MAX	1109	VAR_GLOBAL	@TYP:10
+%ID 29000		     
+
+;
+
+@V 1 1563 0
+WW_HP1_Y_MIN	1110	VAR_GLOBAL	@TYP:10
+%ID 29004		     
+
+;
+
+@V 1 1564 0
+WW_HP1_X_Pos_Override_SP	1111	VAR_GLOBAL	@TYP:10
+%ID 29008		     
+
+;
+
+@V 1 1565 0
+WW_Loader_Above_Center_SP	1112	VAR_GLOBAL	@TYP:10
+%ID 29012		     
+
+;
+
+@V 1 1566 0
+WW_Loader_Above_Lower_SP	1113	VAR_GLOBAL	@TYP:10
+%ID 29016		     
+
+;
+
+@V 1 1567 0
+WW_Loader_Above_Upper_SP	1114	VAR_GLOBAL	@TYP:10
+%ID 29020		     
+
+;
+
+@V 1 1568 0
+WW_Loader_Below_Center_SP	1115	VAR_GLOBAL	@TYP:10
+%ID 29024		     
+
+;
+
+@V 1 1569 0
+WW_Loader_Below_Lower_SP	1116	VAR_GLOBAL	@TYP:10
+%ID 29028		     
+
+;
+
+@V 1 1570 0
+WW_Loader_Below_Upper_SP	1117	VAR_GLOBAL	@TYP:10
+%ID 29032		     
+
+;
+
+@V 1 1571 0
+WW_Loader_HPos1_SP	1118	VAR_GLOBAL	@TYP:10
+%ID 29036		     
+
+;
+
+@V 1 1572 0
+WW_Loader_HPos2_SP	1119	VAR_GLOBAL	@TYP:10
+%ID 29040		     
+
+;
+
+@V 1 1573 0
+WW_Low_Roll_Alarm_SP	1120	VAR_GLOBAL	@TYP:4
+%ID 29044		     
+
+;
+
+@V 1 1574 0
+WW_Low_Roll_Warn_SP	1121	VAR_GLOBAL	@TYP:4
+%ID 29048		     
+
+;
+
+@V 1 1575 0
+WW_Reg_Eye_X_Location	1122	VAR_GLOBAL	@TYP:4
+%ID 29052		     
+
+;
+
+@V 1 1576 0
+WW_Reg_Eye_X_Offset_10	1123	VAR_GLOBAL	@TYP:10
+%ID 29056		     
+
+;
+
+@V 1 1577 0
+WW_Reg_Eye_X_Offset_11	1124	VAR_GLOBAL	@TYP:10
+%ID 29060		     
+
+;
+
+@V 1 1578 0
+WW_Reg_Eye_X_Offset_12	1125	VAR_GLOBAL	@TYP:10
+%ID 29064		     
+
+;
+
+@V 1 1579 0
+WW_Reg_Eye_X_Offset_13	1126	VAR_GLOBAL	@TYP:10
+%ID 29068		     
+
+;
+
+@V 1 1580 0
+WW_Reg_Eye_X_Offset_14	1127	VAR_GLOBAL	@TYP:10
+%ID 29072		     
+
+;
+
+@V 1 1581 0
+WW_Reg_Eye_X_Offset_2	1128	VAR_GLOBAL	@TYP:10
+%ID 29076		     
+
+;
+
+@V 1 1582 0
+WW_Reg_Eye_X_Offset_3	1129	VAR_GLOBAL	@TYP:10
+%ID 29080		     
+
+;
+
+@V 1 1583 0
+WW_Reg_Eye_X_Offset_4	1130	VAR_GLOBAL	@TYP:10
+%ID 29084		     
+
+;
+
+@V 1 1584 0
+WW_Reg_Eye_X_Offset_5	1131	VAR_GLOBAL	@TYP:10
+%ID 29088		     
+
+;
+
+@V 1 1585 0
+WW_Reg_Eye_X_Offset_6	1132	VAR_GLOBAL	@TYP:10
+%ID 29092		     
+
+;
+
+@V 1 1586 0
+WW_Reg_Eye_X_Offset_7	1133	VAR_GLOBAL	@TYP:10
+%ID 29096		     
+
+;
+
+@V 1 1587 0
+WW_Reg_Eye_X_Offset_8	1134	VAR_GLOBAL	@TYP:10
+%ID 29100		     
+
+;
+
+@V 1 1588 0
+WW_Reg_Eye_X_Offset_9	1135	VAR_GLOBAL	@TYP:10
+%ID 29104		     
+
+;
+
+@V 1 1589 0
+WW_Repeat_SP	1136	VAR_GLOBAL	@TYP:10
+%ID 29108		     
+
+;
+
+@V 1 1590 0
+WW_Roller_X_Location	1137	VAR_GLOBAL	@TYP:4
+%ID 29112		     
+
+;
+
+@V 1 1591 0
+WW_Roller_X_Offset_10	1138	VAR_GLOBAL	@TYP:10
+%ID 29116		     
+
+;
+
+@V 1 1592 0
+WW_Roller_X_Offset_11	1139	VAR_GLOBAL	@TYP:10
+%ID 29120		     
+
+;
+
+@V 1 1593 0
+WW_Roller_X_Offset_12	1140	VAR_GLOBAL	@TYP:10
+%ID 29124		     
+
+;
+
+@V 1 1594 0
+WW_Roller_X_Offset_13	1141	VAR_GLOBAL	@TYP:10
+%ID 29128		     
+
+;
+
+@V 1 1595 0
+WW_Roller_X_Offset_14	1142	VAR_GLOBAL	@TYP:10
+%ID 29132		     
+
+;
+
+@V 1 1596 0
+WW_Roller_X_Offset_2	1143	VAR_GLOBAL	@TYP:10
+%ID 29136		     
+
+;
+
+@V 1 1597 0
+WW_Roller_X_Offset_3	1144	VAR_GLOBAL	@TYP:10
+%ID 29140		     
+
+;
+
+@V 1 1598 0
+WW_Roller_X_Offset_4	1145	VAR_GLOBAL	@TYP:10
+%ID 29144		     
+
+;
+
+@V 1 1599 0
+WW_Roller_X_Offset_5	1146	VAR_GLOBAL	@TYP:10
+%ID 29148		     
+
+;
+
+@V 1 1600 0
+WW_Roller_X_Offset_6	1147	VAR_GLOBAL	@TYP:10
+%ID 29152		     
+
+;
+
+@V 1 1601 0
+WW_Roller_X_Offset_7	1148	VAR_GLOBAL	@TYP:10
+%ID 29156		     
+
+;
+
+@V 1 1602 0
+WW_Roller_X_Offset_8	1149	VAR_GLOBAL	@TYP:10
+%ID 29160		     
+
+;
+
+@V 1 1603 0
+WW_Roller_X_Offset_9	1150	VAR_GLOBAL	@TYP:10
+%ID 29164		     
+
+;
+
+@V 1 1604 0
+WW_TS1_X_MAX	1151	VAR_GLOBAL	@TYP:10
+%ID 29168		     
+
+;
+
+@V 1 1605 0
+WW_TS1_X_MIN	1152	VAR_GLOBAL	@TYP:10
+%ID 29172		     
+
+;
+
+@V 1 1606 0
+WW_HP1_Y_Pos_Override_SP	1153	VAR_GLOBAL	@TYP:10
+%ID 29176		     
+
+;
+
+@V 1 1607 0
+WW_TS1_Y_MAX	1154	VAR_GLOBAL	@TYP:10
+%ID 29180		     
+
+;
+
+@V 1 1608 0
+WW_TS1_Y_MIN	1155	VAR_GLOBAL	@TYP:10
+%ID 29184		     
+
+;
+
+@V 1 1609 0
+WW_HP2_X_MAX	1156	VAR_GLOBAL	@TYP:10
+%ID 29188		     
+
+;
+
+@V 1 1610 0
+WW_TS2_X_MAX	1157	VAR_GLOBAL	@TYP:10
+%ID 29192		     
+
+;
+
+@V 1 1611 0
+WW_TS2_X_MIN	1158	VAR_GLOBAL	@TYP:10
+%ID 29196		     
+
+;
+
+@V 1 1612 0
+WW_TS2_Y_MAX	1159	VAR_GLOBAL	@TYP:10
+%ID 29200		     
+
+;
+
+@V 1 1613 0
+WW_TS2_Y_MIN	1160	VAR_GLOBAL	@TYP:10
+%ID 29204		     
+
+;
+
+@V 1 1614 0
+WW_Unwind_JogSpd_SP	1161	VAR_GLOBAL	@TYP:10
+%ID 29208		     
+
+;
+
+@V 1 1615 0
+WW_Valve_1_HP_X_Offset	1162	VAR_GLOBAL	@TYP:10
+%ID 29212		     
+
+;
+
+@V 1 1616 0
+WW_Valve_1_HP_Y_Offset	1163	VAR_GLOBAL	@TYP:10
+%ID 29216		     
+
+;
+
+@V 1 1617 0
+WW_Valve_1_TS_X_Offset	1164	VAR_GLOBAL	@TYP:10
+%ID 29220		     
+
+;
+
+@V 1 1618 0
+WW_Valve_1_TS_Y_Offset	1165	VAR_GLOBAL	@TYP:10
+%ID 29224		     
+
+;
+
+@V 1 1619 0
+WW_Valve_1_VP_O_Offset	1166	VAR_GLOBAL	@TYP:10
+%ID 29228		     
+
+;
+
+@V 1 1620 0
+WW_Valve_1_VP_X_Offset	1167	VAR_GLOBAL	@TYP:10
+%ID 29232		     
+
+;
+
+@V 1 1621 0
+WW_Valve_1_VP_Y_Offset	1168	VAR_GLOBAL	@TYP:10
+%ID 29236		     
+
+;
+
+@V 1 1622 0
+WW_Valve_2_HP_X_Offset	1169	VAR_GLOBAL	@TYP:10
+%ID 29240		     
+
+;
+
+@V 1 1623 0
+WW_Valve_2_HP_Y_Offset	1170	VAR_GLOBAL	@TYP:10
+%ID 29244		     
+
+;
+
+@V 1 1624 0
+WW_Valve_2_TS_X_Offset	1171	VAR_GLOBAL	@TYP:10
+%ID 29248		     
+
+;
+
+@V 1 1625 0
+WW_Valve_2_TS_Y_Offset	1172	VAR_GLOBAL	@TYP:10
+%ID 29252		     
+
+;
+
+@V 1 1626 0
+WW_Valve_2_VP_O_Offset	1173	VAR_GLOBAL	@TYP:10
+%ID 29256		     
+
+;
+
+@V 1 1627 0
+WW_Valve_2_VP_X_Offset	1174	VAR_GLOBAL	@TYP:10
+%ID 29260		     
+
+;
+
+@V 1 1628 0
+WW_Valve_2_VP_Y_Offset	1175	VAR_GLOBAL	@TYP:10
+%ID 29264		     
+
+;
+
+@V 1 1629 0
+WW_VP_HP_Differential	1176	VAR_GLOBAL	@TYP:10
+%ID 29268		     
+
+;
+
+@V 1 1630 0
+WW_VP1_O_MAX	1177	VAR_GLOBAL	@TYP:10
+%ID 29272		     
+
+;
+
+@V 1 1631 0
+WW_VP1_O_MIN	1178	VAR_GLOBAL	@TYP:10
+%ID 29276		     
+
+;
+
+@V 1 1632 0
+WW_HP2_X_MIN	1179	VAR_GLOBAL	@TYP:10
+%ID 29280		     
+
+;
+
+@V 1 1633 0
+WW_VP1_X_MAX	1180	VAR_GLOBAL	@TYP:10
+%ID 29284		     
+
+;
+
+@V 1 1634 0
+WW_VP1_X_MIN	1181	VAR_GLOBAL	@TYP:10
+%ID 29288		     
+
+;
+
+@V 1 1635 0
+WW_HP2_Y_MAX	1182	VAR_GLOBAL	@TYP:10
+%ID 29292		     
+
+;
+
+@V 1 1636 0
+WW_VP1_Y_MAX	1183	VAR_GLOBAL	@TYP:10
+%ID 29296		     
+
+;
+
+@V 1 1637 0
+WW_VP1_Y_MIN	1184	VAR_GLOBAL	@TYP:10
+%ID 29300		     
+
+;
+
+@V 1 1638 0
+WW_HP2_Y_MIN	1185	VAR_GLOBAL	@TYP:10
+%ID 29304		     
+
+;
+
+@V 1 1639 0
+WW_VP2_O_MAX	1186	VAR_GLOBAL	@TYP:10
+%ID 29308		     
+
+;
+
+@V 1 1640 0
+WW_VP2_O_MIN	1187	VAR_GLOBAL	@TYP:10
+%ID 29312		     
+
+;
+
+@V 1 1641 0
+WW_VP2_X_MAX	1188	VAR_GLOBAL	@TYP:10
+%ID 29316		     
+
+;
+
+@V 1 1642 0
+WW_VP2_X_MIN	1189	VAR_GLOBAL	@TYP:10
+%ID 29320		     
+
+;
+
+@V 1 1643 0
+WW_VP2_Y_MAX	1190	VAR_GLOBAL	@TYP:10
+%ID 29324		     
+
+;
+
+@V 1 1644 0
+WW_VP2_Y_MIN	1191	VAR_GLOBAL	@TYP:10
+%ID 29328		     
+
+;
+
+@V 1 1645 0
+WW_Web_JogSpd_SP	1192	VAR_GLOBAL	@TYP:10
+%ID 29332		     
+
+;
+
+@V 1 1646 0
+WW_VP1_Y_Bump_Value_SP	1193	VAR_GLOBAL	@TYP:10
+%ID 28932		     
+
+;
+
+@V 1 1647 0
+WW_VP2_Roll_Change_PB	1194	VAR_GLOBAL	@TYP:10
+%ID 29336		     
+
+;
+
+@V 1 1648 0
+WW_VP2_X_Dec_PB	1195	VAR_GLOBAL	@TYP:10
+%ID 29340		     
+
+;
+
+@V 1 1649 0
+WW_VP2_X_Inc_PB	1196	VAR_GLOBAL	@TYP:10
+%ID 29344		     
+
+;
+
+@V 1 1650 0
+WW_VP2_Y_Dec_PB	1197	VAR_GLOBAL	@TYP:10
+%ID 29348		     
+
+;
+
+@V 1 1651 0
+WW_VP2_Y_Inc_PB	1198	VAR_GLOBAL	@TYP:10
+%ID 29352		     
+
+;
+
+@V 1 1652 0
+WW_VP2_O_Dec_PB	1199	VAR_GLOBAL	@TYP:10
+%ID 29356		     
+
+;
+
+@V 1 1653 0
+WW_VP2_O_Inc_PB	1200	VAR_GLOBAL	@TYP:10
+%ID 29360		     
+
+;
+
+@V 1 1654 0
+WW_TS2_X_Dec_PB	1201	VAR_GLOBAL	@TYP:10
+%ID 29364		     
+
+;
+
+@V 1 1655 0
+WW_TS2_X_Inc_PB	1202	VAR_GLOBAL	@TYP:10
+%ID 29368		     
+
+;
+
+@V 1 1656 0
+WW_TS2_Y_Dec_PB	1203	VAR_GLOBAL	@TYP:10
+%ID 29372		     
+
+;
+
+@V 1 1657 0
+WW_TS2_Y_Inc_PB	1204	VAR_GLOBAL	@TYP:10
+%ID 29376		     
+
+;
+
+@V 1 1658 0
+WW_HP2_X_Dec_PB	1205	VAR_GLOBAL	@TYP:10
+%ID 29380		     
+
+;
+
+@V 1 1659 0
+WW_HP2_X_Inc_PB	1206	VAR_GLOBAL	@TYP:10
+%ID 29384		     
+
+;
+
+@V 1 1660 0
+WW_HP2_Y_Dec_PB	1207	VAR_GLOBAL	@TYP:10
+%ID 29388		     
+
+;
+
+@V 1 1661 0
+WW_HP2_Y_Inc_PB	1208	VAR_GLOBAL	@TYP:10
+%ID 29392		     
+
+;
+
+@V 1 1662 0
+WW_TS2_X_Bump_Value_SP	1209	VAR_GLOBAL	@TYP:10
+%ID 29396		     
+
+;
+
+@V 1 1663 0
+WW_TS2_Y_Bump_Value_SP	1210	VAR_GLOBAL	@TYP:10
+%ID 29400		     
+
+;
+
+@V 1 1664 0
+WW_VP2_O_Bump_Value_SP	1211	VAR_GLOBAL	@TYP:10
+%ID 29404		     
+
+;
+
+@V 1 1665 0
+WW_VP2_X_Bump_Value_SP	1212	VAR_GLOBAL	@TYP:10
+%ID 29408		     
+
+;
+
+@V 1 1666 0
+WW_VP2_Y_Bump_Value_SP	1213	VAR_GLOBAL	@TYP:10
+%ID 29412		     
+
+;
+
+@V 1 1667 0
+WW_HP2_X_Bump_Value_SP	1214	VAR_GLOBAL	@TYP:10
+%ID 29416		     
+
+;
+
+@V 1 1668 0
+WW_HP2_Y_Bump_Value_SP	1215	VAR_GLOBAL	@TYP:10
+%ID 29420		     
+
+;
+
+@V 1 1669 0
+WW_VP1_X_Man_SP	1216	VAR_GLOBAL	@TYP:10
+%ID 29424		     
+
+;
+
+@V 1 1670 0
+WW_VP1_Y_Man_SP	1217	VAR_GLOBAL	@TYP:10
+%ID 29428		     
+
+;
+
+@V 1 1671 0
+WW_VP1_O_Man_SP	1218	VAR_GLOBAL	@TYP:10
+%ID 29432		     
+
+;
+
+@V 1 1672 0
+WW_TS1_X_Man_SP	1219	VAR_GLOBAL	@TYP:10
+%ID 29436		     
+
+;
+
+@V 1 1673 0
+WW_TS1_Y_Man_SP	1220	VAR_GLOBAL	@TYP:10
+%ID 29440		     
+
+;
+
+@V 1 1674 0
+WW_HP1_X_Man_SP	1221	VAR_GLOBAL	@TYP:10
+%ID 29444		     
+
+;
+
+@V 1 1675 0
+WW_HP1_Y_Man_SP	1222	VAR_GLOBAL	@TYP:10
+%ID 29448		     
+
+;
+
+@V 1 1676 0
+WW_VP2_X_Man_SP	1223	VAR_GLOBAL	@TYP:10
+%ID 29452		     
+
+;
+
+@V 1 1677 0
+WW_VP2_Y_Man_SP	1224	VAR_GLOBAL	@TYP:10
+%ID 29456		     
+
+;
+
+@V 1 1678 0
+WW_VP2_O_Man_SP	1225	VAR_GLOBAL	@TYP:10
+%ID 29460		     
+
+;
+
+@V 1 1679 0
+WW_TS2_X_Man_SP	1226	VAR_GLOBAL	@TYP:10
+%ID 29464		     
+
+;
+
+@V 1 1680 0
+WW_TS2_Y_Man_SP	1227	VAR_GLOBAL	@TYP:10
+%ID 29468		     
+
+;
+
+@V 1 1681 0
+WW_HP2_X_Man_SP	1228	VAR_GLOBAL	@TYP:10
+%ID 29472		     
+
+;
+
+@V 1 1682 0
+WW_HP2_Y_Man_SP	1229	VAR_GLOBAL	@TYP:10
+%ID 29476		     
+
+;
+
+@V 1 1683 0
+WW_VP1_Man_Enable	1230	VAR_GLOBAL	@TYP:10
+%ID 29480		     
+
+;
+
+@V 1 1684 0
+WW_VP2_Man_Enable	1231	VAR_GLOBAL	@TYP:10
+%ID 29484		     
+
+;
+
+@V 1 1685 0
+WW_Revert_VS_Auto	1232	VAR_GLOBAL	@TYP:10
+%ID 29488		     
+
+;
+
+@V 1 1686 0
+WW_Low_Roll_Dia_SP	1233	VAR_GLOBAL	@TYP:10
+%ID 29492		     
+
+;
+
+@V 1 1687 0
+WW_Low_Roll_Speed_SP	1234	VAR_GLOBAL	@TYP:10
+%ID 29496		     
+
+;
+
+@V 1 1688 0
+WW_Upper_Act_Dia	1235	VAR_GLOBAL	@TYP:10
+%ID 29500		     
+
+;
+
+@V 1 1689 0
+WW_Lower_Act_Dia	1236	VAR_GLOBAL	@TYP:10
+%ID 29504		     
+
+;
+
+@V 1 1690 0
+WW_Upper_Act_Dia_Set	1237	VAR_GLOBAL	@TYP:10
+%ID 29508		     
+
+;
+
+@V 1 1691 0
+WW_Lower_Act_Dia_Set	1238	VAR_GLOBAL	@TYP:10
+%ID 29512		     
+
+;
+
+@V 1 1692 0
+WW_Perf_Seal_Enable	1239	VAR_GLOBAL	@TYP:10
+%ID 29516		     
+
+;
+
+@V 1 1693 0
+WW_Wicket_Enable	1240	VAR_GLOBAL	@TYP:10
+%ID 29520		     
+
+;
+
+@V 1 1694 0
+WW_Wicket_Dwell	1241	VAR_GLOBAL	@TYP:4
+%ID 29524		     
+
+;
+
+@V 1 1695 0
+WW_Perf_Seal_Dwell	1242	VAR_GLOBAL	@TYP:4
+%ID 29528		     
+
+;
+
+@V 1 1696 0
+WW_Man_Wicket_Cut	1243	VAR_GLOBAL	@TYP:10
+%ID 29532		     
+
+;
+
+@V 1 1697 0
+WW_Man_Perf_Seal	1244	VAR_GLOBAL	@TYP:10
+%ID 29536		     
+
+;
+
+@V 1 1698 0
+WW_Perf_Seal_Dwell_2	1245	VAR_GLOBAL	@TYP:4
+%ID 29540		     
+
+;
+
+@V 1 1699 0
+WW_Perf_Seal_Dwell_3	1246	VAR_GLOBAL	@TYP:4
+%ID 29544		     
+
+;
+
+@V 1 1700 0
+WW_Perf_Seal_Dwell_4	1247	VAR_GLOBAL	@TYP:4
+%ID 29548		     
+
+;
+
+@V 1 1701 0
+WW_Perf_Seal_Dwell_5	1248	VAR_GLOBAL	@TYP:4
+%ID 29552		     
+
+;
+
+@V 1 1702 0
+WW_Perf_Seal_Dwell_6	1249	VAR_GLOBAL	@TYP:4
+%ID 29556		     
+
+;
+
+@V 1 1703 0
+WW_Mod_1_Loop_1_SP	1250	VAR_GLOBAL	@TYP:4
+%ID 29560		     
+
+;
+
+@V 1 1704 0
+WW_Mod_1_Loop_2_SP	1251	VAR_GLOBAL	@TYP:4
+%ID 29564		     
+
+;
+
+@V 1 1705 0
+WW_Mod_2_Loop_1_SP	1252	VAR_GLOBAL	@TYP:4
+%ID 29568		     
+
+;
+
+@V 1 1706 0
+WW_Mod_2_Loop_2_SP	1253	VAR_GLOBAL	@TYP:4
+%ID 29572		     
+
+;
+
+@V 1 1707 0
+WW_Mod_3_Loop_1_SP	1254	VAR_GLOBAL	@TYP:4
+%ID 29576		     
+
+;
+
+@V 1 1708 0
+gCP2_status_Bits_mb	1255	VAR_GLOBAL	@TYP:19
+%ID 29580		     
+
+;
+
+@V 1 1709 0
+WW_Low_Roll_Alarm_Dia_SP	1256	VAR_GLOBAL	@TYP:10
+%ID 29584		     
+
+;
+
+@V 1 1710 0
+gAdj_R_Top	1257	VAR_GLOBAL	@TYP:10
+%ID 29600		     
+
+;
+
+@V 1 1711 0
+gAdj_R_Bott	1258	VAR_GLOBAL	@TYP:10
+%ID 29608		     
+
+;
+
+@V 1 1712 0
+gAdj_L_Top	1259	VAR_GLOBAL	@TYP:10
+%ID 29612		     
+
+;
+
+@V 1 1713 0
+gAdj_L_Bott	1260	VAR_GLOBAL	@TYP:10
+%ID 29620		     
+
+;
+
+@V 1 1714 0
+gAdj_Target_Position	1261	VAR_GLOBAL	@TYP:10
+%ID 29624		     
+
+;
+
+@V 1 1715 0
+gAdj_SynchronizeREAL	1262	VAR_GLOBAL	@TYP:10
+%ID 29628		     
+
+;
+
+@V 1 1716 0
+gAdj_Execute_Abs_MoveREAL	1263	VAR_GLOBAL	@TYP:10
+%ID 29632		     
+
+;
+
+@V 1 1717 0
+Adj_Disable_protection	1264	VAR_GLOBAL	@TYP:10
+%ID 29636		     
+
+;
+
+@V 1 1718 0
+Adj_Jog_Fwd_Pendant	1265	VAR_GLOBAL	@TYP:10
+%ID 29640		     
+
+;
+
+@V 1 1719 0
+Adj_Jog_Rev_Pendant	1266	VAR_GLOBAL	@TYP:10
+%ID 29644		     
+
+;
+
+@V 1 1720 0
+Adj_Offset_Entered	1267	VAR_GLOBAL	@TYP:10
+%ID 29648		     
+
+;
+
+@V 1 1721 0
+Adj_UnsynchronizeREAL	1268	VAR_GLOBAL	@TYP:10
+%ID 29652		     
+
+;
+
+@V 1 1722 0
+Adj_ExecuteOffsetREAL	1269	VAR_GLOBAL	@TYP:10
+%ID 29656		     
+
+;
+
+@V 1 1723 0
+gAdj_test	1270	VAR_GLOBAL	@TYP:4
+%ID 29672		     
+
+;
+
+@V 1 1724 0
+gDancerPositionTop	1271	VAR_GLOBAL	@TYP:10
+%ID 29676		     
+
+;
+
+@V 1 1725 0
+gDancerPositionBottom	1272	VAR_GLOBAL	@TYP:10
+%ID 29680		     
+
+;
+
+@V 1 1726 0
+gCutNipPosition_mb	1273	VAR_GLOBAL	@TYP:10
+%ID 29684		     
+
+;
+
+@V 1 1727 0
+gFilmInMotion_mb	1274	VAR_GLOBAL	@TYP:10
+%ID 29688		     
+
+;
+
+@V 1 1728 0
+gFilm_Index_Stop_mb	1275	VAR_GLOBAL	@TYP:10
+%ID 29692		     
+
+;
+
+@V 1 1729 0
+Red_LED_mb	1276	VAR_GLOBAL	@TYP:10
+%ID 29696		     
+
+;
+
+@V 1 1730 0
+NewVar9	1277	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1731 0
+NewVar34	1278	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1732 0
+NewVar35	1279	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1733 0
+NewVar38	1280	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1734 0
+NewVar39	1281	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1735 0
+NewVar40	1282	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1736 0
+WW_Hole_4UP_2_Reqzzzzzz	1283	VAR_GLOBAL	@TYP:10
+%ID 29772		     
+
+;
+
+@V 1 1744 0
+AXIS1_SI1_POT	1284	VAR_GLOBAL	@TYP:1
+%IX 53248.0		     
+
+;
+
+@V 1 1745 0
+AXIS1_SI2_NOT	1285	VAR_GLOBAL	@TYP:1
+%IX 53248.1		     
+
+;
+
+@V 1 1746 0
+AXIS1_SI3_DEC	1286	VAR_GLOBAL	@TYP:1
+%IX 53248.2		     
+
+;
+
+@V 1 1747 0
+AXIS1_SI4_EXT1	1287	VAR_GLOBAL	@TYP:1
+%IX 53248.6		     
+
+;
+
+@V 1 1748 0
+AXIS1_SI5_EXT2	1288	VAR_GLOBAL	@TYP:1
+%IX 53248.7		     
+
+;
+
+@V 1 1749 0
+AXIS1_SI6_EXT3	1289	VAR_GLOBAL	@TYP:1
+%IX 53249.0		     
+
+;
+
+@V 1 1750 0
+AXIS1_BRK	1290	VAR_GLOBAL	@TYP:1
+%IX 53249.1		     
+
+;
+
+@V 1 1751 0
+AXIS1_HBB	1291	VAR_GLOBAL	@TYP:1
+%IX 53249.2		     
+
+;
+
+@V 1 1752 0
+AXIS1_SI0_IO12	1292	VAR_GLOBAL	@TYP:1
+%IX 53249.4		     
+
+;
+
+@V 1 1753 0
+AXIS1_SI1_IO13	1293	VAR_GLOBAL	@TYP:1
+%IX 53249.5		     
+
+;
+
+@V 1 1754 0
+AXIS1_SI2_IO14	1294	VAR_GLOBAL	@TYP:1
+%IX 53249.6		     
+
+;
+
+@V 1 1755 0
+AXIS1_SI3_IO15	1295	VAR_GLOBAL	@TYP:1
+%IX 53249.7		     
+
+;
+
+@V 1 1756 0
+AXIS1_ALM	1296	VAR_GLOBAL	@TYP:1
+%IX 53252.0		     
+
+;
+
+@V 1 1757 0
+AXIS1_WARNG	1297	VAR_GLOBAL	@TYP:1
+%IX 53252.1		     
+
+;
+
+@V 1 1758 0
+AXIS1_SVON	1298	VAR_GLOBAL	@TYP:1
+%IX 53252.3		     
+
+;
+
+@V 1 1759 0
+AXIS1_PON	1299	VAR_GLOBAL	@TYP:1
+%IX 53252.4		     
+
+;
+
+@V 1 1760 0
+AXIS1_PSET	1300	VAR_GLOBAL	@TYP:1
+%IX 53252.7		     
+
+;
+
+@V 1 1761 0
+AXIS1_SO1	1301	VAR_GLOBAL	@TYP:1
+%QX 53248.0		     
+
+;
+
+@V 1 1762 0
+AXIS1_SO2	1302	VAR_GLOBAL	@TYP:1
+%QX 53248.1		     
+
+;
+
+@V 1 1763 0
+AXIS1_SO3	1303	VAR_GLOBAL	@TYP:1
+%QX 53248.2		     
+
+;
+
+@V 1 1764 0
+AXIS1	1304	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#0001}
+;
+
+@V 1 1772 0
+AXIS2_SI1_POT	1305	VAR_GLOBAL	@TYP:1
+%IX 53312.0		     
+
+;
+
+@V 1 1773 0
+AXIS2_SI2_NOT	1306	VAR_GLOBAL	@TYP:1
+%IX 53312.1		     
+
+;
+
+@V 1 1774 0
+AXIS2_SI3_DEC	1307	VAR_GLOBAL	@TYP:1
+%IX 53312.2		     
+
+;
+
+@V 1 1775 0
+AXIS2_SI4_EXT1	1308	VAR_GLOBAL	@TYP:1
+%IX 53312.6		     
+
+;
+
+@V 1 1776 0
+AXIS2_SI5_EXT2	1309	VAR_GLOBAL	@TYP:1
+%IX 53312.7		     
+
+;
+
+@V 1 1777 0
+AXIS2_SI6_EXT3	1310	VAR_GLOBAL	@TYP:1
+%IX 53313.0		     
+
+;
+
+@V 1 1778 0
+AXIS2_BRK	1311	VAR_GLOBAL	@TYP:1
+%IX 53313.1		     
+
+;
+
+@V 1 1779 0
+AXIS2_HBB	1312	VAR_GLOBAL	@TYP:1
+%IX 53313.2		     
+
+;
+
+@V 1 1780 0
+AXIS2_SI0_IO12	1313	VAR_GLOBAL	@TYP:1
+%IX 53313.4		     
+
+;
+
+@V 1 1781 0
+AXIS2_SI1_IO13	1314	VAR_GLOBAL	@TYP:1
+%IX 53313.5		     
+
+;
+
+@V 1 1782 0
+AXIS2_SI2_IO14	1315	VAR_GLOBAL	@TYP:1
+%IX 53313.6		     
+
+;
+
+@V 1 1783 0
+AXIS2_SI3_IO15	1316	VAR_GLOBAL	@TYP:1
+%IX 53313.7		     
+
+;
+
+@V 1 1784 0
+AXIS2_ALM	1317	VAR_GLOBAL	@TYP:1
+%IX 53316.0		     
+
+;
+
+@V 1 1785 0
+AXIS2_WARNG	1318	VAR_GLOBAL	@TYP:1
+%IX 53316.1		     
+
+;
+
+@V 1 1786 0
+AXIS2_SVON	1319	VAR_GLOBAL	@TYP:1
+%IX 53316.3		     
+
+;
+
+@V 1 1787 0
+AXIS2_PON	1320	VAR_GLOBAL	@TYP:1
+%IX 53316.4		     
+
+;
+
+@V 1 1788 0
+AXIS2_PSET	1321	VAR_GLOBAL	@TYP:1
+%IX 53316.7		     
+
+;
+
+@V 1 1789 0
+AXIS2_SO1	1322	VAR_GLOBAL	@TYP:1
+%QX 53312.0		     
+
+;
+
+@V 1 1790 0
+AXIS2_SO2	1323	VAR_GLOBAL	@TYP:1
+%QX 53312.1		     
+
+;
+
+@V 1 1791 0
+AXIS2_SO3	1324	VAR_GLOBAL	@TYP:1
+%QX 53312.2		     
+
+;
+
+@V 1 1792 0
+AXIS2	1325	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#0002}
+;
+
+@V 1 1800 0
+AX5_SI1_POT	1326	VAR_GLOBAL	@TYP:1
+%IX 53504.0		     
+
+;
+
+@V 1 1801 0
+AX5_SI2_NOT	1327	VAR_GLOBAL	@TYP:1
+%IX 53504.1		     
+
+;
+
+@V 1 1802 0
+AX5_SI3_DEC	1328	VAR_GLOBAL	@TYP:1
+%IX 53504.2		     
+
+;
+
+@V 1 1803 0
+AX5_SI4_EXT1	1329	VAR_GLOBAL	@TYP:1
+%IX 53504.6		     
+
+;
+
+@V 1 1804 0
+AX5_SI5_EXT2	1330	VAR_GLOBAL	@TYP:1
+%IX 53504.7		     
+
+;
+
+@V 1 1805 0
+AX5_SI6_EXT3	1331	VAR_GLOBAL	@TYP:1
+%IX 53505.0		     
+
+;
+
+@V 1 1806 0
+AX5_BRK	1332	VAR_GLOBAL	@TYP:1
+%IX 53505.1		     
+
+;
+
+@V 1 1807 0
+AX5_HBB	1333	VAR_GLOBAL	@TYP:1
+%IX 53505.2		     
+
+;
+
+@V 1 1808 0
+AX5_SI0_IO12	1334	VAR_GLOBAL	@TYP:1
+%IX 53505.4		     
+
+;
+
+@V 1 1809 0
+AX5_SI1_IO13	1335	VAR_GLOBAL	@TYP:1
+%IX 53505.5		     
+
+;
+
+@V 1 1810 0
+AX5_SI2_IO14	1336	VAR_GLOBAL	@TYP:1
+%IX 53505.6		     
+
+;
+
+@V 1 1811 0
+AX5_SI3_IO15	1337	VAR_GLOBAL	@TYP:1
+%IX 53505.7		     
+
+;
+
+@V 1 1812 0
+AX5_ALM	1338	VAR_GLOBAL	@TYP:1
+%IX 53508.0		     
+
+;
+
+@V 1 1813 0
+AX5_WARNG	1339	VAR_GLOBAL	@TYP:1
+%IX 53508.1		     
+
+;
+
+@V 1 1814 0
+AX5_SVON	1340	VAR_GLOBAL	@TYP:1
+%IX 53508.3		     
+
+;
+
+@V 1 1815 0
+AX5_PON	1341	VAR_GLOBAL	@TYP:1
+%IX 53508.4		     
+
+;
+
+@V 1 1816 0
+AX5_PSET	1342	VAR_GLOBAL	@TYP:1
+%IX 53508.7		     
+
+;
+
+@V 1 1817 0
+AX5_SO1	1343	VAR_GLOBAL	@TYP:1
+%QX 53504.0		     
+
+;
+
+@V 1 1818 0
+AX5_SO2	1344	VAR_GLOBAL	@TYP:1
+%QX 53504.1		     
+
+;
+
+@V 1 1819 0
+AX5_SO3	1345	VAR_GLOBAL	@TYP:1
+%QX 53504.2		     
+
+;
+
+@V 1 1820 0
+AXIS5	1346	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#0005}
+;
+
+@V 1 1821 0
+SD212304_VelSP	1347	VAR_GLOBAL	@TYP:11
+		     
+@TYP:11# 8.00000000000000000E+000
+;
+
+@V 1 1822 0
+SD212304_Accel	1348	VAR_GLOBAL	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 1823 0
+SD212304_Decel	1349	VAR_GLOBAL	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+001
+;
+
+@V 1 1824 0
+SD212304_WarningID	1350	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1825 0
+SD212304_CntrlAlarmID	1351	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 1826 0
+SD212304_DriveAlarmID	1352	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1827 0
+SD212304_ErrorID	1353	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1828 0
+SD212304_Enable	1354	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1829 0
+SD212304_Enabled	1355	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1830 0
+SD212304_Error	1356	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1831 0
+SD212304_Alarm	1357	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1832 0
+SD212304_Warning	1358	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1833 0
+SD212304_Healthy	1359	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1841 0
+AXIS6_SI1_POT	1360	VAR_GLOBAL	@TYP:1
+%IX 53568.0		     
+
+;
+
+@V 1 1842 0
+AXIS6_SI2_NOT	1361	VAR_GLOBAL	@TYP:1
+%IX 53568.1		     
+
+;
+
+@V 1 1843 0
+AXIS6_SI3_DEC	1362	VAR_GLOBAL	@TYP:1
+%IX 53568.2		     
+
+;
+
+@V 1 1844 0
+AXIS6_SI4_EXT1	1363	VAR_GLOBAL	@TYP:1
+%IX 53568.6		     
+
+;
+
+@V 1 1845 0
+AXIS6_SI5_EXT2	1364	VAR_GLOBAL	@TYP:1
+%IX 53568.7		     
+
+;
+
+@V 1 1846 0
+AXIS6_SI6_EXT3	1365	VAR_GLOBAL	@TYP:1
+%IX 53569.0		     
+
+;
+
+@V 1 1847 0
+AXIS6_BRK	1366	VAR_GLOBAL	@TYP:1
+%IX 53569.1		     
+
+;
+
+@V 1 1848 0
+AXIS6_HBB	1367	VAR_GLOBAL	@TYP:1
+%IX 53569.2		     
+
+;
+
+@V 1 1849 0
+AXIS6_SI0_IO12	1368	VAR_GLOBAL	@TYP:1
+%IX 53569.4		     
+
+;
+
+@V 1 1850 0
+AXIS6_SI1_IO13	1369	VAR_GLOBAL	@TYP:1
+%IX 53569.5		     
+
+;
+
+@V 1 1851 0
+AXIS6_SI2_IO14	1370	VAR_GLOBAL	@TYP:1
+%IX 53569.6		     
+
+;
+
+@V 1 1852 0
+AXIS6_SI3_IO15	1371	VAR_GLOBAL	@TYP:1
+%IX 53569.7		     
+
+;
+
+@V 1 1853 0
+AXIS6_ALM	1372	VAR_GLOBAL	@TYP:1
+%IX 53572.0		     
+
+;
+
+@V 1 1854 0
+AXIS6_WARNG	1373	VAR_GLOBAL	@TYP:1
+%IX 53572.1		     
+
+;
+
+@V 1 1855 0
+AXIS6_SVON	1374	VAR_GLOBAL	@TYP:1
+%IX 53572.3		     
+
+;
+
+@V 1 1856 0
+AXIS6_PON	1375	VAR_GLOBAL	@TYP:1
+%IX 53572.4		     
+
+;
+
+@V 1 1857 0
+AXIS6_PSET	1376	VAR_GLOBAL	@TYP:1
+%IX 53572.7		     
+
+;
+
+@V 1 1858 0
+AXIS6_SO1	1377	VAR_GLOBAL	@TYP:1
+%QX 53568.0		     
+
+;
+
+@V 1 1859 0
+AXIS6_SO2	1378	VAR_GLOBAL	@TYP:1
+%QX 53568.1		     
+
+;
+
+@V 1 1860 0
+AXIS6_SO3	1379	VAR_GLOBAL	@TYP:1
+%QX 53568.2		     
+
+;
+
+@V 1 1861 0
+AXIS6	1380	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#0006}
+;
+
+@V 1 1866 0
+SD212354_Accel	1381	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 1871 0
+SD212354_ActPos	1382	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1873 0
+SD212354_Alarm	1383	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1877 0
+SD212354_CntrlAlarmID	1384	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 1883 0
+SD212354_Decel	1385	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 1888 0
+SD212354_DriveAlarmID	1386	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1889 0
+SD212354_Enable	1387	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1890 0
+SD212354_Enabled	1388	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1891 0
+SD212354_Error	1389	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1892 0
+SD212354_ErrorID	1390	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1896 0
+SD212354_Healthy	1391	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1920 0
+SD212354_VelSP	1392	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+000
+;
+
+@V 1 1925 0
+SD212354_Warning	1393	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1926 0
+SD212354_WarningID	1394	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1934 0
+AXIS7_SI1_POT	1395	VAR_GLOBAL	@TYP:1
+%IX 53632.0		     
+
+;
+
+@V 1 1935 0
+AXIS7_SI2_NOT	1396	VAR_GLOBAL	@TYP:1
+%IX 53632.1		     
+
+;
+
+@V 1 1936 0
+AXIS7_SI3_DEC	1397	VAR_GLOBAL	@TYP:1
+%IX 53632.2		     
+
+;
+
+@V 1 1937 0
+AXIS7_SI4_EXT1	1398	VAR_GLOBAL	@TYP:1
+%IX 53632.6		     
+
+;
+
+@V 1 1938 0
+AXIS7_SI5_EXT2	1399	VAR_GLOBAL	@TYP:1
+%IX 53632.7		     
+
+;
+
+@V 1 1939 0
+AXIS7_SI6_EXT3	1400	VAR_GLOBAL	@TYP:1
+%IX 53633.0		     
+
+;
+
+@V 1 1940 0
+AXIS7_BRK	1401	VAR_GLOBAL	@TYP:1
+%IX 53633.1		     
+
+;
+
+@V 1 1941 0
+AXIS7_HBB	1402	VAR_GLOBAL	@TYP:1
+%IX 53633.2		     
+
+;
+
+@V 1 1942 0
+AXIS7_SI0_IO12	1403	VAR_GLOBAL	@TYP:1
+%IX 53633.4		     
+
+;
+
+@V 1 1943 0
+AXIS7_SI1_IO13	1404	VAR_GLOBAL	@TYP:1
+%IX 53633.5		     
+
+;
+
+@V 1 1944 0
+AXIS7_SI2_IO14	1405	VAR_GLOBAL	@TYP:1
+%IX 53633.6		     
+
+;
+
+@V 1 1945 0
+AXIS7_SI3_IO15	1406	VAR_GLOBAL	@TYP:1
+%IX 53633.7		     
+
+;
+
+@V 1 1946 0
+AXIS7_ALM	1407	VAR_GLOBAL	@TYP:1
+%IX 53636.0		     
+
+;
+
+@V 1 1947 0
+AXIS7_WARNG	1408	VAR_GLOBAL	@TYP:1
+%IX 53636.1		     
+
+;
+
+@V 1 1948 0
+AXIS7_SVON	1409	VAR_GLOBAL	@TYP:1
+%IX 53636.3		     
+
+;
+
+@V 1 1949 0
+AXIS7_PON	1410	VAR_GLOBAL	@TYP:1
+%IX 53636.4		     
+
+;
+
+@V 1 1950 0
+AXIS7_PSET	1411	VAR_GLOBAL	@TYP:1
+%IX 53636.7		     
+
+;
+
+@V 1 1951 0
+AXIS7_SO1	1412	VAR_GLOBAL	@TYP:1
+%QX 53632.0		     
+
+;
+
+@V 1 1952 0
+AXIS7_SO2	1413	VAR_GLOBAL	@TYP:1
+%QX 53632.1		     
+
+;
+
+@V 1 1953 0
+AXIS7_SO3	1414	VAR_GLOBAL	@TYP:1
+%QX 53632.2		     
+
+;
+
+@V 1 1954 0
+AXIS7	1415	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#0007}
+;
+
+@V 1 1959 0
+SD212304_SetPos	1416	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 1960 0
+SD212354_SetPos	1417	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 1965 0
+SD212404_Alarm	1418	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1966 0
+SD212404_CntrlAlarmID	1419	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 1967 0
+SD212404_Decel	1420	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 1968 0
+SD212404_DriveAlarmID	1421	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1969 0
+SD212404_Enable	1422	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1970 0
+SD212404_Enabled	1423	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1971 0
+SD212404_Error	1424	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1972 0
+SD212404_ErrorID	1425	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1973 0
+SD212404_Healthy	1426	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1978 0
+SD212404_SetPos	1427	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 1983 0
+SD212404_Warning	1428	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 1984 0
+SD212404_WarningID	1429	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 1992 0
+AX8_SI1_POT	1430	VAR_GLOBAL	@TYP:1
+%IX 53696.0		     
+
+;
+
+@V 1 1993 0
+AX8_SI2_NOT	1431	VAR_GLOBAL	@TYP:1
+%IX 53696.1		     
+
+;
+
+@V 1 1994 0
+AX8_SI3_DEC	1432	VAR_GLOBAL	@TYP:1
+%IX 53696.2		     
+
+;
+
+@V 1 1995 0
+AX8_SI4_EXT1	1433	VAR_GLOBAL	@TYP:1
+%IX 53696.6		     
+
+;
+
+@V 1 1996 0
+AX8_SI5_EXT2	1434	VAR_GLOBAL	@TYP:1
+%IX 53696.7		     
+
+;
+
+@V 1 1997 0
+AX8_SI6_EXT3	1435	VAR_GLOBAL	@TYP:1
+%IX 53697.0		     
+
+;
+
+@V 1 1998 0
+AX8_BRK	1436	VAR_GLOBAL	@TYP:1
+%IX 53697.1		     
+
+;
+
+@V 1 1999 0
+AX8_HBB	1437	VAR_GLOBAL	@TYP:1
+%IX 53697.2		     
+
+;
+
+@V 1 2000 0
+AX8_SI0_IO12	1438	VAR_GLOBAL	@TYP:1
+%IX 53697.4		     
+
+;
+
+@V 1 2001 0
+AX8_SI1_IO13	1439	VAR_GLOBAL	@TYP:1
+%IX 53697.5		     
+
+;
+
+@V 1 2002 0
+AX8_SI2_IO14	1440	VAR_GLOBAL	@TYP:1
+%IX 53697.6		     
+
+;
+
+@V 1 2003 0
+AX8_SI3_IO15	1441	VAR_GLOBAL	@TYP:1
+%IX 53697.7		     
+
+;
+
+@V 1 2004 0
+AX8_ALM	1442	VAR_GLOBAL	@TYP:1
+%IX 53700.0		     
+
+;
+
+@V 1 2005 0
+AX8_WARNG	1443	VAR_GLOBAL	@TYP:1
+%IX 53700.1		     
+
+;
+
+@V 1 2006 0
+AX8_SVON	1444	VAR_GLOBAL	@TYP:1
+%IX 53700.3		     
+
+;
+
+@V 1 2007 0
+AX8_PON	1445	VAR_GLOBAL	@TYP:1
+%IX 53700.4		     
+
+;
+
+@V 1 2008 0
+AX8_PSET	1446	VAR_GLOBAL	@TYP:1
+%IX 53700.7		     
+
+;
+
+@V 1 2009 0
+AX8_SO1	1447	VAR_GLOBAL	@TYP:1
+%QX 53696.0		     
+
+;
+
+@V 1 2010 0
+AX8_SO2	1448	VAR_GLOBAL	@TYP:1
+%QX 53696.1		     
+
+;
+
+@V 1 2011 0
+AX8_SO3	1449	VAR_GLOBAL	@TYP:1
+%QX 53696.2		     
+
+;
+
+@V 1 2012 0
+AXIS8	1450	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#0008}
+;
+
+@V 1 2017 0
+SD212454_Accel	1451	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 2022 0
+SD212454_ActPos	1452	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 2024 0
+SD212454_Alarm	1453	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2028 0
+SD212454_CntrlAlarmID	1454	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 2034 0
+SD212454_Decel	1455	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 2039 0
+SD212454_DriveAlarmID	1456	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2040 0
+SD212454_Enable	1457	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2041 0
+SD212454_Enabled	1458	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2042 0
+SD212454_Error	1459	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2043 0
+SD212454_ErrorID	1460	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2047 0
+SD212454_Healthy	1461	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2071 0
+SD212454_VelSP	1462	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+000
+;
+
+@V 1 2076 0
+SD212454_Warning	1463	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2077 0
+SD212454_WarningID	1464	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2078 0
+SD212404_ax7	1465	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2086 0
+AX10_SI1_POT	1466	VAR_GLOBAL	@TYP:1
+%IX 53824.0		     
+
+;
+
+@V 1 2087 0
+AX10_SI2_NOT	1467	VAR_GLOBAL	@TYP:1
+%IX 53824.1		     
+
+;
+
+@V 1 2088 0
+AX10_SI3_DEC	1468	VAR_GLOBAL	@TYP:1
+%IX 53824.2		     
+
+;
+
+@V 1 2089 0
+AX10_SI4_EXT1	1469	VAR_GLOBAL	@TYP:1
+%IX 53824.6		     
+
+;
+
+@V 1 2090 0
+AX10_SI5_EXT2	1470	VAR_GLOBAL	@TYP:1
+%IX 53824.7		     
+
+;
+
+@V 1 2091 0
+AX10_SI6_EXT3	1471	VAR_GLOBAL	@TYP:1
+%IX 53825.0		     
+
+;
+
+@V 1 2092 0
+AX10_BRK	1472	VAR_GLOBAL	@TYP:1
+%IX 53825.1		     
+
+;
+
+@V 1 2093 0
+AX10_HBB	1473	VAR_GLOBAL	@TYP:1
+%IX 53825.2		     
+
+;
+
+@V 1 2094 0
+AX10_SI0_IO12	1474	VAR_GLOBAL	@TYP:1
+%IX 53825.4		     
+
+;
+
+@V 1 2095 0
+AX10_SI1_IO13	1475	VAR_GLOBAL	@TYP:1
+%IX 53825.5		     
+
+;
+
+@V 1 2096 0
+AX10_SI2_IO14	1476	VAR_GLOBAL	@TYP:1
+%IX 53825.6		     
+
+;
+
+@V 1 2097 0
+AX10_SI3_IO15	1477	VAR_GLOBAL	@TYP:1
+%IX 53825.7		     
+
+;
+
+@V 1 2098 0
+AX10_ALM	1478	VAR_GLOBAL	@TYP:1
+%IX 53828.0		     
+
+;
+
+@V 1 2099 0
+AX10_WARNG	1479	VAR_GLOBAL	@TYP:1
+%IX 53828.1		     
+
+;
+
+@V 1 2100 0
+AX10_SVON	1480	VAR_GLOBAL	@TYP:1
+%IX 53828.3		     
+
+;
+
+@V 1 2101 0
+AX10_PON	1481	VAR_GLOBAL	@TYP:1
+%IX 53828.4		     
+
+;
+
+@V 1 2102 0
+AX10_PSET	1482	VAR_GLOBAL	@TYP:1
+%IX 53828.7		     
+
+;
+
+@V 1 2103 0
+AX10_SO1	1483	VAR_GLOBAL	@TYP:1
+%QX 53824.0		     
+
+;
+
+@V 1 2104 0
+AX10_SO2	1484	VAR_GLOBAL	@TYP:1
+%QX 53824.1		     
+
+;
+
+@V 1 2105 0
+AX10_SO3	1485	VAR_GLOBAL	@TYP:1
+%QX 53824.2		     
+
+;
+
+@V 1 2106 0
+AXIS10	1486	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#000a}
+;
+
+@V 1 2111 0
+SD212554_Accel	1487	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 2116 0
+SD212554_ActPos	1488	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 2118 0
+SD212554_Alarm	1489	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2122 0
+SD212554_CntrlAlarmID	1490	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 2128 0
+SD212554_Decel	1491	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 2133 0
+SD212554_DriveAlarmID	1492	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2134 0
+SD212554_Enable	1493	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2135 0
+SD212554_Enabled	1494	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2136 0
+SD212554_Error	1495	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2137 0
+SD212554_ErrorID	1496	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2141 0
+SD212554_Healthy	1497	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2159 0
+SD212554_PosValid	1498	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2166 0
+SD212554_VelSP	1499	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+000
+;
+
+@V 1 2171 0
+SD212554_Warning	1500	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2172 0
+SD212554_WarningID	1501	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2180 0
+AX11_SI1_POT	1502	VAR_GLOBAL	@TYP:1
+%IX 53888.0		     
+
+;
+
+@V 1 2181 0
+AX11_SI2_NOT	1503	VAR_GLOBAL	@TYP:1
+%IX 53888.1		     
+
+;
+
+@V 1 2182 0
+AX11_SI3_DEC	1504	VAR_GLOBAL	@TYP:1
+%IX 53888.2		     
+
+;
+
+@V 1 2183 0
+AX11_SI4_EXT1	1505	VAR_GLOBAL	@TYP:1
+%IX 53888.6		     
+
+;
+
+@V 1 2184 0
+AX11_SI5_EXT2	1506	VAR_GLOBAL	@TYP:1
+%IX 53888.7		     
+
+;
+
+@V 1 2185 0
+AX11_SI6_EXT3	1507	VAR_GLOBAL	@TYP:1
+%IX 53889.0		     
+
+;
+
+@V 1 2186 0
+AX11_BRK	1508	VAR_GLOBAL	@TYP:1
+%IX 53889.1		     
+
+;
+
+@V 1 2187 0
+AX11_HBB	1509	VAR_GLOBAL	@TYP:1
+%IX 53889.2		     
+
+;
+
+@V 1 2188 0
+AX11_SI0_IO12	1510	VAR_GLOBAL	@TYP:1
+%IX 53889.4		     
+
+;
+
+@V 1 2189 0
+AX11_SI1_IO13	1511	VAR_GLOBAL	@TYP:1
+%IX 53889.5		     
+
+;
+
+@V 1 2190 0
+AX11_SI2_IO14	1512	VAR_GLOBAL	@TYP:1
+%IX 53889.6		     
+
+;
+
+@V 1 2191 0
+AX11_SI3_IO15	1513	VAR_GLOBAL	@TYP:1
+%IX 53889.7		     
+
+;
+
+@V 1 2192 0
+AX11_ALM	1514	VAR_GLOBAL	@TYP:1
+%IX 53892.0		     
+
+;
+
+@V 1 2193 0
+AX11_WARNG	1515	VAR_GLOBAL	@TYP:1
+%IX 53892.1		     
+
+;
+
+@V 1 2194 0
+AX11_SVON	1516	VAR_GLOBAL	@TYP:1
+%IX 53892.3		     
+
+;
+
+@V 1 2195 0
+AX11_PON	1517	VAR_GLOBAL	@TYP:1
+%IX 53892.4		     
+
+;
+
+@V 1 2196 0
+AX11_PSET	1518	VAR_GLOBAL	@TYP:1
+%IX 53892.7		     
+
+;
+
+@V 1 2197 0
+AX11_SO1	1519	VAR_GLOBAL	@TYP:1
+%QX 53888.0		     
+
+;
+
+@V 1 2198 0
+AX11_SO2	1520	VAR_GLOBAL	@TYP:1
+%QX 53888.1		     
+
+;
+
+@V 1 2199 0
+AX11_SO3	1521	VAR_GLOBAL	@TYP:1
+%QX 53888.2		     
+
+;
+
+@V 1 2200 0
+AXIS11	1522	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#000b}
+;
+
+@V 1 2205 0
+SD212604_Accel	1523	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 2210 0
+SD212604_ActPos	1524	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 2212 0
+SD212604_Alarm	1525	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2216 0
+SD212604_CntrlAlarmID	1526	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 2222 0
+SD212604_Decel	1527	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 2.50000000000000000E+001
+;
+
+@V 1 2227 0
+SD212604_DriveAlarmID	1528	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2228 0
+SD212604_Enable	1529	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2229 0
+SD212604_Enabled	1530	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2230 0
+SD212604_Error	1531	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2231 0
+SD212604_ErrorID	1532	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2232 0
+SD212604_Healthy	1533	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2233 0
+SD212604_PosValid	1534	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2238 0
+SD212604_VelSP	1535	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+000
+;
+
+@V 1 2243 0
+SD212604_Warning	1536	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2244 0
+SD212604_WarningID	1537	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2252 0
+AX12_SI1_POT	1538	VAR_GLOBAL	@TYP:1
+%IX 53952.0		     
+
+;
+
+@V 1 2253 0
+AX12_SI2_NOT	1539	VAR_GLOBAL	@TYP:1
+%IX 53952.1		     
+
+;
+
+@V 1 2254 0
+AX12_SI3_DEC	1540	VAR_GLOBAL	@TYP:1
+%IX 53952.2		     
+
+;
+
+@V 1 2255 0
+AX12_SI4_EXT1	1541	VAR_GLOBAL	@TYP:1
+%IX 53952.6		     
+
+;
+
+@V 1 2256 0
+AX12_SI5_EXT2	1542	VAR_GLOBAL	@TYP:1
+%IX 53952.7		     
+
+;
+
+@V 1 2257 0
+AX12_SI6_EXT3	1543	VAR_GLOBAL	@TYP:1
+%IX 53953.0		     
+
+;
+
+@V 1 2258 0
+AX12_BRK	1544	VAR_GLOBAL	@TYP:1
+%IX 53953.1		     
+
+;
+
+@V 1 2259 0
+AX12_HBB	1545	VAR_GLOBAL	@TYP:1
+%IX 53953.2		     
+
+;
+
+@V 1 2260 0
+AX12_SI0_IO12	1546	VAR_GLOBAL	@TYP:1
+%IX 53953.4		     
+
+;
+
+@V 1 2261 0
+AX12_SI1_IO13	1547	VAR_GLOBAL	@TYP:1
+%IX 53953.5		     
+
+;
+
+@V 1 2262 0
+AX12_SI2_IO14	1548	VAR_GLOBAL	@TYP:1
+%IX 53953.6		     
+
+;
+
+@V 1 2263 0
+AX12_SI3_IO15	1549	VAR_GLOBAL	@TYP:1
+%IX 53953.7		     
+
+;
+
+@V 1 2264 0
+AX12_ALM	1550	VAR_GLOBAL	@TYP:1
+%IX 53956.0		     
+
+;
+
+@V 1 2265 0
+AX12_WARNG	1551	VAR_GLOBAL	@TYP:1
+%IX 53956.1		     
+
+;
+
+@V 1 2266 0
+AX12_SVON	1552	VAR_GLOBAL	@TYP:1
+%IX 53956.3		     
+
+;
+
+@V 1 2267 0
+AX12_PON	1553	VAR_GLOBAL	@TYP:1
+%IX 53956.4		     
+
+;
+
+@V 1 2268 0
+AX12_PSET	1554	VAR_GLOBAL	@TYP:1
+%IX 53956.7		     
+
+;
+
+@V 1 2269 0
+AX12_SO1	1555	VAR_GLOBAL	@TYP:1
+%QX 53952.0		     
+
+;
+
+@V 1 2270 0
+AX12_SO2	1556	VAR_GLOBAL	@TYP:1
+%QX 53952.1		     
+
+;
+
+@V 1 2271 0
+AX12_SO3	1557	VAR_GLOBAL	@TYP:1
+%QX 53952.2		     
+
+;
+
+@V 1 2272 0
+AXIS12	1558	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#000c}
+;
+
+@V 1 2273 0
+L_Aux_Enc_Error	1559	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2274 0
+L_Mot_Enc_Error	1560	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2275 0
+Mode_Auto_Clear	1561	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2280 0
+SD212654_Accel	1562	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 2285 0
+SD212654_ActualTorque	1563	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 2286 0
+SD212654_Alarm	1564	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2287 0
+SD212654_AtSpeed	1565	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2288 0
+SD212654_AxisMode	1566	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2289 0
+SD212654_CntrlAlarmID	1567	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 2294 0
+SD212654_Decel	1568	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 3.00000000000000000E+001
+;
+
+@V 1 2295 0
+SD212654_Dir	1569	VAR_GLOBAL RETAIN	@TYP:3
+		     
+@TYP:3# 00#0000
+;
+
+@V 1 2300 0
+SD212654_DriveAlarmID	1570	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2301 0
+SD212654_Enable	1571	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2302 0
+SD212654_Enabled	1572	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2303 0
+SD212654_Error	1573	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2304 0
+SD212654_ErrorID	1574	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2305 0
+SD212654_Healthy	1575	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2306 0
+SD212654_InToque	1576	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2307 0
+SD212654_JogForPB	1577	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2308 0
+SD212654_JogRevPB	1578	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2309 0
+SD212654_ModeJog	1579	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2310 0
+SD212654_ModeOff	1580	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2311 0
+SD212654_ModeTorque	1581	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2312 0
+SD212654_POS	1582	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 2317 0
+SD212654_TrqRamp	1583	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 4.00000000000000000E+002
+;
+
+@V 1 2318 0
+SD212654_TrqSP	1584	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+000
+;
+
+@V 1 2319 0
+SD212654_VelSP	1585	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 1.00000000000000000E+001
+;
+
+@V 1 2324 0
+SD212654_Warning	1586	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2325 0
+SD212654_WarningID	1587	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2330 0
+SD212704_TrqRamp	1588	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 4.00000000000000000E+002
+;
+
+@V 1 2335 0
+U_Aux_Enc_Error	1589	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2336 0
+U_Mot_Enc_Error	1590	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2344 0
+AX13_SI1_POT	1591	VAR_GLOBAL	@TYP:1
+%IX 54016.0		     
+
+;
+
+@V 1 2345 0
+AX13_SI2_NOT	1592	VAR_GLOBAL	@TYP:1
+%IX 54016.1		     
+
+;
+
+@V 1 2346 0
+AX13_SI3_DEC	1593	VAR_GLOBAL	@TYP:1
+%IX 54016.2		     
+
+;
+
+@V 1 2347 0
+AX13_SI4_EXT1	1594	VAR_GLOBAL	@TYP:1
+%IX 54016.6		     
+
+;
+
+@V 1 2348 0
+AX13_SI5_EXT2	1595	VAR_GLOBAL	@TYP:1
+%IX 54016.7		     
+
+;
+
+@V 1 2349 0
+AX13_SI6_EXT3	1596	VAR_GLOBAL	@TYP:1
+%IX 54017.0		     
+
+;
+
+@V 1 2350 0
+AX13_BRK	1597	VAR_GLOBAL	@TYP:1
+%IX 54017.1		     
+
+;
+
+@V 1 2351 0
+AX13_HBB	1598	VAR_GLOBAL	@TYP:1
+%IX 54017.2		     
+
+;
+
+@V 1 2352 0
+AX13_SI0_IO12	1599	VAR_GLOBAL	@TYP:1
+%IX 54017.4		     
+
+;
+
+@V 1 2353 0
+AX13_SI1_IO13	1600	VAR_GLOBAL	@TYP:1
+%IX 54017.5		     
+
+;
+
+@V 1 2354 0
+AX13_SI2_IO14	1601	VAR_GLOBAL	@TYP:1
+%IX 54017.6		     
+
+;
+
+@V 1 2355 0
+AX13_SI3_IO15	1602	VAR_GLOBAL	@TYP:1
+%IX 54017.7		     
+
+;
+
+@V 1 2356 0
+AX13_ALM	1603	VAR_GLOBAL	@TYP:1
+%IX 54020.0		     
+
+;
+
+@V 1 2357 0
+AX13_WARNG	1604	VAR_GLOBAL	@TYP:1
+%IX 54020.1		     
+
+;
+
+@V 1 2358 0
+AX13_SVON	1605	VAR_GLOBAL	@TYP:1
+%IX 54020.3		     
+
+;
+
+@V 1 2359 0
+AX13_PON	1606	VAR_GLOBAL	@TYP:1
+%IX 54020.4		     
+
+;
+
+@V 1 2360 0
+AX13_PSET	1607	VAR_GLOBAL	@TYP:1
+%IX 54020.7		     
+
+;
+
+@V 1 2361 0
+AX13_SO1	1608	VAR_GLOBAL	@TYP:1
+%QX 54016.0		     
+
+;
+
+@V 1 2362 0
+AX13_SO2	1609	VAR_GLOBAL	@TYP:1
+%QX 54016.1		     
+
+;
+
+@V 1 2363 0
+AX13_SO3	1610	VAR_GLOBAL	@TYP:1
+%QX 54016.2		     
+
+;
+
+@V 1 2364 0
+AXIS13	1611	VAR_GLOBAL	@TYP:1038
+		     
+@TYP:1038#	{@NUM:0:=@TYP:7# 00#000d}
+;
+
+@V 1 2369 0
+SD212704_Accel	1612	VAR_GLOBAL RETAIN	@TYP:11
+		     
+
+;
+
+@V 1 2374 0
+SD212704_ActualTorque	1613	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 2375 0
+SD212704_Alarm	1614	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2376 0
+SD212704_AtSpeed	1615	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2377 0
+SD212704_AxisMode	1616	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2379 0
+SD212704_CntrlAlarmID	1617	VAR_GLOBAL	@TYP:8
+		     
+
+;
+
+@V 1 2385 0
+SD212704_Decel	1618	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 3.00000000000000000E+001
+;
+
+@V 1 2390 0
+SD212704_Dir	1619	VAR_GLOBAL	@TYP:3
+		     
+
+;
+
+@V 1 2391 0
+SD212704_DriveAlarmID	1620	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2392 0
+SD212704_Enable	1621	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2393 0
+SD212704_Enabled	1622	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2394 0
+SD212704_Error	1623	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2395 0
+SD212704_ErrorID	1624	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2399 0
+SD212704_Healthy	1625	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2401 0
+SD212704_InToque	1626	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2403 0
+SD212704_JogForPB	1627	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2405 0
+SD212704_JogRevPB	1628	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2416 0
+SD212704_ModeJog	1629	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2417 0
+SD212704_ModeOff	1630	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2418 0
+SD212704_ModeTorque	1631	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2421 0
+SD212704_POS	1632	VAR_GLOBAL	@TYP:11
+		     
+
+;
+
+@V 1 2428 0
+SD212704_TrqSP	1633	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 5.00000000000000000E+000
+;
+
+@V 1 2429 0
+SD212704_VelSP	1634	VAR_GLOBAL RETAIN	@TYP:11
+		     
+@TYP:11# 1.00000000000000000E+001
+;
+
+@V 1 2434 0
+SD212704_Warning	1635	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2435 0
+SD212704_WarningID	1636	VAR_GLOBAL	@TYP:7
+		     
+
+;
+
+@V 1 2447 0
+PX215004	1637	VAR_GLOBAL	@TYP:1
+%IX 32768.0		     
+
+;
+
+@V 1 2448 0
+PX215008	1638	VAR_GLOBAL	@TYP:1
+%IX 32768.1		     
+
+;
+
+@V 1 2449 0
+PX215005	1639	VAR_GLOBAL	@TYP:1
+%IX 32768.2		     
+
+;
+
+@V 1 2450 0
+PX215009	1640	VAR_GLOBAL	@TYP:1
+%IX 32768.3		     
+
+;
+
+@V 1 2451 0
+PX215012	1641	VAR_GLOBAL	@TYP:1
+%IX 32768.4		     
+
+;
+
+@V 1 2452 0
+PX215016	1642	VAR_GLOBAL	@TYP:1
+%IX 32768.5		     
+
+;
+
+@V 1 2453 0
+PX215013	1643	VAR_GLOBAL	@TYP:1
+%IX 32768.6		     
+
+;
+
+@V 1 2454 0
+PS215017	1644	VAR_GLOBAL	@TYP:1
+%IX 32768.7		     
+
+;
+
+@V 1 2455 0
+PX215020	1645	VAR_GLOBAL	@TYP:1
+%IX 32769.0		     
+
+;
+
+@V 1 2456 0
+PX215024	1646	VAR_GLOBAL	@TYP:1
+%IX 32769.1		     
+
+;
+
+@V 1 2457 0
+PX215021	1647	VAR_GLOBAL	@TYP:1
+%IX 32769.2		     
+
+;
+
+@V 1 2458 0
+PX215025	1648	VAR_GLOBAL	@TYP:1
+%IX 32769.3		     
+
+;
+
+@V 1 2459 0
+NewVar22	1649	VAR_GLOBAL	@TYP:1
+%IX 32769.4		     
+
+;
+
+@V 1 2460 0
+NewVar23	1650	VAR_GLOBAL	@TYP:1
+%IX 32769.5		     
+
+;
+
+@V 1 2461 0
+NewVar24	1651	VAR_GLOBAL	@TYP:1
+%IX 32769.6		     
+
+;
+
+@V 1 2462 0
+NewVar3	1652	VAR_GLOBAL	@TYP:1
+%IX 32769.7		     
+
+;
+
+@V 1 2463 0
+EIPStatus_01	1653	VAR_GLOBAL	@TYP:18
+%IW 32774		     
+
+;
+
+@V 1 2471 0
+RetractUpperEbcoder	1654	VAR_GLOBAL	@TYP:1
+%QX 32768.4		     
+
+;
+
+@V 1 2472 0
+RetractLowerEncoder	1655	VAR_GLOBAL	@TYP:1
+%QX 32768.6		     
+
+;
+
+@V 1 2473 0
+HolePunch_1_Vac	1656	VAR_GLOBAL	@TYP:1
+%QX 32769.0		     
+
+;
+
+@V 1 2474 0
+HolePunch_2_Vac	1657	VAR_GLOBAL	@TYP:1
+%QX 32769.2		     
+
+;
+
+@V 1 2475 0
+LabelerSignal_1	1658	VAR_GLOBAL	@TYP:1
+%QX 32769.4		     
+
+;
+
+@V 1 2476 0
+LabelerSignal_2	1659	VAR_GLOBAL	@TYP:1
+%QX 32769.5		     
+
+;
+
+@V 1 2484 0
+CPX210_Status	1660	VAR_GLOBAL	@TYP:19
+%ID 33356		     
+
+;
+
+@V 1 2485 0
+NewVar1	1661	VAR_GLOBAL	@TYP:11
+%IL 33280		     
+
+;
+
+@V 1 2486 0
+NewVar10	1662	VAR_GLOBAL	@TYP:11
+%IL 33284		     
+
+;
+
+@V 1 2487 0
+NewVar20	1663	VAR_GLOBAL	@TYP:11
+%IL 33288		     
+
+;
+
+@V 1 2488 0
+NewVar19	1664	VAR_GLOBAL	@TYP:11
+%IL 33292		     
+
+;
+
+@V 1 2489 0
+NewVar18	1665	VAR_GLOBAL	@TYP:11
+%IL 33312		     
+
+;
+
+@V 1 2490 0
+NewVar17	1666	VAR_GLOBAL	@TYP:11
+%IL 33308		     
+
+;
+
+@V 1 2491 0
+NewVar16	1667	VAR_GLOBAL	@TYP:11
+%IL 33304		     
+
+;
+
+@V 1 2492 0
+NewVar15	1668	VAR_GLOBAL	@TYP:11
+%IL 33300		     
+
+;
+
+@V 1 2493 0
+NewVar14	1669	VAR_GLOBAL	@TYP:11
+%IL 33296		     
+
+;
+
+@V 1 2494 0
+EIPStatus_02seal	1670	VAR_GLOBAL	@TYP:18
+%IW 33408		     
+
+;
+
+@V 1 2502 0
+testCounter	1671	VAR_GLOBAL	@TYP:4
+%QD 33280		     
+
+;
+
+@V 1 2503 0
+testNumber	1672	VAR_GLOBAL	@TYP:4
+%QD 33284		     
+
+;
+
+@V 1 2504 0
+NewVar21	1673	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2505 0
+NewVar25	1674	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2506 0
+NewVar26	1675	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2507 0
+NewVar27	1676	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2508 0
+NewVar28	1677	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2516 0
+NewVar29	1678	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2517 0
+NewVar30	1679	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2518 0
+NewVar31	1680	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2519 0
+NewVar32	1681	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2520 0
+NewVar33	1682	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2521 0
+EIPStatus_03cut	1683	VAR_GLOBAL	@TYP:18
+%IW 33920		     
+
+;
+
+@V 1 2529 0
+CPx110_StatusToCP3	1684	VAR_GLOBAL	@TYP:19
+%QD 33792		     
+
+;
+
+@V 1 2530 0
+TestNumberA	1685	VAR_GLOBAL	@TYP:4
+%QD 33796		     
+
+;
+
+@V 1 2531 0
+NewVar36	1686	VAR_GLOBAL	@TYP:1
+		     
+
+;
+
+@V 1 2532 0
+NewVar37	1687	VAR_GLOBAL	@TYP:1
+		     
+
+;
+

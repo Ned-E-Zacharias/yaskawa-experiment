@@ -1,0 +1,20 @@
+(*
+T: FUNCTION_BLOCK MOVE_UINT
+FW: NO
+CI#: 41
+QSL: 11
+QJM: 2
+QJ: 1
+QR: 1
+*)
+1 1 0		LD	@IV 1
+@BPV 1 1 0		ST	@IV 2
+1 2 0		@FUORG 0	@43 1 VAR
+@BPV 1 2 0		@FUPAR 0	@IV 1
+1 2 0		@FUCA 0	
+1 2 0		JMPCN	@LBL 1
+1 2 0		RET	
+1 2 0	@LBL 1		
+1 2 0	@LBL 2		
+1 3 0		LD	@IV 3
+@BPV 1 3 0		ST	@IV 4

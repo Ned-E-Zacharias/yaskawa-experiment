@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<servoNet>
+  <version>1.1.2.3</version>
+  <mlink>
+    <JL080>
+      <maxRetry>1</maxRetry>
+    </JL080>
+    <mlinkComm>
+      <mode>M10_Long</mode>
+      <cycleTime>period_4_ms</cycleTime>
+    </mlinkComm>
+    <mlinkNodes>
+      <axisNode>
+        <qFullTimeout>10000</qFullTimeout>
+        <almRefreshFreq>100</almRefreshFreq>
+        <cmdBlkTimeout>5000</cmdBlkTimeout>
+        <alarmFormat>SIGMA_III_FORMAT</alarmFormat>
+        <enableTrqFF>false</enableTrqFF>
+        <commErrorAction>SERVO_OFF</commErrorAction>
+        <holdStopMode>HOLD_MOD_DECEL</holdStopMode>
+        <monitorFeedback>
+          <monitor4>
+            <monitor>OMN2</monitor>
+          </monitor4>
+        </monitorFeedback>
+      </axisNode>
+      <ioNode>
+        <qFullTimeout>10000</qFullTimeout>
+        <almRefreshFreq>100</almRefreshFreq>
+        <cmdBlkTimeout>5000</cmdBlkTimeout>
+        <alarmFormat>SIGMA_III_FORMAT</alarmFormat>
+        <alarmSupport>false</alarmSupport>
+        <supportedCommand>NOP</supportedCommand>
+        <supportedCommand>ID_RD</supportedCommand>
+        <supportedCommand>CONNECT</supportedCommand>
+        <supportedCommand>DISCONNECT</supportedCommand>
+        <synchronousMode>false</synchronousMode>
+      </ioNode>
+    </mlinkNodes>
+  </mlink>
+</servoNet>

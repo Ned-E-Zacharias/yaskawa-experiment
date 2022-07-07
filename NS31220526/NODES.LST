@@ -1,0 +1,23 @@
+CONFIGURATION	2	Configuration		MP2000_Series
+RESOURCE	3	Resource			MP2300Siec
+TASKDIR	4	Tasks		MP2000_Series	MP2300Siec
+TASK	5	Y_Init		MP2000_Series	MP2300Siec
+PROGRAM	6	Initialize	Initialize	MP2000_Series	MP2300Siec
+TASK	5	X_Init		MP2000_Series	MP2300Siec
+PROGRAM	6	ColdInitialize	Initialize	MP2000_Series	MP2300Siec
+TASK	5	IOTask		MP2000_Series	MP2300Siec
+PROGRAM	6	EthernetIP	EthernetIP	MP2000_Series	MP2300Siec
+PROGRAM	6	Modbus	Modbus	MP2000_Series	MP2300Siec
+PROGRAM	6	IO	IOTask	MP2000_Series	MP2300Siec
+TASK	5	Control		MP2000_Series	MP2300Siec
+PROGRAM	6	Dummy03	dummy03	MP2000_Series	MP2300Siec
+PROGRAM	6	Roller	Roller	MP2000_Series	MP2300Siec
+TASK	5	A_Task		MP2000_Series	MP2300Siec
+PROGRAM	6	HolePunching	HolePunching	MP2000_Series	MP2300Siec
+PROGRAM	6	TackSeal1	TackSeal1	MP2000_Series	MP2300Siec
+PROGRAM	6	UnwindControl	UnwindControl	MP2000_Series	MP2300Siec
+PROGRAM	6	ValvePlacer1	ValvePlacer1	MP2000_Series	MP2300Siec
+PROGRAM	6	HolePunch1	HolePunch1	MP2000_Series	MP2300Siec
+PROGRAM	6	StatusControl	StatusControl	MP2000_Series	MP2300Siec
+VAR_GLOBALS	4	Global_Variables	C\Configuration\R\Resource\Global_Variables.VGR		
+IO/CONFIGURATION	4	IO_Configuration	C\Configuration\R\Resource\IOCONFIG.CNF		

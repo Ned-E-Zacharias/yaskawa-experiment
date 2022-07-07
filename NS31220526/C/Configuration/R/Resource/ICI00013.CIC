@@ -1,0 +1,19 @@
+(*
+T: PROGRAM dummy03
+FW: NO
+CI#: 13
+QSL: 8
+QJM: 0
+QJ: 0
+QR: 0
+*)
+		@NETWORK_BEGIN	
+@BPV 1 6 0		@FUORG 0	@14 2 VAR
+@BPV 1 0 0		@FUPAR 0	@RV 1685
+@BPV 1 3 0			
+@BPV 1 7 0		@FUPAR 0	@TYP:4# 00#ffffffff
+@BPV 1 4 0			
+@BPV 1 5 0		@FURET 0	@RV 1685
+@BPV 1 8 0			
+@BPV 1 6 0		@FUCA 0	
+		@NETWORK_END	

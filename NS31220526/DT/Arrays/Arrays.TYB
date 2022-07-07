@@ -1,0 +1,16 @@
+Type
+	Reg_Eye_X_Offset:array[1..14] of LREAL;
+	Roller_X_Offset:array[1..14] of LREAL;
+END_TYPE
+
+TYPE
+Unwind_PID_Parameter_typ : 	STRUCT 
+ControllerGain : REAL; (*1,1*)
+IntegralGain : REAL;
+DerivativeGain : REAL;
+END_STRUCT;
+End_Type
+
+TYPE
+dancer_winder_delta_array:array[0..63] OF REAL;
+END_TYPE

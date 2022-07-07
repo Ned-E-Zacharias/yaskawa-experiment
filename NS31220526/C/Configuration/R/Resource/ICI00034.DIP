@@ -1,0 +1,13 @@
+(*
+T: FUNCTION_BLOCK Blink
+FW: NO
+CI#: 34
+QSL: 12
+QVE: 12
+QVPC: 12
+QPar: 3
+QFBI: 5
+*)
+Enable	@IV 2	@TYP:1	VAR_INPUT
+Frequency	@IV 3	@TYP:12	VAR_INPUT
+Output	@IV 1	@TYP:1	VAR_OUTPUT

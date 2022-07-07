@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><group><!-- 
+    Default group settings are inherited by all groups in the system, which
+    can override any property.
+  --><defaultGroup><queueSize> 16 </queueSize><motionCycle> 1.0 </motionCycle><singleStep> false </singleStep></defaultGroup><!--
+    Predefined groups go here. The format is as in the following
+    example (an unlimited number of groups may be predefined).
+  --><!--
+  <predefinedGroup>
+    <name>x</name>
+    <axis>3</axis>    
+  </predefinedGroup>
+
+  <predefinedGroup>
+    <name>xyz</name>
+    <axis>1</axis>
+    <axis>2</axis>
+    <axis>3</axis>  
+    <handle>23528</handle>  
+  </predefinedGroup>
+
+  <predefinedGroup>
+    <name>xy</name>    
+    <axis>1</axis>
+    <axis>2</axis>
+    <handle>25928</handle>
+  </predefinedGroup>
+--></group>

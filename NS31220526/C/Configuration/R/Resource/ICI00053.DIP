@@ -1,0 +1,19 @@
+(*
+T: FUNCTION_BLOCK MovingAverage
+FW: NO
+CI#: 53
+QSL: 20
+QVE: 20
+QVPC: 20
+QPar: 9
+QFBI: 2
+*)
+Enable	@IV 5	@TYP:1	VAR_INPUT
+Error	@IV 3	@TYP:1	VAR_OUTPUT
+ErrorID	@IV 4	@TYP:7	VAR_OUTPUT
+MovingAverage	@IV 2	@TYP:11	VAR_OUTPUT
+NewValue	@IV 6	@TYP:11	VAR_INPUT
+SampleSize	@IV 7	@TYP:7	VAR_INPUT
+Stream	@IV 9	@TYP:1	VAR_INPUT
+Trigger	@IV 8	@TYP:1	VAR_INPUT
+Valid	@IV 1	@TYP:1	VAR_OUTPUT

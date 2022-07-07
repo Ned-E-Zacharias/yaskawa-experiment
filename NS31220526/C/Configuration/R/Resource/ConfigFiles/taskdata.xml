@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tasks>
+  <task>
+    <name>A_Task</name>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>1281</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 5</partName>
+      <ioGroup>IAX5</ioGroup>
+      <ioGroup>OAX5</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>2049</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 8</partName>
+      <ioGroup>IAX8</ioGroup>
+      <ioGroup>OAX8</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>2561</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 10</partName>
+      <ioGroup>IAX10</ioGroup>
+      <ioGroup>OAX10</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>2817</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 11</partName>
+      <ioGroup>IAX11</ioGroup>
+      <ioGroup>OAX11</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>3073</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 12</partName>
+      <ioGroup>IAX12</ioGroup>
+      <ioGroup>OAX12</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>3329</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 13</partName>
+      <ioGroup>IAX13</ioGroup>
+      <ioGroup>OAX13</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>1537</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 6</partName>
+      <ioGroup>IAX6</ioGroup>
+      <ioGroup>OAX6</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>1793</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 7</partName>
+      <ioGroup>IAX7</ioGroup>
+      <ioGroup>OAX7</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>257</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 1</partName>
+      <ioGroup>IAX1</ioGroup>
+      <ioGroup>OAX1</ioGroup>
+    </device>
+    <device>
+      <deviceType>Servo</deviceType>
+      <id>513</id>
+      <partNum>SGDV-****11*</partNum>
+      <partName>SGDV Rotary - 2</partName>
+      <ioGroup>IAX2</ioGroup>
+      <ioGroup>OAX2</ioGroup>
+    </device>
+  </task>
+  <task>
+    <name>IOTask</name>
+    <device>
+      <deviceType>EIPServer</deviceType>
+      <id>0</id>
+      <partNum>PMC-U-MP23S</partNum>
+      <partName>EtherNet/IP</partName>
+      <ioGroup>oEIP101</ioGroup>
+      <ioGroup>oEIP102</ioGroup>
+      <ioGroup>iEIP111</ioGroup>
+      <ioGroup>iEIP112</ioGroup>
+    </device>
+    <device>
+      <deviceType>EIP</deviceType>
+      <id>65526</id>
+      <partNum>EIP Slave</partNum>
+      <partName>EtherNet/IP Adapter 01</partName>
+      <ioGroup>iEIP_01</ioGroup>
+      <ioGroup>oEIP_01</ioGroup>
+    </device>
+    <device>
+      <deviceType>EIP</deviceType>
+      <id>65525</id>
+      <partNum>EIP Slave</partNum>
+      <partName>EtherNet/IP Adapter 02seal</partName>
+      <ioGroup>iEIP_02seal</ioGroup>
+      <ioGroup>oEIP_02seal</ioGroup>
+    </device>
+    <device>
+      <deviceType>EIP</deviceType>
+      <id>65524</id>
+      <partNum>EIP Slave</partNum>
+      <partName>EtherNet/IP Adapter 03cut</partName>
+      <ioGroup>iEIP_03cut</ioGroup>
+      <ioGroup>oEIP_03cut</ioGroup>
+    </device>
+    <device>
+      <deviceType>ModbusServer</deviceType>
+      <id>0</id>
+      <partNum>PMC-U-MP23S</partNum>
+      <partName>Modbus/TCP</partName>
+      <ioGroup>iMBWCoil05</ioGroup>
+      <ioGroup>iMBWHR0616</ioGroup>
+      <ioGroup>oMBInputs02</ioGroup>
+      <ioGroup>oMBInReg04</ioGroup>
+    </device>
+    <device>
+      <deviceType>Card</deviceType>
+      <id>1</id>
+      <partNum>JAPMC-IO2301</partNum>
+      <partName>LIO-02 - 1</partName>
+      <ioGroup>IMO1</ioGroup>
+      <ioGroup>OMO1</ioGroup>
+    </device>
+  </task>
+</tasks>
